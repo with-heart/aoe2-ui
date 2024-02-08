@@ -1,0 +1,262 @@
+{
+  "Collection": {
+    "Name": "GameNotificationPanel",
+    "ViewPort": {
+      "xorigin": 1140,
+      "yorigin": 110,
+      "width": 520,
+      "height": 100,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 520,
+            "height": 100,
+            "alignment": "TopLeft"
+          },
+          "Box": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 520,
+            "height": 100,
+            "alignment": "TopLeft",
+            "gridstep": 32,
+            "drawbox": true
+          },
+
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "DefeatAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Base",
+                      "Name": "PlayerCivIcon",
+                      "ViewPort": {
+                        "xorigin": 50,
+                        "yorigin": 50,
+                        "width": 75,
+                        "height": 75,
+                        "alignment": "CentreCentre"
+                      },
+
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Material": "FlatColor",
+                          "Color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                          }
+                        }
+                      },
+                      "ChildWidgets": []
+                    }
+                  },
+
+                  {
+                    "Widget": {
+                      "Type": "Button",
+                      "Name": "ButtonPlayerNumberIcon",
+                      "ClickSound": "?button_ui",
+                      "ViewPort": {
+                        "xorigin": 120,
+                        "yorigin": 50,
+                        "width": 42,
+                        "height": 42,
+                        "alignment": "CentreCentre"
+                      },
+                      "disabled": true,
+                      "StateMaterials": {
+                        "StateDisabled": {
+                          "Material": "None",
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 30,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "CentreCentre"
+                    }
+
+
+                  },
+                  {
+                    "Widget": {
+                      "Type": "TextBox",
+                      "Name": "PlayerName",
+                      "ViewPort": {
+                        "xorigin": 144.5,
+                        "yorigin": 0,
+                        "width": 365.5,
+                        "height": 100,
+                        "alignment": "TopLeft"
+                      },
+                      "TextBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 365.5,
+                        "height": 100,
+                        "edgespacer": 1,
+                        "linespacer": 1,
+                        "linesize": 40,
+                        "drawbox": false,
+                        "multiline": true
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 0,
+                              "b": 0,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "Ashley was defeated",
+                      "TextAnchor": "CentreLeft"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Anchor",
+                "Name": "ObjectiveChangeAnchor",
+                "Anchor": {
+                  "xorigin": 0,
+                  "yorigin": 0
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "TextBox",
+                      "Name": "ObjectiveText",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 520,
+                        "height": 100,
+                        "alignment": "TopLeft"
+                      },
+                      "TextBox": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 520,
+                        "height": 100,
+                        "edgespacer": 1,
+                        "linespacer": 1,
+                        "linesize": 40,
+                        "drawbox": false,
+                        "multiline": true
+                      },
+                      "StateMaterials": {
+                        "StateTextNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 255,
+                              "g": 0,
+                              "b": 0,
+                              "a": 255
+                            }
+                          }
+                        }
+                      },
+                      "Text": "Ashley was defeated",
+                      "TextAnchor": "CentreCentre"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

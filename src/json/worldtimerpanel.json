@@ -1,0 +1,171 @@
+{
+  "Collection": {
+    "Name": "WorldTimerPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [{
+      "Widget": {
+        "Type": "Anchor",
+        "Name": "WorldTimer",
+        "Anchor": {
+          "xorigin": 1700,
+          "yorigin": 0,
+          "alignment": "TopLeft"
+        },
+        "ZPlane": 1,
+        "ChildWidgets": [
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "WorldTimerLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 12,
+                "width": 1000,
+                "height": 40,
+                "alignment": "TopLeft"
+              },
+
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 3,
+                    "PointSize": 40,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 1
+                    },
+                    "TextOutlineWidth": 0.05,
+                    "TextOutlineColor": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft"
+            }
+          },
+          {
+            "Widget": {
+              "Type": "Base",
+              "Name": "SpectatorsIcon",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 64,
+                "width": 500,
+                "height": 49,
+                "alignment": "TopLeft"
+              },
+              "Image": {
+                "xorigin": 0,
+                "yorigin": 2,
+                "width": 48,
+                "height": 32,
+                "alignment": "TopLeft"
+              },
+              "ZPlane": 1,
+              "StateMaterials": {
+                "StateNormal": {
+                  "Material": "SpectatorsIcon",
+                  "Color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                }
+              },
+              "ChildWidgets": [
+                {
+                  "Widget": {
+                    "Type": "Label",
+                    "Name": "SpectatorsLabel",
+                    "ViewPort": {
+                      "xorigin": 55,
+                      "yorigin": 0,
+                      "width": 512,
+                      "height": 49,
+                      "alignment": "TopLeft"
+                    },
+                    "ZPlane": 1,
+                    "StateMaterials": {
+                      "StateNormal": {
+                        "Font": {
+                          "FontIndex": 3,
+                          "PointSize": 40,
+                          "Style": "Normal",
+                          "TextColor": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1,
+                            "a": 1
+                          },
+                          "TextOutlineWidth": 0.05,
+                          "TextOutlineColor": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1,
+                            "a": 255
+                          }
+                        }
+                      }
+                    },
+                    "TextAnchor": "TopLeft"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Widget": {
+              "Type": "Label",
+              "Name": "GameIDLabel",
+              "ViewPort": {
+                "xorigin": 0,
+                "yorigin": 64,
+                "width": 512,
+                "height": 49,
+                "alignment": "TopLeft"
+              },
+              "ZPlane": 1,
+              "StateMaterials": {
+                "StateNormal": {
+                  "Font": {
+                    "FontIndex": 3,
+                    "PointSize": 40,
+                    "Style": "Normal",
+                    "TextColor": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 1
+                    },
+                    "TextOutlineWidth": 0.05,
+                    "TextOutlineColor": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 255
+                    }
+                  }
+                }
+              },
+              "TextAnchor": "TopLeft"
+            }
+          }
+        ]
+      }
+    }]
+  }
+}

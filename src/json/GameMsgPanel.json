@@ -1,0 +1,242 @@
+{
+  "Collection": {
+    "Name": "GameMsgPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3840,
+      "height": 2160,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_TopLeft",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopLeft"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_TopCentre",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_TopRight",
+          "ViewPort": {
+            "xorigin": 3840,
+            "yorigin": 0,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "TopRight"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_CentreLeft",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreLeft"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_CentreCentre",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_CentreRight",
+          "ViewPort": {
+            "xorigin": 3840,
+            "yorigin": 1080,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "CentreRight"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+
+
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_BottomLeft",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 2160,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "BottomLeft"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_BottomCentre",
+          "ViewPort": {
+            "xorigin": 1920,
+            "yorigin": 2160,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "BottomCentre"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_BottomRight",
+          "ViewPort": {
+            "xorigin": 3840,
+            "yorigin": 2160,
+            "width": 3840,
+            "height": 2160,
+            "alignment": "BottomRight"
+          },
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ZPlane": 1
+        }
+      }
+
+    ]
+  }
+}

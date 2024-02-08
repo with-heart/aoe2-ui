@@ -1,4 +1,9 @@
-import type { FontMaterial, StateMaterials, TextureMaterial } from './material'
+import type {
+  FontMaterial,
+  Material,
+  StateMaterials,
+  TextureMaterial,
+} from './material'
 import type { HotKey, IconValue } from './misc'
 import type {
   Alignment,
@@ -21,6 +26,8 @@ export interface WidgetBase {
   test?: number
   ZPlane?: number
   ZPlaneLocalOffset?: number
+  ChildWidgets?: ChildWidgets<Widget>
+  StateMaterials?: StateMaterials<Material>
 }
 
 export interface ViewportWidget extends WidgetBase {

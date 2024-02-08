@@ -1,0 +1,27 @@
+{
+  "Collection": {
+    "Name": "TechnologyProgressPanel",
+    "ViewPort": {
+      "xorigin": 0,
+      "yorigin": 0,
+      "width": 3050,
+      "height": 500,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [{
+      "Widget": {
+        "Type": "Base",
+        "Name": "Background",
+        "ViewPort": {
+          "xorigin": 0,
+          "yorigin": 115,
+          "width": 3050,
+          "height": 150,
+          "alignment": "TopLeft"
+        },
+        "ZPlane": 1,
+        "ChildWidgets": []
+      }
+    }]
+  }
+}

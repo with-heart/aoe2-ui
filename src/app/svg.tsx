@@ -1,15 +1,5 @@
 'use client'
 
-import {
-  blankBottomPanel,
-  blankTopPanel,
-  commandPanel,
-  mapPanel,
-  menuPanel,
-  resourcePanel,
-  scorePanel,
-  technologyProgressPanel,
-} from './panels'
 import { Panel } from '@/types/panel'
 import { Widget } from '@/types/widget'
 import {
@@ -25,11 +15,17 @@ const DEBUG = false
 const Widget = ({ widget, depth = 1 }: { widget: Widget; depth?: number }) => {
   const [isHovered, setIsHovered] = useState(false)
 
-  if (
-    isAnchorWidget(widget) ||
-    isTechTreeButtonWidget(widget) ||
-    !widget.ViewPort
-  ) {
+  if (isAnchorWidget(widget)) {
+    return (
+      <svg x={widget.Anchor.xorigin} y={widget.Anchor.yorigin}>
+        {widget.ChildWidgets?.map((child, i) => (
+          <Widget key={i} widget={child.Widget} depth={depth} />
+        ))}
+      </svg>
+    )
+  }
+
+  if (isTechTreeButtonWidget(widget) || !widget.ViewPort) {
     console.log('non-viewport widgets not yet supported')
     return null
   }
@@ -76,8 +72,6 @@ const Panel = ({ panel }: { panel: Panel }) => {
       width={panel.Collection.ViewPort.width}
       height={panel.Collection.ViewPort.height}
     >
-      {DEBUG && <rect width="100%" height="100%" fill="#444" />}
-
       {panel.Collection.Widgets.map((widget, i) => (
         <Widget key={i} widget={widget.Widget} />
       ))}
@@ -85,17 +79,40 @@ const Panel = ({ panel }: { panel: Panel }) => {
   )
 }
 
-export function Svg() {
+export function Svg({ panels }: { panels: Panel[] }) {
   return (
     <svg viewBox="0 0 3840 2160">
-      <Panel panel={blankBottomPanel} />
-      <Panel panel={blankTopPanel} />
-      <Panel panel={scorePanel} />
-      <Panel panel={technologyProgressPanel} />
-      <Panel panel={commandPanel} />
-      <Panel panel={menuPanel} />
-      <Panel panel={resourcePanel} />
-      <Panel panel={mapPanel} />
+      {panels.map((panel) => (
+        <Panel key={panel.Collection.Name} panel={panel} />
+      ))}
+      {DEBUG &&
+        panels.map((panel) => {
+          const { x, y } = calculatePosition(panel.Collection.ViewPort)
+
+          return (
+            <>
+              <rect
+                key={`debug-rect-${panel.Collection.Name}`}
+                x={x}
+                y={y}
+                width={panel.Collection.ViewPort.width}
+                height={panel.Collection.ViewPort.height}
+                fill="none"
+                stroke="red"
+                strokeWidth={5}
+              />
+              <text
+                key={`debug-text-${panel.Collection.Name}`}
+                x={x}
+                y={y + 70}
+                fontSize={80}
+                fill="red"
+              >
+                {panel.Collection.Name}
+              </text>
+            </>
+          )
+        })}
     </svg>
   )
 }
