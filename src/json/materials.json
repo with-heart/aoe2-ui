@@ -1,0 +1,3470 @@
+{
+  "Materials": [
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaBottombar",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaBottombar"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaTopbar",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaTopbar"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaSingleSelectionPanel",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaSingleSelectionPanel"
+      }
+    },
+    {
+      "MaterialDef": {
+        "AtlasRef": "CivAsia",
+        "Blend": "InverseAlpha",
+        "Name": "CivAsiaRecordPanelTableFull",
+        "TextureRef": "CivAsiaRecordPanelTableFull",
+        "Type": "Atlas"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemArmenians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemArmenians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemAztecs",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemAztecs"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBengalis",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBengalis"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBerbers",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBerbers"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBohemians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBohemians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBritons",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBritons"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBulgarians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBulgarians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBurgundians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBurgundians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemBurmese",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemBurmese"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemByzantines",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemByzantines"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemCelts",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemCelts"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemChinese",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemChinese"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemCumans",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemCumans"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemDravidians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemDravidians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemEthiopians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemEthiopians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemFranks",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemFranks"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemGeorgians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemGeorgians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemGoths",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemGoths"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemGurjaras",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemGurjaras"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemHuns",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemHuns"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemIncas",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemIncas"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemIndians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemIndians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemItalians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemItalians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemJapanese",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemJapanese"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemKhmer",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemKhmer"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemKoreans",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemKoreans"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemLithuanians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemLithuanians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemMagyars",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemMagyars"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemMalay",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemMalay"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemMalians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemMalians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemMayans",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemMayans"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemMongols",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemMongols"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemPersians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemPersians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemPoles",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemPoles"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemPortuguese",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemPortuguese"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemRomans",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemRomans"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemSaracens",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemSaracens"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemSicilians",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemSicilians"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemSlavs",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemSlavs"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemSpanish",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemSpanish"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemTatars",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemTatars"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemTeutons",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemTeutons"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemTurks",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemTurks"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemVietnamese",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemVietnamese"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivEmblemVikings",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CivEmblemVikings"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CollapseButtonNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CollapseButtonNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CollapseButtonHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CollapseButtonHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CollapseButtonActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CollapseButtonActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ExpandButtonNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ExpandButtonNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ExpandButtonHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ExpandButtonHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ExpandButtonActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ExpandButtonActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "FlatColor",
+        "Type": "Color",
+        "Blend": "None",
+        "Color": { "r": 1, "g": 1, "b": 1, "a": 0 }
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsHpRegeneration",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsHpRegeneration"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsWood",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsWood"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsFood",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsFood"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsStone",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsStone"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsGold",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsGold"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsGarrison",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsGarrison"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsTransport",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsTransport"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsRange",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsRange"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsDamage",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsDamage"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsArmor",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsArmor"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsHp",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsHp"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsConvert",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsConvert"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsRange-Armor",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsRange-Armor"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsReloadTime",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsReloadTime"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsMovementSpeed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsMovementSpeed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsWorkrate",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsWorkrate"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsBlastRadius",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsBlastRadius"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsPierceAttack",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsPierceAttack"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "StatIconsPowerUp",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "StatIconsPowerUp"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CtrlGroupBorder",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CtrlGroupBorder"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CtrlGroupBorderHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CtrlGroupBorder"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CtrlGroupBorderActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "CtrlGroupBorder"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaCommandPanelCollapsed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaCommandPanelCollapsed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaCommandPanelExtended",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaCommandPanelExtended"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ButtonCmdIconDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ButtonCmdIconDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ButtonCmdIconNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ButtonCmdIconNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ButtonCmdIconHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ButtonCmdIconHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ButtonCmdIconActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ButtonCmdIconActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFilterAllNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFilterAllNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFilterAllHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFilterAllHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFilterAllActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFilterAllActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownLeftValueDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownLeftValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownLeftValueNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownLeftValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownLeftValueHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownLeftValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownMidValueDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownMidValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownMidValueNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownMidValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownMidValueHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownMidValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownRightValueDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownRightValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownRightValueNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownRightValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownRightValueHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownRightValueNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonClosedDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonClosedNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonClosedHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonClosedPressed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownPressed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonOpenNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowUpNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonOpenHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowUpHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "DropDownButtonOpenPressed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowUpPressed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxTL",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxTL"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxTC",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxTC"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxTR",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxTR"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxCL",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxCL"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxCC",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxCC"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxCR",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxCR"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxBL",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxBL"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxBC",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxBC"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ListBoxBR",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ListBoxBR"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarBackground",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ScrollBarBackground"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarUpArrowNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowUpNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarUpArrowHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowUpHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarUpArrowPressed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowUpPressed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarDownArrowNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarDownArrowHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarDownArrowPressed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "DropDownArrowDownPressed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ScrollBarHandleNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "ScrollBarHandleNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameCheckboxCheckedNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameCheckboxCheckedNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameCheckboxCheckedHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameCheckboxCheckedHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameCheckboxUncheckedNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameCheckboxUncheckedNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameCheckboxUncheckedHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameCheckboxUncheckedHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePreviousChapterDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePreviousChapterDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePreviousChapterNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePreviousChapterNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePreviousChapterHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePreviousChapterHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePreviousChapterActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePreviousChapterActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameNextChapterDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameNextChapterDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameNextChapterNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameNextChapterNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameNextChapterHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameNextChapterHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameNextChapterActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameNextChapterActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePauseNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePauseNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePauseHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePauseHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePauseActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePauseActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePlayChapterDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePlayChapterDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePlayChapterNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePlayChapterNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePlayChapterHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePlayChapterHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGamePlayChapterActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGamePlayChapterActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameDefaultSpeedNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameDefaultSpeedNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameDefaultSpeedHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameDefaultSpeedHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameDefaultSpeedActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameDefaultSpeedActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupForwardDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupForwardDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupForwardNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupForwardNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupForwardHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupForwardHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupForwardActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupForwardActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupExtraspeedupForwardDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupExtraspeedupForwardDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupExtraspeedupForwardNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupExtraspeedupForwardNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupExtraspeedupForwardHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupExtraspeedupForwardHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "RecordedGameSpeedupExtraspeedupForwardActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "recordedgame",
+        "TextureRef": "RecordedGameSpeedupExtraspeedupForwardActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaMapPanel",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaMapPanel"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFlareDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFlareDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFlareNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFlareNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFlareHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFlareHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFlareActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFlareActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapPlayerStatsNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapPlayerStatsNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapPlayerStatsHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapPlayerStatsHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapPlayerStatsActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapPlayerStatsActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFilterEconomyNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFilterEconomyNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFilterEconomyHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFilterEconomyHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MinimapFilterEconomyActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MinimapFilterEconomyActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaMenuPanel",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaMenuPanel"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuMenuNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuMenuNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuMenuHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuMenuHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuMenuActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuMenuActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuMenuDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuMenuDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuDiplomacyNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuDiplomacyNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuDiplomacyHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuDiplomacyHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuDiplomacyActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuDiplomacyActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuDiplomacyDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuDiplomacyDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuChatNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuChatNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuChatHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuChatHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuChatActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuChatActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuChatDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuChatDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuObjectivesNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuObjectivesNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuObjectivesHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuObjectivesHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuObjectivesActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuObjectivesActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuObjectivesDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuObjectivesDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuSettingsNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuSettingsNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuSettingsHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuSettingsHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuSettingsActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuSettingsActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "MenuSettingsDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "MenuSettingsDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IconsMenuTechtreeAztecs",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingameicons",
+        "TextureRef": "IconsMenuTechtreeAztecs"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IconsMenuTechtreeAztecsHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingameicons",
+        "TextureRef": "IconsMenuTechtreeAztecsHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IconsMenuTechtreeAztecsPressed",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingameicons",
+        "TextureRef": "IconsMenuTechtreeAztecsPressed"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_TL",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_TL"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_TC",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_TC"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_TR",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_TR"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_CL",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_CL"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_CC",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_CC"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_CR",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_CR"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_BL",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_BL"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_BC",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_BC"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "BlackPanel_BR",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "BlackPanel_BR"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "CivAsiaResourcePanel",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "CivAsia",
+        "TextureRef": "CivAsiaResourcePanel"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ResourceWood",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ResourceWood"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ResourceFood",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ResourceFood"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ResourceGold",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ResourceGold"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "ResourceStone",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "ResourceStone"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "Population",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "Population"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "FlatColorWithAlpha",
+        "Type": "Color",
+        "Blend": "InverseAlpha",
+        "Color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IdleVillagerNormal",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "IdleVillagerNormal"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IdleVillagerHover",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "IdleVillagerHover"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IdleVillagerActive",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "IdleVillagerActive"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "IdleVillagerDisabled",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "IdleVillagerDisabled"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "AgeupCastleAge",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "AgeupCastleAge"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "AgeBar",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "ingamepanels",
+        "TextureRef": "AgeBar"
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "TransparentColor",
+        "Type": "Color",
+        "Blend": "InverseAlpha",
+        "Color": { "r": 1, "g": 1, "b": 1, "a": 0.2 }
+      }
+    },
+    {
+      "MaterialDef": {
+        "Name": "SpectatorsIcon",
+        "Type": "Atlas",
+        "Blend": "InverseAlpha",
+        "AtlasRef": "defaultwidgets",
+        "TextureRef": "SpectatorsIcon"
+      }
+    }
+  ],
+  "AtlasTextures": [
+    {
+      "AtlasDef": {
+        "Name": "CivAsia",
+        "MaxWidth": 2048,
+        "MaxHeight": 2304,
+        "Cached": "none",
+        "Textures": [
+          {
+            "RefName": "CivAsiaBottombar",
+            "FileName": "textures/ingame/panels/ASIA/bottombar.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.893446",
+            "imageBRX": "0.937256",
+            "imageBRY": "0.924696"
+          },
+          {
+            "RefName": "CivAsiaCommandPanelCollapsed",
+            "FileName": "textures/ingame/panels/ASIA/command-panel_collapsed.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.000217",
+            "imageBRX": "0.322021",
+            "imageBRY": "0.179036"
+          },
+          {
+            "RefName": "CivAsiaCommandPanelExtended",
+            "FileName": "textures/ingame/panels/ASIA/command-panel_extended.png",
+            "imageTLX": "0.322510",
+            "imageTLY": "0.000217",
+            "imageBRX": "0.644287",
+            "imageBRY": "0.179036"
+          },
+          {
+            "RefName": "CivAsiaMapPanel",
+            "FileName": "textures/ingame/panels/ASIA/map-panel.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.179470",
+            "imageBRX": "0.419678",
+            "imageBRY": "0.358290"
+          },
+          {
+            "RefName": "CivAsiaMenuPanel",
+            "FileName": "textures/ingame/panels/ASIA/menu-panel.png",
+            "imageTLX": "0.420166",
+            "imageTLY": "0.179470",
+            "imageBRX": "0.788818",
+            "imageBRY": "0.298828"
+          },
+          {
+            "RefName": "CivAsiaResourcePanel",
+            "FileName": "textures/ingame/panels/ASIA/resource-panel.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.717231",
+            "imageBRX": "0.854248",
+            "imageBRY": "0.836589"
+          },
+          {
+            "RefName": "CivAsiaSingleSelectionPanel",
+            "FileName": "textures/ingame/panels/ASIA/single-selection-panel.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.358724",
+            "imageBRX": "0.667725",
+            "imageBRY": "0.537543"
+          },
+          {
+            "RefName": "CivAsiaTopbar",
+            "FileName": "textures/ingame/panels/ASIA/topbar.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.925130",
+            "imageBRX": "0.937256",
+            "imageBRY": "0.948134"
+          },
+          {
+            "RefName": "CivAsiaRecordPanelTableFull",
+            "FileName": "textures/ingame/recordedgames/ASIA/record_panel_table_full.png",
+            "imageTLX": "0.000244",
+            "imageTLY": "0.537977",
+            "imageBRX": "0.667725",
+            "imageBRY": "0.716797"
+          }
+        ],
+        "DefaultSource": "textures/atlas/HD/CivAsia.dds",
+        "UHDSource": "textures/atlas/UHD/CivAsia.dds",
+        "HDSource": "textures/atlas/HD/CivAsia.dds"
+      }
+    },
+    {
+      "AtlasDef": {
+        "Name": "ingamepanels",
+        "MaxWidth": 4096,
+        "MaxHeight": 2328,
+        "Cached": "precached",
+        "Textures": [
+          {
+            "RefName": "CivEmblemArmenians",
+            "FileName": "textures/ingame/emblems/armenians.png",
+            "imageTLX": "0.879028",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.988647",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemAztecs",
+            "FileName": "textures/ingame/emblems/aztecs.png",
+            "imageTLX": "0.000122",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.109741",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBengalis",
+            "FileName": "textures/ingame/emblems/bengalis.png",
+            "imageTLX": "0.109985",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.219604",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBerbers",
+            "FileName": "textures/ingame/emblems/berber.png",
+            "imageTLX": "0.219849",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.329468",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBohemians",
+            "FileName": "textures/ingame/emblems/bohemians.png",
+            "imageTLX": "0.329712",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.439331",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBritons",
+            "FileName": "textures/ingame/emblems/britons.png",
+            "imageTLX": "0.439575",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.549194",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBulgarians",
+            "FileName": "textures/ingame/emblems/bulgarians.png",
+            "imageTLX": "0.549438",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.659058",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBurgundians",
+            "FileName": "textures/ingame/emblems/burgundians.png",
+            "imageTLX": "0.659302",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.768921",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemBurmese",
+            "FileName": "textures/ingame/emblems/burmese.png",
+            "imageTLX": "0.769165",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.878784",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemByzantines",
+            "FileName": "textures/ingame/emblems/byzantines.png",
+            "imageTLX": "0.879028",
+            "imageTLY": "0.402277",
+            "imageBRX": "0.988647",
+            "imageBRY": "0.522122"
+          },
+          {
+            "RefName": "CivEmblemCelts",
+            "FileName": "textures/ingame/emblems/celts.png",
+            "imageTLX": "0.000122",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.109741",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemChinese",
+            "FileName": "textures/ingame/emblems/chinese.png",
+            "imageTLX": "0.109985",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.219604",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemCumans",
+            "FileName": "textures/ingame/emblems/cumans.png",
+            "imageTLX": "0.219849",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.329468",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemDravidians",
+            "FileName": "textures/ingame/emblems/dravidians.png",
+            "imageTLX": "0.329712",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.439331",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemEthiopians",
+            "FileName": "textures/ingame/emblems/ethiopians.png",
+            "imageTLX": "0.439575",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.549194",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemFranks",
+            "FileName": "textures/ingame/emblems/franks.png",
+            "imageTLX": "0.549438",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.659058",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemGeorgians",
+            "FileName": "textures/ingame/emblems/georgians.png",
+            "imageTLX": "0.659302",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.768921",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemGoths",
+            "FileName": "textures/ingame/emblems/goths.png",
+            "imageTLX": "0.769165",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.878784",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemGurjaras",
+            "FileName": "textures/ingame/emblems/gurjaras.png",
+            "imageTLX": "0.879028",
+            "imageTLY": "0.522552",
+            "imageBRX": "0.988647",
+            "imageBRY": "0.642397"
+          },
+          {
+            "RefName": "CivEmblemHuns",
+            "FileName": "textures/ingame/emblems/huns.png",
+            "imageTLX": "0.000122",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.109741",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemIncas",
+            "FileName": "textures/ingame/emblems/incas.png",
+            "imageTLX": "0.109985",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.219604",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemIndians",
+            "FileName": "textures/ingame/emblems/indians.png",
+            "imageTLX": "0.219849",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.329468",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemItalians",
+            "FileName": "textures/ingame/emblems/italians.png",
+            "imageTLX": "0.329712",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.439331",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemJapanese",
+            "FileName": "textures/ingame/emblems/japanese.png",
+            "imageTLX": "0.439575",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.549194",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemKhmer",
+            "FileName": "textures/ingame/emblems/khmer.png",
+            "imageTLX": "0.549438",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.659058",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemKoreans",
+            "FileName": "textures/ingame/emblems/koreans.png",
+            "imageTLX": "0.659302",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.768921",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemLithuanians",
+            "FileName": "textures/ingame/emblems/lithuanians.png",
+            "imageTLX": "0.769165",
+            "imageTLY": "0.642826",
+            "imageBRX": "0.878784",
+            "imageBRY": "0.762672"
+          },
+          {
+            "RefName": "CivEmblemMagyars",
+            "FileName": "textures/ingame/emblems/magyars.png",
+            "imageTLX": "0.329712",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.439331",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemMalay",
+            "FileName": "textures/ingame/emblems/malay.png",
+            "imageTLX": "0.439575",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.549194",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemMalians",
+            "FileName": "textures/ingame/emblems/malians.png",
+            "imageTLX": "0.549438",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.659058",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemMayans",
+            "FileName": "textures/ingame/emblems/mayans.png",
+            "imageTLX": "0.659302",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.768921",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemMongols",
+            "FileName": "textures/ingame/emblems/mongols.png",
+            "imageTLX": "0.769165",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.878784",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemPersians",
+            "FileName": "textures/ingame/emblems/persians.png",
+            "imageTLX": "0.831421",
+            "imageTLY": "0.000215",
+            "imageBRX": "0.941040",
+            "imageBRY": "0.120060"
+          },
+          {
+            "RefName": "CivEmblemPoles",
+            "FileName": "textures/ingame/emblems/poles.png",
+            "imageTLX": "0.000122",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.109741",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemPortuguese",
+            "FileName": "textures/ingame/emblems/portuguese.png",
+            "imageTLX": "0.109985",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.219604",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemRomans",
+            "FileName": "textures/ingame/emblems/romans.png",
+            "imageTLX": "0.219849",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.329468",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemSaracens",
+            "FileName": "textures/ingame/emblems/saracens.png",
+            "imageTLX": "0.329712",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.439331",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemSicilians",
+            "FileName": "textures/ingame/emblems/sicilians.png",
+            "imageTLX": "0.439575",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.549194",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemSlavs",
+            "FileName": "textures/ingame/emblems/slavs.png",
+            "imageTLX": "0.549438",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.659058",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemSpanish",
+            "FileName": "textures/ingame/emblems/spanish.png",
+            "imageTLX": "0.659302",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.768921",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemTatars",
+            "FileName": "textures/ingame/emblems/tatars.png",
+            "imageTLX": "0.769165",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.878784",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemTeutons",
+            "FileName": "textures/ingame/emblems/teutons.png",
+            "imageTLX": "0.879028",
+            "imageTLY": "0.161727",
+            "imageBRX": "0.988647",
+            "imageBRY": "0.281572"
+          },
+          {
+            "RefName": "CivEmblemTurks",
+            "FileName": "textures/ingame/emblems/turks.png",
+            "imageTLX": "0.000122",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.109741",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemVietnamese",
+            "FileName": "textures/ingame/emblems/vietnamese.png",
+            "imageTLX": "0.109985",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.219604",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "CivEmblemVikings",
+            "FileName": "textures/ingame/emblems/vikings.png",
+            "imageTLX": "0.219849",
+            "imageTLY": "0.282002",
+            "imageBRX": "0.329468",
+            "imageBRY": "0.401847"
+          },
+          {
+            "RefName": "ButtonCmdIconDisabled",
+            "FileName": "textures/ingame/icons/icon_overlay_disabled.png",
+            "imageTLX": "0.117310",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.136597",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "ButtonCmdIconNormal",
+            "FileName": "textures/ingame/icons/icon_overlay_normal.png",
+            "imageTLX": "0.195435",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.214722",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "ButtonCmdIconActive",
+            "FileName": "textures/ingame/icons/icon_overlay_active.png",
+            "imageTLX": "0.078247",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.097534",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "ButtonCmdIconHover",
+            "FileName": "textures/ingame/icons/icon_overlay_hover.png",
+            "imageTLX": "0.156372",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.175659",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "CollapseButtonActive",
+            "FileName": "textures/ingame/panels/collapse_button_active_full.png",
+            "imageTLX": "0.985718",
+            "imageTLY": "0.763101",
+            "imageBRX": "0.996948",
+            "imageBRY": "0.790593"
+          },
+          {
+            "RefName": "CollapseButtonHover",
+            "FileName": "textures/ingame/panels/collapse_button_hover_full.png",
+            "imageTLX": "0.035767",
+            "imageTLY": "0.861040",
+            "imageBRX": "0.046997",
+            "imageBRY": "0.888531"
+          },
+          {
+            "RefName": "CollapseButtonNormal",
+            "FileName": "textures/ingame/panels/collapse_button_normal_full.png",
+            "imageTLX": "0.047241",
+            "imageTLY": "0.861040",
+            "imageBRX": "0.058472",
+            "imageBRY": "0.888531"
+          },
+          {
+            "RefName": "CtrlGroupBorder",
+            "FileName": "textures/ingame/panels/ctrlgrp_border.png",
+            "imageTLX": "0.511353",
+            "imageTLY": "0.837414",
+            "imageBRX": "0.524048",
+            "imageBRY": "0.859751"
+          },
+          {
+            "RefName": "ExpandButtonActive",
+            "FileName": "textures/ingame/panels/expand_button_active_full.png",
+            "imageTLX": "0.058716",
+            "imageTLY": "0.861040",
+            "imageBRX": "0.069946",
+            "imageBRY": "0.888531"
+          },
+          {
+            "RefName": "ExpandButtonHover",
+            "FileName": "textures/ingame/panels/expand_button_hover_full.png",
+            "imageTLX": "0.070190",
+            "imageTLY": "0.861040",
+            "imageBRX": "0.081421",
+            "imageBRY": "0.888531"
+          },
+          {
+            "RefName": "ExpandButtonNormal",
+            "FileName": "textures/ingame/panels/expand_button_normal_full.png",
+            "imageTLX": "0.081665",
+            "imageTLY": "0.861040",
+            "imageBRX": "0.092896",
+            "imageBRY": "0.888531"
+          },
+          {
+            "RefName": "AgeBar",
+            "FileName": "textures/ingame/panels/loadingbar_full.png",
+            "imageTLX": "0.606812",
+            "imageTLY": "0.818943",
+            "imageBRX": "0.675903",
+            "imageBRY": "0.834837"
+          },
+          {
+            "RefName": "MinimapFilterAllActive",
+            "FileName": "textures/ingame/icons/minimap_filter_all_active.png",
+            "imageTLX": "0.437622",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.454224",
+            "imageBRY": "0.958978"
+          },
+          {
+            "RefName": "MinimapFilterAllNormal",
+            "FileName": "textures/ingame/icons/minimap_filter_all_normal.png",
+            "imageTLX": "0.538696",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.555298",
+            "imageBRY": "0.958978"
+          },
+          {
+            "RefName": "MinimapFilterAllHover",
+            "FileName": "textures/ingame/icons/minimap_filter_all_hover.png",
+            "imageTLX": "0.454468",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.471069",
+            "imageBRY": "0.958978"
+          },
+          {
+            "RefName": "MinimapFilterEconomyActive",
+            "FileName": "textures/ingame/icons/minimap_filter_economy_active.png",
+            "imageTLX": "0.471313",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.487915",
+            "imageBRY": "0.958978"
+          },
+          {
+            "RefName": "MinimapFilterEconomyHover",
+            "FileName": "textures/ingame/icons/minimap_filter_economy_hover.png",
+            "imageTLX": "0.488159",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.504761",
+            "imageBRY": "0.958978"
+          },
+          {
+            "RefName": "MinimapFilterEconomyNormal",
+            "FileName": "textures/ingame/icons/minimap_filter_economy_normal.png",
+            "imageTLX": "0.505005",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.521606",
+            "imageBRY": "0.958978"
+          },
+          {
+            "RefName": "MinimapFlareDisabled",
+            "FileName": "textures/ingame/icons/minimap_flare_disabled.png",
+            "imageTLX": "0.171509",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.189331",
+            "imageBRY": "0.961125"
+          },
+          {
+            "RefName": "MinimapFlareActive",
+            "FileName": "textures/ingame/icons/minimap_flare_active.png",
+            "imageTLX": "0.243774",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.261597",
+            "imageBRY": "0.961125"
+          },
+          {
+            "RefName": "MinimapFlareHover",
+            "FileName": "textures/ingame/icons/minimap_flare_hover.png",
+            "imageTLX": "0.225708",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.243530",
+            "imageBRY": "0.961125"
+          },
+          {
+            "RefName": "MinimapFlareNormal",
+            "FileName": "textures/ingame/icons/minimap_flare_normal.png",
+            "imageTLX": "0.207642",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.225464",
+            "imageBRY": "0.961125"
+          },
+          {
+            "RefName": "MinimapPlayerStatsActive",
+            "FileName": "textures/ingame/icons/minimap_playerstats_active.png",
+            "imageTLX": "0.589233",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.605347",
+            "imageBRY": "0.958119"
+          },
+          {
+            "RefName": "MinimapPlayerStatsHover",
+            "FileName": "textures/ingame/icons/minimap_playerstats_hover.png",
+            "imageTLX": "0.605591",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.621704",
+            "imageBRY": "0.958119"
+          },
+          {
+            "RefName": "MinimapPlayerStatsNormal",
+            "FileName": "textures/ingame/icons/minimap_playerstats_normal.png",
+            "imageTLX": "0.621948",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.638062",
+            "imageBRY": "0.958119"
+          },
+          {
+            "RefName": "ResourceFood",
+            "FileName": "textures/ingame/icons/resource_food.png",
+            "imageTLX": "0.899780",
+            "imageTLY": "0.763101",
+            "imageBRX": "0.922974",
+            "imageBRY": "0.803909"
+          },
+          {
+            "RefName": "ResourceGold",
+            "FileName": "textures/ingame/icons/resource_gold.png",
+            "imageTLX": "0.876343",
+            "imageTLY": "0.763101",
+            "imageBRX": "0.899536",
+            "imageBRY": "0.803909"
+          },
+          {
+            "RefName": "ResourceStone",
+            "FileName": "textures/ingame/icons/resource_stone.png",
+            "imageTLX": "0.852905",
+            "imageTLY": "0.763101",
+            "imageBRX": "0.876099",
+            "imageBRY": "0.803909"
+          },
+          {
+            "RefName": "ResourceWood",
+            "FileName": "textures/ingame/icons/resource_wood.png",
+            "imageTLX": "0.829468",
+            "imageTLY": "0.763101",
+            "imageBRX": "0.852661",
+            "imageBRY": "0.803909"
+          },
+          {
+            "RefName": "Population",
+            "FileName": "textures/ingame/icons/pop.png",
+            "imageTLX": "0.923218",
+            "imageTLY": "0.763101",
+            "imageBRX": "0.946411",
+            "imageBRY": "0.803909"
+          },
+          {
+            "RefName": "IdleVillagerActive",
+            "FileName": "textures/ingame/icons/idle-villager_active.png",
+            "imageTLX": "0.696411",
+            "imageTLY": "0.837414",
+            "imageBRX": "0.708374",
+            "imageBRY": "0.858462"
+          },
+          {
+            "RefName": "IdleVillagerHover",
+            "FileName": "textures/ingame/icons/idle-villager_hover.png",
+            "imageTLX": "0.684204",
+            "imageTLY": "0.837414",
+            "imageBRX": "0.696167",
+            "imageBRY": "0.858462"
+          },
+          {
+            "RefName": "IdleVillagerDisabled",
+            "FileName": "textures/ingame/icons/idle-villager_disabled.png",
+            "imageTLX": "0.757446",
+            "imageTLY": "0.837414",
+            "imageBRX": "0.769409",
+            "imageBRY": "0.858462"
+          },
+          {
+            "RefName": "IdleVillagerNormal",
+            "FileName": "textures/ingame/icons/idle-villager_normal.png",
+            "imageTLX": "0.671997",
+            "imageTLY": "0.837414",
+            "imageBRX": "0.683960",
+            "imageBRY": "0.858462"
+          },
+          {
+            "RefName": "MenuChatActive",
+            "FileName": "textures/ingame/icons/menu_chat_active.png",
+            "imageTLX": "0.234497",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.253784",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuChatHover",
+            "FileName": "textures/ingame/icons/menu_chat_hover.png",
+            "imageTLX": "0.273560",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.292847",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuChatNormal",
+            "FileName": "textures/ingame/icons/menu_chat_normal.png",
+            "imageTLX": "0.293091",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.312378",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuChatDisabled",
+            "FileName": "textures/ingame/icons/menu_chat_disabled.png",
+            "imageTLX": "0.254028",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.273315",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuDiplomacyActive",
+            "FileName": "textures/ingame/icons/menu_diplomacy_active.png",
+            "imageTLX": "0.312622",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.331909",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuDiplomacyHover",
+            "FileName": "textures/ingame/icons/menu_diplomacy_hover.png",
+            "imageTLX": "0.351685",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.370972",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuDiplomacyNormal",
+            "FileName": "textures/ingame/icons/menu_diplomacy_normal.png",
+            "imageTLX": "0.371216",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.390503",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuDiplomacyDisabled",
+            "FileName": "textures/ingame/icons/menu_diplomacy_disabled.png",
+            "imageTLX": "0.332153",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.351440",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuMenuActive",
+            "FileName": "textures/ingame/icons/menu_menu_active.png",
+            "imageTLX": "0.449341",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.468628",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuMenuHover",
+            "FileName": "textures/ingame/icons/menu_menu_hover.png",
+            "imageTLX": "0.488403",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.507690",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuMenuNormal",
+            "FileName": "textures/ingame/icons/menu_menu_normal.png",
+            "imageTLX": "0.507935",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.527222",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuMenuDisabled",
+            "FileName": "textures/ingame/icons/menu_menu_disabled.png",
+            "imageTLX": "0.468872",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.488159",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuSettingsActive",
+            "FileName": "textures/ingame/icons/menu_settings_active.png",
+            "imageTLX": "0.664185",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.683472",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuSettingsHover",
+            "FileName": "textures/ingame/icons/menu_settings_hover.png",
+            "imageTLX": "0.703247",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.722534",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuSettingsNormal",
+            "FileName": "textures/ingame/icons/menu_settings_normal.png",
+            "imageTLX": "0.722778",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.742065",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuSettingsDisabled",
+            "FileName": "textures/ingame/icons/menu_settings_disabled.png",
+            "imageTLX": "0.683716",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.703003",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuObjectivesActive",
+            "FileName": "textures/ingame/icons/menu_objectives_active.png",
+            "imageTLX": "0.586060",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.605347",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuObjectivesHover",
+            "FileName": "textures/ingame/icons/menu_objectives_hover.png",
+            "imageTLX": "0.625122",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.644409",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuObjectivesNormal",
+            "FileName": "textures/ingame/icons/menu_objectives_normal.png",
+            "imageTLX": "0.644653",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.663940",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "MenuObjectivesDisabled",
+            "FileName": "textures/ingame/icons/menu_objectives_disabled.png",
+            "imageTLX": "0.605591",
+            "imageTLY": "0.964132",
+            "imageBRX": "0.624878",
+            "imageBRY": "0.998067"
+          },
+          {
+            "RefName": "StatIconsArmor",
+            "FileName": "textures/ingame/staticons/armor.png",
+            "imageTLX": "0.962036",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.977905",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsConvert",
+            "FileName": "textures/ingame/staticons/convert.png",
+            "imageTLX": "0.019653",
+            "imageTLY": "0.861040",
+            "imageBRX": "0.035522",
+            "imageBRY": "0.888960"
+          },
+          {
+            "RefName": "StatIconsDamage",
+            "FileName": "textures/ingame/staticons/damage.png",
+            "imageTLX": "0.945923",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.961792",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsFood",
+            "FileName": "textures/ingame/staticons/food.png",
+            "imageTLX": "0.638306",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.654175",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsGarrison",
+            "FileName": "textures/ingame/staticons/garrison.png",
+            "imageTLX": "0.654419",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.670288",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsGold",
+            "FileName": "textures/ingame/staticons/gold.png",
+            "imageTLX": "0.670532",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.686401",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsHp",
+            "FileName": "textures/ingame/staticons/hp.png",
+            "imageTLX": "0.929810",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.945679",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsRange-Armor",
+            "FileName": "textures/ingame/staticons/range-armor.png",
+            "imageTLX": "0.767212",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.783813",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsRange",
+            "FileName": "textures/ingame/staticons/range.png",
+            "imageTLX": "0.751099",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.766968",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsStone",
+            "FileName": "textures/ingame/staticons/stone.png",
+            "imageTLX": "0.864624",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.880493",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsTransport",
+            "FileName": "textures/ingame/staticons/transport.png",
+            "imageTLX": "0.880737",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.897339",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsWood",
+            "FileName": "textures/ingame/staticons/wood.png",
+            "imageTLX": "0.897583",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.913452",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsWorkrate",
+            "FileName": "textures/ingame/staticons/workrate.png",
+            "imageTLX": "0.913696",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.929565",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsReloadTime",
+            "FileName": "textures/ingame/staticons/reloadtime.png",
+            "imageTLX": "0.816284",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.832153",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsPowerUp",
+            "FileName": "textures/ingame/staticons/powerup.png",
+            "imageTLX": "0.734985",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.750854",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsPierceAttack",
+            "FileName": "textures/ingame/staticons/pierceAttack.png",
+            "imageTLX": "0.718872",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.734741",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsMovementSpeed",
+            "FileName": "textures/ingame/staticons/movementSpeed.png",
+            "imageTLX": "0.702759",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.718628",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsBlastRadius",
+            "FileName": "textures/ingame/staticons/blastRadius.png",
+            "imageTLX": "0.978149",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.994019",
+            "imageBRY": "0.957689"
+          },
+          {
+            "RefName": "StatIconsHpRegeneration",
+            "FileName": "textures/ingame/staticons/hpRegen.png",
+            "imageTLX": "0.686646",
+            "imageTLY": "0.929768",
+            "imageBRX": "0.702515",
+            "imageBRY": "0.957689"
+          }
+        ],
+        "DefaultSource": "textures/atlas/HD/ingamepanels.dds",
+        "UHDSource": "textures/atlas/UHD/ingamepanels.dds",
+        "HDSource": "textures/atlas/HD/ingamepanels.dds"
+      }
+    },
+    {
+      "AtlasDef": {
+        "Name": "defaultwidgets",
+        "MaxWidth": 4096,
+        "MaxHeight": 3172,
+        "Cached": "precached",
+        "Textures": [
+          {
+            "RefName": "DropDownLeftValueNormal",
+            "FileName": "textures/menu/dropdowns/dropdown_left_4k_normal.png",
+            "imageTLX": "0.794800",
+            "imageTLY": "0.956021",
+            "imageBRX": "0.799927",
+            "imageBRY": "0.969893"
+          },
+          {
+            "RefName": "DropDownMidValueNormal",
+            "FileName": "textures/menu/dropdowns/dropdown_center_4k_normal.png",
+            "imageTLX": "0.789429",
+            "imageTLY": "0.956021",
+            "imageBRX": "0.794556",
+            "imageBRY": "0.969893"
+          },
+          {
+            "RefName": "DropDownRightValueNormal",
+            "FileName": "textures/menu/dropdowns/dropdown_right_4k_normal.png",
+            "imageTLX": "0.800171",
+            "imageTLY": "0.956021",
+            "imageBRX": "0.805298",
+            "imageBRY": "0.969893"
+          },
+          {
+            "RefName": "DropDownArrowDownNormal",
+            "FileName": "textures/menu/buttons/down_arrow_normal.png",
+            "imageTLX": "0.844360",
+            "imageTLY": "0.656526",
+            "imageBRX": "0.852661",
+            "imageBRY": "0.665038"
+          },
+          {
+            "RefName": "DropDownArrowDownHover",
+            "FileName": "textures/menu/buttons/down_arrow_hover.png",
+            "imageTLX": "0.835815",
+            "imageTLY": "0.656526",
+            "imageBRX": "0.844116",
+            "imageBRY": "0.665038"
+          },
+          {
+            "RefName": "DropDownArrowDownPressed",
+            "FileName": "textures/menu/buttons/down_arrow_active.png",
+            "imageTLX": "0.827271",
+            "imageTLY": "0.656526",
+            "imageBRX": "0.835571",
+            "imageBRY": "0.665038"
+          },
+          {
+            "RefName": "DropDownArrowUpNormal",
+            "FileName": "textures/menu/buttons/up_arrow_normal.png",
+            "imageTLX": "0.869995",
+            "imageTLY": "0.656526",
+            "imageBRX": "0.878296",
+            "imageBRY": "0.665038"
+          },
+          {
+            "RefName": "DropDownArrowUpHover",
+            "FileName": "textures/menu/buttons/up_arrow_hover.png",
+            "imageTLX": "0.861450",
+            "imageTLY": "0.656526",
+            "imageBRX": "0.869751",
+            "imageBRY": "0.665038"
+          },
+          {
+            "RefName": "DropDownArrowUpPressed",
+            "FileName": "textures/menu/buttons/up_arrow_active.png",
+            "imageTLX": "0.852905",
+            "imageTLY": "0.656526",
+            "imageBRX": "0.861206",
+            "imageBRY": "0.665038"
+          },
+          {
+            "RefName": "ScrollBarBackground",
+            "FileName": "textures/menu/scrollbars/scrollbar.png",
+            "imageTLX": "0.261353",
+            "imageTLY": "0.701293",
+            "imageBRX": "0.262329",
+            "imageBRY": "0.705706"
+          },
+          {
+            "RefName": "ListBoxTL",
+            "FileName": "textures/menu/listboxes/listbox_tl_4k.png",
+            "imageTLX": "0.180786",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.185913",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxTC",
+            "FileName": "textures/menu/listboxes/listbox_tc_4k.png",
+            "imageTLX": "0.186157",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.191284",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxTR",
+            "FileName": "textures/menu/listboxes/listbox_tr_4k.png",
+            "imageTLX": "0.175415",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.180542",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxCL",
+            "FileName": "textures/menu/listboxes/listbox_cl_4k.png",
+            "imageTLX": "0.196899",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.202026",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxCC",
+            "FileName": "textures/menu/listboxes/listbox_c_4k.png",
+            "imageTLX": "0.202271",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.207397",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxCR",
+            "FileName": "textures/menu/listboxes/listbox_cr_4k.png",
+            "imageTLX": "0.191528",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.196655",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxBL",
+            "FileName": "textures/menu/listboxes/listbox_bl_4k.png",
+            "imageTLX": "0.127075",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.132202",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxBC",
+            "FileName": "textures/menu/listboxes/listbox_bc_4k.png",
+            "imageTLX": "0.207642",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.212769",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ListBoxBR",
+            "FileName": "textures/menu/listboxes/listbox_br_4k.png",
+            "imageTLX": "0.073364",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.078491",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_TL",
+            "FileName": "textures/ingame/panels/npanel_tl_4k.png",
+            "imageTLX": "0.078735",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.083862",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_TC",
+            "FileName": "textures/ingame/panels/npanel_tc_4k.png",
+            "imageTLX": "0.084106",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.089233",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_TR",
+            "FileName": "textures/ingame/panels/npanel_tr_4k.png",
+            "imageTLX": "0.213013",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.218140",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_CL",
+            "FileName": "textures/ingame/panels/npanel_cl_4k.png",
+            "imageTLX": "0.094849",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.099976",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_CC",
+            "FileName": "textures/ingame/panels/npanel_c_4k.png",
+            "imageTLX": "0.100220",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.105347",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_CR",
+            "FileName": "textures/ingame/panels/npanel_cr_4k.png",
+            "imageTLX": "0.089478",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.094604",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_BL",
+            "FileName": "textures/ingame/panels/npanel_bl_4k.png",
+            "imageTLX": "0.110962",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.116089",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_BC",
+            "FileName": "textures/ingame/panels/npanel_bc_4k.png",
+            "imageTLX": "0.170044",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.175171",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "BlackPanel_BR",
+            "FileName": "textures/ingame/panels/npanel_br_4k.png",
+            "imageTLX": "0.105591",
+            "imageTLY": "0.706337",
+            "imageBRX": "0.110718",
+            "imageBRY": "0.712957"
+          },
+          {
+            "RefName": "ScrollBarHandleNormal",
+            "FileName": "textures/menu/scrollbars/scrollbar_normal.png",
+            "imageTLX": "0.890259",
+            "imageTLY": "0.956021",
+            "imageBRX": "0.900513",
+            "imageBRY": "0.969262"
+          },
+          {
+            "RefName": "SpectatorsIcon",
+            "FileName": "textures/menu/icons/spectators_icon.png",
+            "imageTLX": "0.966431",
+            "imageTLY": "0.144231",
+            "imageBRX": "0.985718",
+            "imageBRY": "0.160309"
+          }
+        ],
+        "DefaultSource": "textures/atlas/HD/defaultwidgets.dds",
+        "UHDSource": "textures/atlas/UHD/defaultwidgets.dds",
+        "HDSource": "textures/atlas/HD/defaultwidgets.dds"
+      }
+    },
+    {
+      "AtlasDef": {
+        "Name": "recordedgame",
+        "MaxWidth": 768,
+        "MaxHeight": 512,
+        "Cached": "none",
+        "Textures": [
+          {
+            "RefName": "RecordedGameCheckboxCheckedHover",
+            "FileName": "textures/ingame/recordedgames/checkbox_checked_hover.png",
+            "imageTLX": "0.313151",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.363932",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameCheckboxCheckedNormal",
+            "FileName": "textures/ingame/recordedgames/checkbox_checked_normal.png",
+            "imageTLX": "0.469401",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.520182",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameCheckboxUncheckedHover",
+            "FileName": "textures/ingame/recordedgames/checkbox_unchecked_hover.png",
+            "imageTLX": "0.521484",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.572266",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameCheckboxUncheckedNormal",
+            "FileName": "textures/ingame/recordedgames/checkbox_unchecked_normal.png",
+            "imageTLX": "0.447266",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.498047",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameDefaultSpeedActive",
+            "FileName": "textures/ingame/recordedgames/default-speed_active.png",
+            "imageTLX": "0.499349",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.550130",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameDefaultSpeedHover",
+            "FileName": "textures/ingame/recordedgames/default-speed_hover.png",
+            "imageTLX": "0.551432",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.602214",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameDefaultSpeedNormal",
+            "FileName": "textures/ingame/recordedgames/default-speed_normal.png",
+            "imageTLX": "0.603516",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.654297",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameNextChapterActive",
+            "FileName": "textures/ingame/recordedgames/next-chapter_active.png",
+            "imageTLX": "0.655599",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.706380",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameNextChapterHover",
+            "FileName": "textures/ingame/recordedgames/next-chapter_hover.png",
+            "imageTLX": "0.759766",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.810547",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameNextChapterNormal",
+            "FileName": "textures/ingame/recordedgames/next-chapter_normal.png",
+            "imageTLX": "0.811849",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.862630",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGameNextChapterDisabled",
+            "FileName": "textures/ingame/recordedgames/next-chapter_disabled.png",
+            "imageTLX": "0.707682",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.758464",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGamePauseActive",
+            "FileName": "textures/ingame/recordedgames/pause_active.png",
+            "imageTLX": "0.863932",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.914714",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGamePauseHover",
+            "FileName": "textures/ingame/recordedgames/pause_hover.png",
+            "imageTLX": "0.916016",
+            "imageTLY": "0.588867",
+            "imageBRX": "0.966797",
+            "imageBRY": "0.665039"
+          },
+          {
+            "RefName": "RecordedGamePauseNormal",
+            "FileName": "textures/ingame/recordedgames/pause_normal.png",
+            "imageTLX": "0.000651",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.051432",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePlayChapterActive",
+            "FileName": "textures/ingame/recordedgames/play-chapter_active.png",
+            "imageTLX": "0.052734",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.103516",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePlayChapterHover",
+            "FileName": "textures/ingame/recordedgames/play-chapter_hover.png",
+            "imageTLX": "0.156901",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.207682",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePlayChapterNormal",
+            "FileName": "textures/ingame/recordedgames/play-chapter_normal.png",
+            "imageTLX": "0.208984",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.259766",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePlayChapterDisabled",
+            "FileName": "textures/ingame/recordedgames/play-chapter_disabled.png",
+            "imageTLX": "0.104818",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.155599",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePreviousChapterActive",
+            "FileName": "textures/ingame/recordedgames/previous-chapter_active.png",
+            "imageTLX": "0.261068",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.311849",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePreviousChapterHover",
+            "FileName": "textures/ingame/recordedgames/previous-chapter_hover.png",
+            "imageTLX": "0.365234",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.416016",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePreviousChapterNormal",
+            "FileName": "textures/ingame/recordedgames/previous-chapter_normal.png",
+            "imageTLX": "0.417318",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.468099",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGamePreviousChapterDisabled",
+            "FileName": "textures/ingame/recordedgames/previous-chapter_disabled.png",
+            "imageTLX": "0.000651",
+            "imageTLY": "0.747070",
+            "imageBRX": "0.051432",
+            "imageBRY": "0.823242"
+          },
+          {
+            "RefName": "RecordedGameSpeedupExtraspeedupForwardActive",
+            "FileName": "textures/ingame/recordedgames/speedup-extraspeedup-forward_active.png",
+            "imageTLX": "0.573568",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.624349",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupExtraspeedupForwardHover",
+            "FileName": "textures/ingame/recordedgames/speedup-extraspeedup-forward_hover.png",
+            "imageTLX": "0.677734",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.728516",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupExtraspeedupForwardNormal",
+            "FileName": "textures/ingame/recordedgames/speedup-extraspeedup-forward_normal.png",
+            "imageTLX": "0.729818",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.780599",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupExtraspeedupForwardDisabled",
+            "FileName": "textures/ingame/recordedgames/speedup-extraspeedup-forward_disabled.png",
+            "imageTLX": "0.625651",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.676432",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupForwardActive",
+            "FileName": "textures/ingame/recordedgames/speedup-forward_active.png",
+            "imageTLX": "0.781901",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.832682",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupForwardHover",
+            "FileName": "textures/ingame/recordedgames/speedup-forward_hover.png",
+            "imageTLX": "0.886068",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.936849",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupForwardNormal",
+            "FileName": "textures/ingame/recordedgames/speedup-forward_normal.png",
+            "imageTLX": "0.938151",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.988932",
+            "imageBRY": "0.745117"
+          },
+          {
+            "RefName": "RecordedGameSpeedupForwardDisabled",
+            "FileName": "textures/ingame/recordedgames/speedup-forward_disabled.png",
+            "imageTLX": "0.833984",
+            "imageTLY": "0.668945",
+            "imageBRX": "0.884766",
+            "imageBRY": "0.745117"
+          }
+        ],
+        "DefaultSource": "textures/atlas/HD/recordedgame.dds",
+        "UHDSource": "textures/atlas/UHD/recordedgame.dds",
+        "HDSource": "textures/atlas/HD/recordedgame.dds"
+      }
+    },
+    {
+      "AtlasDef": {
+        "Name": "ingameicons",
+        "MaxWidth": 1232,
+        "MaxHeight": 1384,
+        "Cached": "precached",
+        "Textures": [
+          {
+            "RefName": "IconsMenuTechtreeAztecs",
+            "FileName": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs.png",
+            "imageTLX": "0.844562",
+            "imageTLY": "0.000361",
+            "imageBRX": "0.928166",
+            "imageBRY": "0.074783"
+          },
+          {
+            "RefName": "IconsMenuTechtreeAztecsHover",
+            "FileName": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs_hover.png",
+            "imageTLX": "0.000406",
+            "imageTLY": "0.076228",
+            "imageBRX": "0.084010",
+            "imageBRY": "0.150650"
+          },
+          {
+            "RefName": "IconsMenuTechtreeAztecsPressed",
+            "FileName": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs_pressed.png",
+            "imageTLX": "0.084821",
+            "imageTLY": "0.076228",
+            "imageBRX": "0.168425",
+            "imageBRY": "0.150650"
+          }
+        ],
+        "DefaultSource": "textures/atlas/HD/ingameicons.dds",
+        "UHDSource": "textures/atlas/UHD/ingameicons.dds",
+        "HDSource": "textures/atlas/HD/ingameicons.dds"
+      }
+    }
+  ],
+  "GlobalTextures": []
+}
