@@ -8,13 +8,13 @@ export default async function Home() {
 }
 
 async function loadPanels(): Promise<Panel[]> {
-  const files = (await fs.readdir('./src/json')).filter(
+  const files = (await fs.readdir('./src/widgetui')).filter(
     (file) =>
       file.endsWith('panel.json') && file !== 'techtreepreviewpanel.json',
   )
   const panels = await Promise.all(
     files.map(async (file) => {
-      const data = await fs.readFile(`./src/json/${file}`, 'utf-8')
+      const data = await fs.readFile(`./src/widgetui/${file}`, 'utf-8')
       return JSON.parse(data) as Panel
     }),
   )
