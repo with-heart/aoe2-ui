@@ -8,7 +8,7 @@ import {
   isTechTreeButtonWidget,
 } from '@/widget'
 import { useState } from 'react'
-import { calculatePosition } from './position'
+import { calculatePosition } from '../position'
 
 const DEBUG = false
 

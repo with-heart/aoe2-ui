@@ -1,13 +1,11 @@
+import { PUBLIC_URL } from '@/constants'
+import { loadGameMaterials, loadGamePanels, writeAppMaterials } from '@/fs'
 import { FontMaterial, Material, TextureMaterial } from '@/types/material'
 import { Materials } from '@/types/misc'
 import { Panel } from '@/types/panel'
 import { Widget } from '@/types/widget'
 import * as fs from 'node:fs/promises'
-import { pathToFileURL } from 'node:url'
 import path from 'path'
-
-const JSON_PATH = pathToFileURL('src/json').pathname
-const PUBLIC_PATH = pathToFileURL('public').pathname
 
 run()
 
@@ -17,7 +15,7 @@ async function run() {
 }
 
 async function deleteUnreferencedTextures(materials: Materials) {
-  const filesAndDirectories = await fs.readdir(PUBLIC_PATH, {
+  const filesAndDirectories = await fs.readdir(PUBLIC_URL, {
     recursive: true,
     withFileTypes: true,
     encoding: 'utf-8',
@@ -25,7 +23,7 @@ async function deleteUnreferencedTextures(materials: Materials) {
   const files = filesAndDirectories
     .filter((f) => f.isFile())
     .map((f) => {
-      return path.relative(PUBLIC_PATH, path.join(f.path, f.name))
+      return path.relative(PUBLIC_URL.pathname, path.join(f.path, f.name))
     })
 
   const textures = files.filter(
@@ -48,14 +46,14 @@ async function deleteUnreferencedTextures(materials: Materials) {
   const unreferencedFiles = textures.filter((t) => !referencedFiles.includes(t))
 
   await Promise.allSettled(
-    unreferencedFiles.map((f) => fs.rm(path.join(PUBLIC_PATH, f))),
+    unreferencedFiles.map((f) => fs.rm(path.join(PUBLIC_URL.pathname, f))),
   )
 
   console.log(`Deleted ${unreferencedFiles.length} unreferenced texture files`)
 }
 
 async function cleanupMaterials() {
-  const data = await readMaterials()
+  const data = await loadGameMaterials()
   const references = await getMaterialReferences()
 
   const referencedMaterialDefinitions = findReferencedMaterialDefinitions(
@@ -86,7 +84,7 @@ async function cleanupMaterials() {
     })
   }
 
-  await writeMaterials(materials)
+  await writeAppMaterials(materials)
 
   return materials
 }
@@ -139,24 +137,8 @@ function findReferencedMaterialDefinitions(
   return definitions
 }
 
-async function readMaterials(): Promise<Materials> {
-  const data = await fs.readFile(
-    path.join(JSON_PATH, 'materials.json'),
-    'utf-8',
-  )
-  return JSON.parse(data) as Materials
-}
-
-async function writeMaterials(materials: Materials) {
-  return fs.writeFile(
-    path.join(JSON_PATH, 'materials.json'),
-    JSON.stringify(materials),
-    'utf-8',
-  )
-}
-
 async function getMaterialReferences(): Promise<string[]> {
-  const panels = await getPanels()
+  const panels = await loadGamePanels()
   const materialReferences = new Set<string>(
     (await Promise.all(panels.map(getPanelMaterialReferences))).flat(),
   )
@@ -188,20 +170,6 @@ function getPanelMaterialReferences(panel: Panel): string[] {
       }
     }
   }
-}
-
-async function getPanels() {
-  const files = await fs.readdir(JSON_PATH)
-  const panels: Panel[] = []
-
-  for (const file of files) {
-    if (!file.endsWith('panel.json')) continue
-
-    const panel = await fs.readFile(path.join(JSON_PATH, file), 'utf-8')
-    panels.push(JSON.parse(panel) as Panel)
-  }
-
-  return panels
 }
 
 export function isFontMaterial(material: Material): material is FontMaterial {

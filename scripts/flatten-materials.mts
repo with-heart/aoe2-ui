@@ -1,10 +1,6 @@
+import { APP_MATERIALS_URL, GAME_MATERIALS_URL } from '@/constants'
 import { Materials } from '@/types/misc'
 import * as fs from 'fs/promises'
-import { pathToFileURL } from 'node:url'
-import path from 'path'
-
-const JSON_PATH = pathToFileURL('src/json').pathname
-const MATERIALS_PATH = path.join(JSON_PATH, 'materials.json')
 
 run()
 
@@ -22,7 +18,7 @@ export type CollapsedMaterials = Record<string, Texture | Color>
 
 async function run() {
   const materials = JSON.parse(
-    await fs.readFile(MATERIALS_PATH, 'utf-8'),
+    await fs.readFile(GAME_MATERIALS_URL, 'utf-8'),
   ) as Materials
 
   const collapsedMaterials = materials.Materials.reduce((acc, cur) => {
@@ -65,7 +61,7 @@ async function run() {
   }, {} as CollapsedMaterials)
 
   await fs.writeFile(
-    path.join(JSON_PATH, 'materials.json'),
+    APP_MATERIALS_URL,
     JSON.stringify(collapsedMaterials, null, 2),
   )
 }

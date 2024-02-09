@@ -1,11 +1,8 @@
 import * as fs from 'fs/promises'
 import sizeOf from 'image-size'
 import path from 'path'
-import { pathToFileURL } from 'url'
 import { CollapsedMaterials } from './flatten-materials.mjs'
-
-const PUBLIC_PATH = pathToFileURL('public').pathname
-const MATERIALS_PATH = pathToFileURL('src/json/materials.json').pathname
+import { APP_MATERIALS_URL, PUBLIC_URL } from '@/constants'
 
 interface Texture {
   type: 'texture'
@@ -27,7 +24,7 @@ run()
 
 async function run() {
   const data = JSON.parse(
-    await fs.readFile(MATERIALS_PATH, 'utf-8'),
+    await fs.readFile(APP_MATERIALS_URL, 'utf-8'),
   ) as CollapsedMaterials
 
   const materials: BetterMaterials = {}
@@ -40,7 +37,9 @@ async function run() {
       continue
     }
 
-    const { width, height } = sizeOf(path.join(PUBLIC_PATH, material.filename))
+    const { width, height } = sizeOf(
+      path.join(PUBLIC_URL.pathname, material.filename),
+    )
     materials[key] = {
       ...material,
       width: width!,
@@ -48,5 +47,5 @@ async function run() {
     }
   }
 
-  await fs.writeFile(MATERIALS_PATH, JSON.stringify(materials), 'utf-8')
+  await fs.writeFile(APP_MATERIALS_URL, JSON.stringify(materials), 'utf-8')
 }
