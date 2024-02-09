@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@/*": ["../src/*"]
+    }
+  },
+  "extends": ["../tsconfig.json"],
+  "include": ["**/*.ts", "**/*.mts"]
+}

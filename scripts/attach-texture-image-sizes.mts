@@ -1,8 +1,8 @@
-import path from 'path'
-import sizeOf from 'image-size'
-import { pathToFileURL } from 'url'
 import * as fs from 'fs/promises'
-import { CollapsedMaterials } from './flatten-materials.mts'
+import sizeOf from 'image-size'
+import path from 'path'
+import { pathToFileURL } from 'url'
+import { CollapsedMaterials } from './flatten-materials.mjs'
 
 const PUBLIC_PATH = pathToFileURL('public').pathname
 const MATERIALS_PATH = pathToFileURL('src/json/materials.json').pathname

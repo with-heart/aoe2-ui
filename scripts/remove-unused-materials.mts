@@ -1,10 +1,10 @@
+import { FontMaterial, Material, TextureMaterial } from '@/types/material'
+import { Materials } from '@/types/misc'
+import { Panel } from '@/types/panel'
+import { Widget } from '@/types/widget'
 import * as fs from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
 import path from 'path'
-import { FontMaterial, Material, TextureMaterial } from '../src/types/material'
-import { Materials } from '../src/types/misc'
-import { Panel } from '../src/types/panel'
-import { Widget } from '../src/types/widget'
 
 const JSON_PATH = pathToFileURL('src/json').pathname
 const PUBLIC_PATH = pathToFileURL('public').pathname

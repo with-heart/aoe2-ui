@@ -1,7 +1,7 @@
+import { Materials } from '@/types/misc'
+import * as fs from 'fs/promises'
 import { pathToFileURL } from 'node:url'
 import path from 'path'
-import * as fs from 'fs/promises'
-import { Materials } from '../src/types/misc'
 
 const JSON_PATH = pathToFileURL('src/json').pathname
 const MATERIALS_PATH = path.join(JSON_PATH, 'materials.json')
