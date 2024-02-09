@@ -1,834 +1,1235 @@
 {
   "CivAsiaBottombar": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/bottombar.png"
+    "filename": "textures/ingame/panels/ASIA/bottombar.png",
+    "width": 1920,
+    "height": 73
   },
   "CivAsiaTopbar": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/topbar.png"
+    "filename": "textures/ingame/panels/ASIA/topbar.png",
+    "width": 1920,
+    "height": 54
   },
   "CivAsiaSingleSelectionPanel": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/single-selection-panel.png"
+    "filename": "textures/ingame/panels/ASIA/single-selection-panel.png",
+    "width": 1368,
+    "height": 413
   },
   "CivAsiaRecordPanelTableFull": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/ASIA/record_panel_table_full.png"
+    "filename": "textures/ingame/recordedgames/ASIA/record_panel_table_full.png",
+    "width": 1368,
+    "height": 413
   },
   "CivEmblemArmenians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/armenians.png"
+    "filename": "textures/ingame/emblems/armenians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemAztecs": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/aztecs.png"
+    "filename": "textures/ingame/emblems/aztecs.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBengalis": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/bengalis.png"
+    "filename": "textures/ingame/emblems/bengalis.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBerbers": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/berber.png"
+    "filename": "textures/ingame/emblems/berber.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBohemians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/bohemians.png"
+    "filename": "textures/ingame/emblems/bohemians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBritons": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/britons.png"
+    "filename": "textures/ingame/emblems/britons.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBulgarians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/bulgarians.png"
+    "filename": "textures/ingame/emblems/bulgarians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBurgundians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/burgundians.png"
+    "filename": "textures/ingame/emblems/burgundians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemBurmese": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/burmese.png"
+    "filename": "textures/ingame/emblems/burmese.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemByzantines": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/byzantines.png"
+    "filename": "textures/ingame/emblems/byzantines.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemCelts": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/celts.png"
+    "filename": "textures/ingame/emblems/celts.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemChinese": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/chinese.png"
+    "filename": "textures/ingame/emblems/chinese.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemCumans": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/cumans.png"
+    "filename": "textures/ingame/emblems/cumans.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemDravidians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/dravidians.png"
+    "filename": "textures/ingame/emblems/dravidians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemEthiopians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/ethiopians.png"
+    "filename": "textures/ingame/emblems/ethiopians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemFranks": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/franks.png"
+    "filename": "textures/ingame/emblems/franks.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemGeorgians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/georgians.png"
+    "filename": "textures/ingame/emblems/georgians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemGoths": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/goths.png"
+    "filename": "textures/ingame/emblems/goths.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemGurjaras": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/gurjaras.png"
+    "filename": "textures/ingame/emblems/gurjaras.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemHuns": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/huns.png"
+    "filename": "textures/ingame/emblems/huns.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemIncas": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/incas.png"
+    "filename": "textures/ingame/emblems/incas.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemIndians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/indians.png"
+    "filename": "textures/ingame/emblems/indians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemItalians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/italians.png"
+    "filename": "textures/ingame/emblems/italians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemJapanese": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/japanese.png"
+    "filename": "textures/ingame/emblems/japanese.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemKhmer": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/khmer.png"
+    "filename": "textures/ingame/emblems/khmer.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemKoreans": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/koreans.png"
+    "filename": "textures/ingame/emblems/koreans.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemLithuanians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/lithuanians.png"
+    "filename": "textures/ingame/emblems/lithuanians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemMagyars": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/magyars.png"
+    "filename": "textures/ingame/emblems/magyars.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemMalay": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/malay.png"
+    "filename": "textures/ingame/emblems/malay.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemMalians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/malians.png"
+    "filename": "textures/ingame/emblems/malians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemMayans": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/mayans.png"
+    "filename": "textures/ingame/emblems/mayans.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemMongols": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/mongols.png"
+    "filename": "textures/ingame/emblems/mongols.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemPersians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/persians.png"
+    "filename": "textures/ingame/emblems/persians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemPoles": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/poles.png"
+    "filename": "textures/ingame/emblems/poles.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemPortuguese": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/portuguese.png"
+    "filename": "textures/ingame/emblems/portuguese.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemRomans": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/romans.png"
+    "filename": "textures/ingame/emblems/romans.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemSaracens": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/saracens.png"
+    "filename": "textures/ingame/emblems/saracens.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemSicilians": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/sicilians.png"
+    "filename": "textures/ingame/emblems/sicilians.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemSlavs": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/slavs.png"
+    "filename": "textures/ingame/emblems/slavs.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemSpanish": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/spanish.png"
+    "filename": "textures/ingame/emblems/spanish.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemTatars": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/tatars.png"
+    "filename": "textures/ingame/emblems/tatars.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemTeutons": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/teutons.png"
+    "filename": "textures/ingame/emblems/teutons.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemTurks": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/turks.png"
+    "filename": "textures/ingame/emblems/turks.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemVietnamese": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/vietnamese.png"
+    "filename": "textures/ingame/emblems/vietnamese.png",
+    "width": 450,
+    "height": 280
   },
   "CivEmblemVikings": {
     "type": "texture",
-    "filename": "textures/ingame/emblems/vikings.png"
+    "filename": "textures/ingame/emblems/vikings.png",
+    "width": 450,
+    "height": 280
   },
   "CollapseButtonNormal": {
     "type": "texture",
-    "filename": "textures/ingame/panels/collapse_button_normal_full.png"
+    "filename": "textures/ingame/panels/collapse_button_normal_full.png",
+    "width": 47,
+    "height": 65
   },
   "CollapseButtonHover": {
     "type": "texture",
-    "filename": "textures/ingame/panels/collapse_button_hover_full.png"
+    "filename": "textures/ingame/panels/collapse_button_hover_full.png",
+    "width": 47,
+    "height": 65
   },
   "CollapseButtonActive": {
     "type": "texture",
-    "filename": "textures/ingame/panels/collapse_button_active_full.png"
+    "filename": "textures/ingame/panels/collapse_button_active_full.png",
+    "width": 47,
+    "height": 65
   },
   "ExpandButtonNormal": {
     "type": "texture",
-    "filename": "textures/ingame/panels/expand_button_normal_full.png"
+    "filename": "textures/ingame/panels/expand_button_normal_full.png",
+    "width": 47,
+    "height": 65
   },
   "ExpandButtonHover": {
     "type": "texture",
-    "filename": "textures/ingame/panels/expand_button_hover_full.png"
+    "filename": "textures/ingame/panels/expand_button_hover_full.png",
+    "width": 47,
+    "height": 65
   },
   "ExpandButtonActive": {
     "type": "texture",
-    "filename": "textures/ingame/panels/expand_button_active_full.png"
+    "filename": "textures/ingame/panels/expand_button_active_full.png",
+    "width": 47,
+    "height": 65
   },
-  "FlatColor": {
-    "type": "color",
-    "color": "#ffff"
-  },
+  "FlatColor": { "type": "color", "color": "#ffff" },
   "StatIconsHpRegeneration": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/hpRegen.png"
+    "filename": "textures/ingame/staticons/hpRegen.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsWood": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/wood.png"
+    "filename": "textures/ingame/staticons/wood.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsFood": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/food.png"
+    "filename": "textures/ingame/staticons/food.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsStone": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/stone.png"
+    "filename": "textures/ingame/staticons/stone.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsGold": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/gold.png"
+    "filename": "textures/ingame/staticons/gold.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsGarrison": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/garrison.png"
+    "filename": "textures/ingame/staticons/garrison.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsTransport": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/transport.png"
+    "filename": "textures/ingame/staticons/transport.png",
+    "width": 69,
+    "height": 66
   },
   "StatIconsRange": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/range.png"
+    "filename": "textures/ingame/staticons/range.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsDamage": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/damage.png"
+    "filename": "textures/ingame/staticons/damage.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsArmor": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/armor.png"
+    "filename": "textures/ingame/staticons/armor.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsHp": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/hp.png"
+    "filename": "textures/ingame/staticons/hp.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsConvert": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/convert.png"
+    "filename": "textures/ingame/staticons/convert.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsRange-Armor": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/range-armor.png"
+    "filename": "textures/ingame/staticons/range-armor.png",
+    "width": 69,
+    "height": 66
   },
   "StatIconsReloadTime": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/reloadtime.png"
+    "filename": "textures/ingame/staticons/reloadtime.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsMovementSpeed": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/movementSpeed.png"
+    "filename": "textures/ingame/staticons/movementSpeed.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsWorkrate": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/workrate.png"
+    "filename": "textures/ingame/staticons/workrate.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsBlastRadius": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/blastRadius.png"
+    "filename": "textures/ingame/staticons/blastRadius.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsPierceAttack": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/pierceAttack.png"
+    "filename": "textures/ingame/staticons/pierceAttack.png",
+    "width": 66,
+    "height": 66
   },
   "StatIconsPowerUp": {
     "type": "texture",
-    "filename": "textures/ingame/staticons/powerup.png"
+    "filename": "textures/ingame/staticons/powerup.png",
+    "width": 66,
+    "height": 66
   },
   "CtrlGroupBorder": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ctrlgrp_border.png"
+    "filename": "textures/ingame/panels/ctrlgrp_border.png",
+    "width": 53,
+    "height": 53
   },
   "CtrlGroupBorderHover": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ctrlgrp_border.png"
+    "filename": "textures/ingame/panels/ctrlgrp_border.png",
+    "width": 53,
+    "height": 53
   },
   "CtrlGroupBorderActive": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ctrlgrp_border.png"
+    "filename": "textures/ingame/panels/ctrlgrp_border.png",
+    "width": 53,
+    "height": 53
   },
   "CivAsiaCommandPanelCollapsed": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/command-panel_collapsed.png"
+    "filename": "textures/ingame/panels/ASIA/command-panel_collapsed.png",
+    "width": 660,
+    "height": 413
   },
   "CivAsiaCommandPanelExtended": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/command-panel_extended.png"
+    "filename": "textures/ingame/panels/ASIA/command-panel_extended.png",
+    "width": 660,
+    "height": 413
   },
   "ButtonCmdIconDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/icon_overlay_disabled.png"
+    "filename": "textures/ingame/icons/icon_overlay_disabled.png",
+    "width": 80,
+    "height": 80
   },
   "ButtonCmdIconNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/icon_overlay_normal.png"
+    "filename": "textures/ingame/icons/icon_overlay_normal.png",
+    "width": 80,
+    "height": 80
   },
   "ButtonCmdIconHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/icon_overlay_hover.png"
+    "filename": "textures/ingame/icons/icon_overlay_hover.png",
+    "width": 80,
+    "height": 80
   },
   "ButtonCmdIconActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/icon_overlay_active.png"
+    "filename": "textures/ingame/icons/icon_overlay_active.png",
+    "width": 80,
+    "height": 80
   },
   "MinimapFilterAllNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_filter_all_normal.png"
+    "filename": "textures/ingame/icons/minimap_filter_all_normal.png",
+    "width": 69,
+    "height": 69
   },
   "MinimapFilterAllHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_filter_all_hover.png"
+    "filename": "textures/ingame/icons/minimap_filter_all_hover.png",
+    "width": 69,
+    "height": 69
   },
   "MinimapFilterAllActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_filter_all_active.png"
+    "filename": "textures/ingame/icons/minimap_filter_all_active.png",
+    "width": 69,
+    "height": 69
   },
   "DropDownLeftValueDisabled": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_left_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_left_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownLeftValueNormal": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_left_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_left_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownLeftValueHover": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_left_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_left_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownMidValueDisabled": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_center_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_center_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownMidValueNormal": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_center_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_center_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownMidValueHover": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_center_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_center_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownRightValueDisabled": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_right_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_right_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownRightValueNormal": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_right_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_right_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownRightValueHover": {
     "type": "texture",
-    "filename": "textures/menu/dropdowns/dropdown_right_4k_normal.png"
+    "filename": "textures/menu/dropdowns/dropdown_right_4k_normal.png",
+    "width": 22,
+    "height": 45
   },
   "DropDownButtonClosedDisabled": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_normal.png"
+    "filename": "textures/menu/buttons/down_arrow_normal.png",
+    "width": 35,
+    "height": 28
   },
   "DropDownButtonClosedNormal": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_normal.png"
+    "filename": "textures/menu/buttons/down_arrow_normal.png",
+    "width": 35,
+    "height": 28
   },
   "DropDownButtonClosedHover": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_hover.png"
+    "filename": "textures/menu/buttons/down_arrow_hover.png",
+    "width": 35,
+    "height": 28
   },
   "DropDownButtonClosedPressed": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_active.png"
+    "filename": "textures/menu/buttons/down_arrow_active.png",
+    "width": 35,
+    "height": 28
   },
   "DropDownButtonOpenNormal": {
     "type": "texture",
-    "filename": "textures/menu/buttons/up_arrow_normal.png"
+    "filename": "textures/menu/buttons/up_arrow_normal.png",
+    "width": 35,
+    "height": 28
   },
   "DropDownButtonOpenHover": {
     "type": "texture",
-    "filename": "textures/menu/buttons/up_arrow_hover.png"
+    "filename": "textures/menu/buttons/up_arrow_hover.png",
+    "width": 35,
+    "height": 28
   },
   "DropDownButtonOpenPressed": {
     "type": "texture",
-    "filename": "textures/menu/buttons/up_arrow_active.png"
+    "filename": "textures/menu/buttons/up_arrow_active.png",
+    "width": 35,
+    "height": 28
   },
   "ListBoxTL": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_tl_4k.png"
+    "filename": "textures/menu/listboxes/listbox_tl_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxTC": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_tc_4k.png"
+    "filename": "textures/menu/listboxes/listbox_tc_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxTR": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_tr_4k.png"
+    "filename": "textures/menu/listboxes/listbox_tr_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxCL": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_cl_4k.png"
+    "filename": "textures/menu/listboxes/listbox_cl_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxCC": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_c_4k.png"
+    "filename": "textures/menu/listboxes/listbox_c_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxCR": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_cr_4k.png"
+    "filename": "textures/menu/listboxes/listbox_cr_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxBL": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_bl_4k.png"
+    "filename": "textures/menu/listboxes/listbox_bl_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxBC": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_bc_4k.png"
+    "filename": "textures/menu/listboxes/listbox_bc_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ListBoxBR": {
     "type": "texture",
-    "filename": "textures/menu/listboxes/listbox_br_4k.png"
+    "filename": "textures/menu/listboxes/listbox_br_4k.png",
+    "width": 22,
+    "height": 22
   },
   "ScrollBarBackground": {
     "type": "texture",
-    "filename": "textures/menu/scrollbars/scrollbar.png"
+    "filename": "textures/menu/scrollbars/scrollbar.png",
+    "width": 5,
+    "height": 15
   },
   "ScrollBarUpArrowNormal": {
     "type": "texture",
-    "filename": "textures/menu/buttons/up_arrow_normal.png"
+    "filename": "textures/menu/buttons/up_arrow_normal.png",
+    "width": 35,
+    "height": 28
   },
   "ScrollBarUpArrowHover": {
     "type": "texture",
-    "filename": "textures/menu/buttons/up_arrow_hover.png"
+    "filename": "textures/menu/buttons/up_arrow_hover.png",
+    "width": 35,
+    "height": 28
   },
   "ScrollBarUpArrowPressed": {
     "type": "texture",
-    "filename": "textures/menu/buttons/up_arrow_active.png"
+    "filename": "textures/menu/buttons/up_arrow_active.png",
+    "width": 35,
+    "height": 28
   },
   "ScrollBarDownArrowNormal": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_normal.png"
+    "filename": "textures/menu/buttons/down_arrow_normal.png",
+    "width": 35,
+    "height": 28
   },
   "ScrollBarDownArrowHover": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_hover.png"
+    "filename": "textures/menu/buttons/down_arrow_hover.png",
+    "width": 35,
+    "height": 28
   },
   "ScrollBarDownArrowPressed": {
     "type": "texture",
-    "filename": "textures/menu/buttons/down_arrow_active.png"
+    "filename": "textures/menu/buttons/down_arrow_active.png",
+    "width": 35,
+    "height": 28
   },
   "ScrollBarHandleNormal": {
     "type": "texture",
-    "filename": "textures/menu/scrollbars/scrollbar_normal.png"
+    "filename": "textures/menu/scrollbars/scrollbar_normal.png",
+    "width": 43,
+    "height": 43
   },
   "RecordedGameCheckboxCheckedNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/checkbox_checked_normal.png"
+    "filename": "textures/ingame/recordedgames/checkbox_checked_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameCheckboxCheckedHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/checkbox_checked_hover.png"
+    "filename": "textures/ingame/recordedgames/checkbox_checked_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameCheckboxUncheckedNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/checkbox_unchecked_normal.png"
+    "filename": "textures/ingame/recordedgames/checkbox_unchecked_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameCheckboxUncheckedHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/checkbox_unchecked_hover.png"
+    "filename": "textures/ingame/recordedgames/checkbox_unchecked_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePreviousChapterDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/previous-chapter_disabled.png"
+    "filename": "textures/ingame/recordedgames/previous-chapter_disabled.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePreviousChapterNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/previous-chapter_normal.png"
+    "filename": "textures/ingame/recordedgames/previous-chapter_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePreviousChapterHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/previous-chapter_hover.png"
+    "filename": "textures/ingame/recordedgames/previous-chapter_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePreviousChapterActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/previous-chapter_active.png"
+    "filename": "textures/ingame/recordedgames/previous-chapter_active.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameNextChapterDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/next-chapter_disabled.png"
+    "filename": "textures/ingame/recordedgames/next-chapter_disabled.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameNextChapterNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/next-chapter_normal.png"
+    "filename": "textures/ingame/recordedgames/next-chapter_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameNextChapterHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/next-chapter_hover.png"
+    "filename": "textures/ingame/recordedgames/next-chapter_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameNextChapterActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/next-chapter_active.png"
+    "filename": "textures/ingame/recordedgames/next-chapter_active.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePauseNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/pause_normal.png"
+    "filename": "textures/ingame/recordedgames/pause_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePauseHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/pause_hover.png"
+    "filename": "textures/ingame/recordedgames/pause_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePauseActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/pause_active.png"
+    "filename": "textures/ingame/recordedgames/pause_active.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePlayChapterDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/play-chapter_disabled.png"
+    "filename": "textures/ingame/recordedgames/play-chapter_disabled.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePlayChapterNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/play-chapter_normal.png"
+    "filename": "textures/ingame/recordedgames/play-chapter_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePlayChapterHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/play-chapter_hover.png"
+    "filename": "textures/ingame/recordedgames/play-chapter_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGamePlayChapterActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/play-chapter_active.png"
+    "filename": "textures/ingame/recordedgames/play-chapter_active.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameDefaultSpeedNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/default-speed_normal.png"
+    "filename": "textures/ingame/recordedgames/default-speed_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameDefaultSpeedHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/default-speed_hover.png"
+    "filename": "textures/ingame/recordedgames/default-speed_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameDefaultSpeedActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/default-speed_active.png"
+    "filename": "textures/ingame/recordedgames/default-speed_active.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupForwardDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-forward_disabled.png"
+    "filename": "textures/ingame/recordedgames/speedup-forward_disabled.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupForwardNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-forward_normal.png"
+    "filename": "textures/ingame/recordedgames/speedup-forward_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupForwardHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-forward_hover.png"
+    "filename": "textures/ingame/recordedgames/speedup-forward_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupForwardActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-forward_active.png"
+    "filename": "textures/ingame/recordedgames/speedup-forward_active.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupExtraspeedupForwardDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_disabled.png"
+    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_disabled.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupExtraspeedupForwardNormal": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_normal.png"
+    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_normal.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupExtraspeedupForwardHover": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_hover.png"
+    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_hover.png",
+    "width": 40,
+    "height": 40
   },
   "RecordedGameSpeedupExtraspeedupForwardActive": {
     "type": "texture",
-    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_active.png"
+    "filename": "textures/ingame/recordedgames/speedup-extraspeedup-forward_active.png",
+    "width": 40,
+    "height": 40
   },
   "CivAsiaMapPanel": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/map-panel.png"
+    "filename": "textures/ingame/panels/ASIA/map-panel.png",
+    "width": 860,
+    "height": 413
   },
   "MinimapFlareDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_flare_disabled.png"
+    "filename": "textures/ingame/icons/minimap_flare_disabled.png",
+    "width": 74,
+    "height": 74
   },
   "MinimapFlareNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_flare_normal.png"
+    "filename": "textures/ingame/icons/minimap_flare_normal.png",
+    "width": 74,
+    "height": 74
   },
   "MinimapFlareHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_flare_hover.png"
+    "filename": "textures/ingame/icons/minimap_flare_hover.png",
+    "width": 74,
+    "height": 74
   },
   "MinimapFlareActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_flare_active.png"
+    "filename": "textures/ingame/icons/minimap_flare_active.png",
+    "width": 74,
+    "height": 74
   },
   "MinimapPlayerStatsNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_playerstats_normal.png"
+    "filename": "textures/ingame/icons/minimap_playerstats_normal.png",
+    "width": 67,
+    "height": 67
   },
   "MinimapPlayerStatsHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_playerstats_hover.png"
+    "filename": "textures/ingame/icons/minimap_playerstats_hover.png",
+    "width": 67,
+    "height": 67
   },
   "MinimapPlayerStatsActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_playerstats_active.png"
+    "filename": "textures/ingame/icons/minimap_playerstats_active.png",
+    "width": 67,
+    "height": 67
   },
   "MinimapFilterEconomyNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_filter_economy_normal.png"
+    "filename": "textures/ingame/icons/minimap_filter_economy_normal.png",
+    "width": 69,
+    "height": 69
   },
   "MinimapFilterEconomyHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_filter_economy_hover.png"
+    "filename": "textures/ingame/icons/minimap_filter_economy_hover.png",
+    "width": 69,
+    "height": 69
   },
   "MinimapFilterEconomyActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/minimap_filter_economy_active.png"
+    "filename": "textures/ingame/icons/minimap_filter_economy_active.png",
+    "width": 69,
+    "height": 69
   },
   "CivAsiaMenuPanel": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/menu-panel.png"
+    "filename": "textures/ingame/panels/ASIA/menu-panel.png",
+    "width": 756,
+    "height": 276
   },
   "MenuMenuNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_menu_normal.png"
+    "filename": "textures/ingame/icons/menu_menu_normal.png",
+    "width": 80,
+    "height": 80
   },
   "MenuMenuHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_menu_hover.png"
+    "filename": "textures/ingame/icons/menu_menu_hover.png",
+    "width": 80,
+    "height": 80
   },
   "MenuMenuActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_menu_active.png"
+    "filename": "textures/ingame/icons/menu_menu_active.png",
+    "width": 80,
+    "height": 80
   },
   "MenuMenuDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_menu_disabled.png"
+    "filename": "textures/ingame/icons/menu_menu_disabled.png",
+    "width": 80,
+    "height": 80
   },
   "MenuDiplomacyNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_diplomacy_normal.png"
+    "filename": "textures/ingame/icons/menu_diplomacy_normal.png",
+    "width": 80,
+    "height": 80
   },
   "MenuDiplomacyHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_diplomacy_hover.png"
+    "filename": "textures/ingame/icons/menu_diplomacy_hover.png",
+    "width": 80,
+    "height": 80
   },
   "MenuDiplomacyActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_diplomacy_active.png"
+    "filename": "textures/ingame/icons/menu_diplomacy_active.png",
+    "width": 80,
+    "height": 80
   },
   "MenuDiplomacyDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_diplomacy_disabled.png"
+    "filename": "textures/ingame/icons/menu_diplomacy_disabled.png",
+    "width": 80,
+    "height": 80
   },
   "MenuChatNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_chat_normal.png"
+    "filename": "textures/ingame/icons/menu_chat_normal.png",
+    "width": 80,
+    "height": 80
   },
   "MenuChatHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_chat_hover.png"
+    "filename": "textures/ingame/icons/menu_chat_hover.png",
+    "width": 80,
+    "height": 80
   },
   "MenuChatActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_chat_active.png"
+    "filename": "textures/ingame/icons/menu_chat_active.png",
+    "width": 80,
+    "height": 80
   },
   "MenuChatDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_chat_disabled.png"
+    "filename": "textures/ingame/icons/menu_chat_disabled.png",
+    "width": 80,
+    "height": 80
   },
   "MenuObjectivesNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_objectives_normal.png"
+    "filename": "textures/ingame/icons/menu_objectives_normal.png",
+    "width": 80,
+    "height": 80
   },
   "MenuObjectivesHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_objectives_hover.png"
+    "filename": "textures/ingame/icons/menu_objectives_hover.png",
+    "width": 80,
+    "height": 80
   },
   "MenuObjectivesActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_objectives_active.png"
+    "filename": "textures/ingame/icons/menu_objectives_active.png",
+    "width": 80,
+    "height": 80
   },
   "MenuObjectivesDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_objectives_disabled.png"
+    "filename": "textures/ingame/icons/menu_objectives_disabled.png",
+    "width": 80,
+    "height": 80
   },
   "MenuSettingsNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_settings_normal.png"
+    "filename": "textures/ingame/icons/menu_settings_normal.png",
+    "width": 80,
+    "height": 80
   },
   "MenuSettingsHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_settings_hover.png"
+    "filename": "textures/ingame/icons/menu_settings_hover.png",
+    "width": 80,
+    "height": 80
   },
   "MenuSettingsActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_settings_active.png"
+    "filename": "textures/ingame/icons/menu_settings_active.png",
+    "width": 80,
+    "height": 80
   },
   "MenuSettingsDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/menu_settings_disabled.png"
+    "filename": "textures/ingame/icons/menu_settings_disabled.png",
+    "width": 80,
+    "height": 80
   },
   "IconsMenuTechtreeAztecs": {
     "type": "texture",
-    "filename": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs.png"
+    "filename": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs.png",
+    "width": 104,
+    "height": 104
   },
   "IconsMenuTechtreeAztecsHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs_hover.png"
+    "filename": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs_hover.png",
+    "width": 104,
+    "height": 104
   },
   "IconsMenuTechtreeAztecsPressed": {
     "type": "texture",
-    "filename": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs_pressed.png"
+    "filename": "textures/ingame/icons/civ_techtree_buttons/menu_techtree_aztecs_pressed.png",
+    "width": 104,
+    "height": 104
   },
   "BlackPanel_TL": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_tl_4k.png"
+    "filename": "textures/ingame/panels/npanel_tl_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_TC": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_tc_4k.png"
+    "filename": "textures/ingame/panels/npanel_tc_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_TR": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_tr_4k.png"
+    "filename": "textures/ingame/panels/npanel_tr_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_CL": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_cl_4k.png"
+    "filename": "textures/ingame/panels/npanel_cl_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_CC": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_c_4k.png"
+    "filename": "textures/ingame/panels/npanel_c_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_CR": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_cr_4k.png"
+    "filename": "textures/ingame/panels/npanel_cr_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_BL": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_bl_4k.png"
+    "filename": "textures/ingame/panels/npanel_bl_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_BC": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_bc_4k.png"
+    "filename": "textures/ingame/panels/npanel_bc_4k.png",
+    "width": 22,
+    "height": 22
   },
   "BlackPanel_BR": {
     "type": "texture",
-    "filename": "textures/ingame/panels/npanel_br_4k.png"
+    "filename": "textures/ingame/panels/npanel_br_4k.png",
+    "width": 22,
+    "height": 22
   },
   "CivAsiaResourcePanel": {
     "type": "texture",
-    "filename": "textures/ingame/panels/ASIA/resource-panel.png"
+    "filename": "textures/ingame/panels/ASIA/resource-panel.png",
+    "width": 1750,
+    "height": 276
   },
   "ResourceWood": {
     "type": "texture",
-    "filename": "textures/ingame/icons/resource_wood.png"
+    "filename": "textures/ingame/icons/resource_wood.png",
+    "width": 96,
+    "height": 96
   },
   "ResourceFood": {
     "type": "texture",
-    "filename": "textures/ingame/icons/resource_food.png"
+    "filename": "textures/ingame/icons/resource_food.png",
+    "width": 96,
+    "height": 96
   },
   "ResourceGold": {
     "type": "texture",
-    "filename": "textures/ingame/icons/resource_gold.png"
+    "filename": "textures/ingame/icons/resource_gold.png",
+    "width": 96,
+    "height": 96
   },
   "ResourceStone": {
     "type": "texture",
-    "filename": "textures/ingame/icons/resource_stone.png"
+    "filename": "textures/ingame/icons/resource_stone.png",
+    "width": 96,
+    "height": 96
   },
   "Population": {
     "type": "texture",
-    "filename": "textures/ingame/icons/pop.png"
+    "filename": "textures/ingame/icons/pop.png",
+    "width": 96,
+    "height": 96
   },
-  "FlatColorWithAlpha": {
-    "type": "color",
-    "color": "#ffffffff"
-  },
+  "FlatColorWithAlpha": { "type": "color", "color": "#ffffffff" },
   "IdleVillagerNormal": {
     "type": "texture",
-    "filename": "textures/ingame/icons/idle-villager_normal.png"
+    "filename": "textures/ingame/icons/idle-villager_normal.png",
+    "width": 50,
+    "height": 50
   },
   "IdleVillagerHover": {
     "type": "texture",
-    "filename": "textures/ingame/icons/idle-villager_hover.png"
+    "filename": "textures/ingame/icons/idle-villager_hover.png",
+    "width": 50,
+    "height": 50
   },
   "IdleVillagerActive": {
     "type": "texture",
-    "filename": "textures/ingame/icons/idle-villager_active.png"
+    "filename": "textures/ingame/icons/idle-villager_active.png",
+    "width": 50,
+    "height": 50
   },
   "IdleVillagerDisabled": {
     "type": "texture",
-    "filename": "textures/ingame/icons/idle-villager_disabled.png"
+    "filename": "textures/ingame/icons/idle-villager_disabled.png",
+    "width": 50,
+    "height": 50
   },
   "AgeBar": {
     "type": "texture",
-    "filename": "textures/ingame/panels/loadingbar_full.png"
+    "filename": "textures/ingame/panels/loadingbar_full.png",
+    "width": 284,
+    "height": 38
   },
-  "TransparentColor": {
-    "type": "color",
-    "color": "#ffffff33"
-  },
+  "TransparentColor": { "type": "color", "color": "#ffffff33" },
   "SpectatorsIcon": {
     "type": "texture",
-    "filename": "textures/menu/icons/spectators_icon.png"
+    "filename": "textures/menu/icons/spectators_icon.png",
+    "width": 80,
+    "height": 52
   }
 }
