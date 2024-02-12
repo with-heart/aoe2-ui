@@ -1,15 +1,9 @@
 @import url('./reset.css');
 
-canvas {
-  width: 100%;
-  height: auto;
-  border: 1px solid red;
-}
-
 svg {
   width: 100%;
   aspect-ratio: 1.77777777777;
-  border: 1px solid red;
+  border: 1px solid #555;
 
   * {
     transform-box: fill-box;
