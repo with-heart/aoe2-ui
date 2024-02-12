@@ -67,14 +67,12 @@ export interface AnchorWidget extends WidgetBase {
     yorigin: number
     alignment?: Alignment
   }
-  ChildWidgets?: ChildWidgets<Widget>
   StateMaterials?: StateMaterials<FontMaterial>
 }
 
 export interface BaseWidget extends ViewportWidget {
   Type: 'Base'
 
-  ChildWidgets?: ChildWidgets<Widget>
   Help?: number
   Image?: Image
   StateMaterials?: StateMaterials<TextureMaterial>
@@ -95,7 +93,6 @@ export interface ButtonWidget extends ViewportWidget {
   Help?: number
   HotKey?: HotKey
   Radius?: number
-  StateMaterials?: StateMaterials<FontMaterial | TextureMaterial>
   TextAnchor?: Alignment
 }
 
@@ -127,7 +124,6 @@ export interface CommandButtonWidget extends ViewportWidget {
 
   ChildWidgets: []
   Help?: number
-  StateMaterials?: StateMaterials<FontMaterial | TextureMaterial>
 }
 
 export interface DropDownWidget extends ViewportWidget {
@@ -159,7 +155,7 @@ export interface ListBoxWidget extends ViewportWidget {
   'FIXME-IDS'?: number
   Help: number
   ListBox: ListBox
-  StateMaterials: StateMaterials<FontMaterial | TextureMaterial>
+  StateMaterials: StateMaterials<Material>
 }
 
 export interface MapViewWidget extends ViewportWidget {
