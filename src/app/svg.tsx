@@ -8,7 +8,7 @@ import {
   isTechTreeButtonWidget,
 } from '@/widget'
 import { useState } from 'react'
-import { calculatePosition } from '../position'
+import { calculateViewport } from '../viewport'
 
 const DEBUG = false
 
@@ -35,7 +35,7 @@ const Widget = ({ widget, depth = 1 }: { widget: Widget; depth?: number }) => {
     return null
   }
 
-  const { x, y } = calculatePosition(widget.ViewPort)
+  const { x, y } = calculateViewport(widget.ViewPort)
   const fill = `#${555 + depth * 2 * 111}`
 
   return (
@@ -63,7 +63,7 @@ const Widget = ({ widget, depth = 1 }: { widget: Widget; depth?: number }) => {
 }
 
 const Panel = ({ panel }: { panel: Panel }) => {
-  const { x, y } = calculatePosition(panel.Collection.ViewPort)
+  const { x, y } = calculateViewport(panel.Collection.ViewPort)
 
   return (
     <svg
@@ -87,7 +87,7 @@ export function Svg({ panels }: { panels: Panel[] }) {
       ))}
       {DEBUG &&
         panels.map((panel) => {
-          const { x, y } = calculatePosition(panel.Collection.ViewPort)
+          const { x, y } = calculateViewport(panel.Collection.ViewPort)
 
           return (
             <>
