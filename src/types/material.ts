@@ -29,4 +29,10 @@ export interface FontMaterial {
 
 export type Material = TextureMaterial | FontMaterial
 
-export type StateMaterials<T extends Material> = Record<string, T | number>
+export type UserStates<T extends Material> = {
+  UserStates: number
+} & Record<`UserState${number}`, T>
+
+export type StatusStates<T extends Material> = Record<`State${string}`, T>
+
+export type StateMaterials<T extends Material> = UserStates<T> | StatusStates<T>

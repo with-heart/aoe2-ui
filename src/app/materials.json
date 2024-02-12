@@ -1,4 +1,66 @@
 {
+  "Null": {
+    "type": "color",
+    "color": "#ffffffff"
+  },
+  "BlackPanel_TL": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_tl_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_TC": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_tc_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_TR": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_tr_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_CL": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_cl_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_CC": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_c_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_CR": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_cr_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_BL": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_bl_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_BC": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_bc_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "BlackPanel_BR": {
+    "type": "texture",
+    "filename": "textures/ingame/panels/npanel_br_4k.png",
+    "width": 22,
+    "height": 22
+  },
+  "FlatColor": {
+    "type": "color",
+    "color": "#ffff"
+  },
   "CivAsiaBottombar": {
     "type": "texture",
     "filename": "textures/ingame/panels/ASIA/bottombar.png",
@@ -329,7 +391,6 @@
     "width": 47,
     "height": 65
   },
-  "FlatColor": { "type": "color", "color": "#ffff" },
   "StatIconsHpRegeneration": {
     "type": "texture",
     "filename": "textures/ingame/staticons/hpRegen.png",
@@ -1104,60 +1165,6 @@
     "width": 104,
     "height": 104
   },
-  "BlackPanel_TL": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_tl_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_TC": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_tc_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_TR": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_tr_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_CL": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_cl_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_CC": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_c_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_CR": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_cr_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_BL": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_bl_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_BC": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_bc_4k.png",
-    "width": 22,
-    "height": 22
-  },
-  "BlackPanel_BR": {
-    "type": "texture",
-    "filename": "textures/ingame/panels/npanel_br_4k.png",
-    "width": 22,
-    "height": 22
-  },
   "CivAsiaResourcePanel": {
     "type": "texture",
     "filename": "textures/ingame/panels/ASIA/resource-panel.png",
@@ -1194,7 +1201,10 @@
     "width": 96,
     "height": 96
   },
-  "FlatColorWithAlpha": { "type": "color", "color": "#ffffffff" },
+  "FlatColorWithAlpha": {
+    "type": "color",
+    "color": "#ffffffff"
+  },
   "IdleVillagerNormal": {
     "type": "texture",
     "filename": "textures/ingame/icons/idle-villager_normal.png",
@@ -1225,7 +1235,10 @@
     "width": 284,
     "height": 38
   },
-  "TransparentColor": { "type": "color", "color": "#ffffff33" },
+  "TransparentColor": {
+    "type": "color",
+    "color": "#ffffff33"
+  },
   "SpectatorsIcon": {
     "type": "texture",
     "filename": "textures/menu/icons/spectators_icon.png",

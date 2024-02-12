@@ -1,13 +1,13 @@
-import type { PathLike } from 'fs'
-import * as fs from 'fs/promises'
-import path from 'path'
-import { Materials } from './types/misc'
-import { Panel } from './types/panel'
+import type { PathLike } from 'node:fs'
+import * as fs from 'node:fs/promises'
+import path from 'node:path'
 import {
   APP_MATERIALS_URL,
   GAME_MATERIALS_URL,
   WIDGETUI_URL,
 } from './constants'
+import { Materials } from './types/misc'
+import { Panel } from './types/panel'
 
 export async function readJSONFile<T>(path: PathLike): Promise<T> {
   const data = await fs.readFile(path, 'utf-8')
@@ -15,7 +15,7 @@ export async function readJSONFile<T>(path: PathLike): Promise<T> {
 }
 
 export async function writeJSONFile(path: PathLike, data: unknown) {
-  return fs.writeFile(path, JSON.stringify(data), 'utf-8')
+  return fs.writeFile(path, JSON.stringify(data, null, 2), 'utf-8')
 }
 
 export async function readJSONFiles<T>(
