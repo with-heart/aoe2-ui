@@ -1,4 +1,4 @@
-import { Viewport } from '@/types/screen'
+import { Viewport } from 'widgetui'
 
 /**
  * Calculates the top left `x` and `y` positions of a given `Viewport`. Useful

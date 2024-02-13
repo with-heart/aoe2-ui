@@ -1,0 +1,25 @@
+{
+  "name": "widgetui",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/widgetui.cjs.js",
+  "module": "dist/widgetui.esm.js",
+  "exports": {
+    ".": {
+      "module": "./dist/widgetui.esm.js",
+      "default": "./dist/widgetui.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "package.json",
+    "dist",
+    "textures"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.3",
+    "typescript": "^5"
+  }
+}

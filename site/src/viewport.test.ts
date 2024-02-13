@@ -1,4 +1,4 @@
-import { Viewport } from '@/types/screen'
+import { Viewport } from 'widgetui'
 import { describe, expect, test } from 'vitest'
 import { calculateViewport } from './viewport'
 

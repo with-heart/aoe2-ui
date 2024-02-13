@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "moduleResolution": "Node",
     "noEmit": true,
     "paths": {
       "@/*": ["../src/*"]

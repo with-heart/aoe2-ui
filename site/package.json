@@ -1,0 +1,31 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .next",
+    "predev": "pnpm scripts:copy-textures",
+    "dev": "next dev",
+    "prebuild": "pnpm scripts:copy-textures",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest",
+    "scripts:copy-textures": "./scripts/copy-textures.ts",
+    "scripts:process-materials": "./scripts/process-materials.ts"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "widgetui": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "image-size": "^1.1.1",
+    "typescript": "^5"
+  }
+}

@@ -1,26 +1,29 @@
+#!/usr/bin/env tsx
+
 import { PUBLIC_URL } from '@/constants'
-import { loadGameMaterials, loadGamePanels, writeAppMaterials } from '@/fs'
+import { writeAppMaterials } from '@/fs'
 import { AppMaterials } from '@/types/app'
-import { Material, TextureMaterial } from '@/types/material'
-import { Materials } from '@/types/misc'
-import { Widget } from '@/types/widget'
 import { readdir, rm } from 'fs/promises'
 import sizeOf from 'image-size'
 import path from 'path'
+import {
+  materials,
+  panels,
+  type Material,
+  type TextureMaterial,
+  type Widget,
+} from 'widgetui'
 
 run()
 
 async function run() {
-  console.log('Loading widgetui/materials.json...')
-  const materials = await loadGameMaterials()
-
   console.group('Getting materials referenced by game panels...')
-  const referencedMaterials = await getReferencedMaterials(materials)
+  const referencedMaterials = await getReferencedMaterials()
   console.log(`Found ${referencedMaterials.length} referenced materials`)
   console.groupEnd()
 
   console.group('Flattening materials...')
-  const appMaterials = await flattenMaterials(materials, referencedMaterials)
+  const appMaterials = await flattenMaterials(referencedMaterials)
   console.log(
     `Flattened ${Object.keys(appMaterials).length} materials to app format (${
       Object.values(appMaterials).filter((m) => m.type === 'color').length
@@ -40,8 +43,7 @@ async function run() {
   console.groupEnd()
 }
 
-async function getReferencedMaterials(materials: Materials) {
-  const panels = await loadGamePanels()
+async function getReferencedMaterials() {
   const refs = new Set<string>()
 
   for (const panel of panels) {
@@ -92,10 +94,7 @@ async function getReferencedMaterials(materials: Materials) {
   }
 }
 
-async function flattenMaterials(
-  materials: Materials,
-  referencedMaterials: string[],
-) {
+async function flattenMaterials(referencedMaterials: string[]) {
   const appMaterials: AppMaterials = {}
 
   for (const ref of referencedMaterials) {

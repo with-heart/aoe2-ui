@@ -21,6 +21,17 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "../packages/widgetui/src/types/material.ts",
+    "../packages/widgetui/src/types/misc.ts",
+    "../packages/widgetui/src/types/panel.ts",
+    "../packages/widgetui/src/types/screen.ts",
+    "../packages/widgetui/src/types/widget.ts",
+    "../widgetui/src/widget.ts"
+  ],
   "exclude": ["node_modules"]
 }

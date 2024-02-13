@@ -1,13 +1,12 @@
 'use client'
 
-import { Panel } from '@/types/panel'
-import { Widget } from '@/types/widget'
+import { useState } from 'react'
+import type { Panel, Widget } from 'widgetui'
 import {
   isAnchorWidget,
   isMapViewWidget,
   isTechTreeButtonWidget,
-} from '@/widget'
-import { useState } from 'react'
+} from 'widgetui'
 import { calculateViewport } from '../viewport'
 
 const DEBUG = false
