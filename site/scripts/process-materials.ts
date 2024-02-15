@@ -1,8 +1,6 @@
-#!/usr/bin/env tsx
-
 import { PUBLIC_URL } from '@/constants'
 import { writeAppMaterials } from '@/fs'
-import { AppMaterials } from '@/types/app'
+import type { AppMaterials } from '@/types/app'
 import { readdir, rm } from 'fs/promises'
 import sizeOf from 'image-size'
 import path from 'path'

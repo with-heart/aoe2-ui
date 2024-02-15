@@ -5,6 +5,6 @@
       "@/*": ["../src/*"]
     }
   },
-  "extends": ["../tsconfig.json"],
+  "extends": ["../../tsconfig.json"],
   "include": ["**/*.ts", "**/*.mts", "../src/**/*.ts"]
 }

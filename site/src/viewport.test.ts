@@ -1,5 +1,5 @@
 import { Viewport } from 'widgetui'
-import { describe, expect, test } from 'vitest'
+import { describe, expect, test } from 'bun:test'
 import { calculateViewport } from './viewport'
 
 describe('calculateViewport', () => {
