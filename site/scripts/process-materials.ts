@@ -1,16 +1,10 @@
 import { PUBLIC_URL } from '@/constants'
 import { writeAppMaterials } from '@/fs'
-import type { AppMaterials } from '@/types/app'
+import type { Materials } from '@/types'
 import { readdir, rm } from 'fs/promises'
 import sizeOf from 'image-size'
 import path from 'path'
-import {
-  materials,
-  panels,
-  type Material,
-  type TextureMaterial,
-  type Widget,
-} from 'widgetui'
+import { Widget, materials, panels } from 'widgetui'
 
 run()
 
@@ -55,28 +49,30 @@ async function getReferencedMaterials() {
   function visitWidget(widget: Widget) {
     if (widget.StateMaterials) {
       for (const [key, material] of Object.entries(widget.StateMaterials)) {
-        if (isTextureMaterial(material)) {
-          switch (material.Material) {
-            // expand "CivEmblem" material to include all civilization emblems
-            case 'CivEmblem': {
-              const civEmblems = materials.Materials.filter((m) =>
-                m.MaterialDef.Name.startsWith('CivEmblem'),
-              ).map((m) => m.MaterialDef.Name)
+        if (typeof material === 'number') {
+          continue
+        }
 
-              for (const emblem of civEmblems) {
-                refs.add(emblem)
-              }
+        switch (material.Material) {
+          // expand "CivEmblem" material to include all civilization emblems
+          case 'CivEmblem': {
+            const civEmblems = materials.Materials.filter((m) =>
+              m.MaterialDef.Name.startsWith('CivEmblem'),
+            ).map((m) => m.MaterialDef.Name)
 
-              break
+            for (const emblem of civEmblems) {
+              refs.add(emblem)
             }
-            // report "None" materials
-            case 'None': {
-              warn(
-                `Widget ${widget.Name} has "None" material for state "${key}"`,
-              )
-              break
-            }
-            default: {
+
+            break
+          }
+          // report "None" materials
+          case 'None': {
+            warn(`Widget ${widget.Name} has "None" material for state "${key}"`)
+            break
+          }
+          default: {
+            if (material.Material) {
               refs.add(material.Material)
             }
           }
@@ -93,7 +89,7 @@ async function getReferencedMaterials() {
 }
 
 async function flattenMaterials(referencedMaterials: string[]) {
-  const appMaterials: AppMaterials = {}
+  const appMaterials: Materials = {}
 
   for (const ref of referencedMaterials) {
     const materialDef = materials.Materials.find(
@@ -164,15 +160,6 @@ async function flattenMaterials(referencedMaterials: string[]) {
   return appMaterials
 }
 
-function isTextureMaterial(
-  material: Material | number,
-): material is TextureMaterial {
-  return (
-    typeof material !== 'number' &&
-    (material as TextureMaterial).Material !== undefined
-  )
-}
-
 function toHex({
   r,
   g,
@@ -191,7 +178,7 @@ function toHex({
   }
 }
 
-async function deleteUnusedTextures(materials: AppMaterials) {
+async function deleteUnusedTextures(materials: Materials) {
   const textureFilenames = Array.from(
     Object.values(materials).reduce((acc, cur) => {
       if (cur.type === 'texture') {

@@ -11,14 +11,20 @@ import { calculateViewport } from '../viewport'
 
 const DEBUG = false
 
-const Widget = ({ widget, depth = 1 }: { widget: Widget; depth?: number }) => {
+const WidgetSvg = ({
+  widget,
+  depth = 1,
+}: {
+  widget: Widget
+  depth?: number
+}) => {
   const [isHovered, setIsHovered] = useState(false)
 
   if (isAnchorWidget(widget)) {
     return (
       <svg x={widget.Anchor.xorigin} y={widget.Anchor.yorigin}>
         {widget.ChildWidgets?.map((child, i) => (
-          <Widget key={i} widget={child.Widget} depth={depth} />
+          <WidgetSvg key={i} widget={child.Widget} depth={depth} />
         ))}
       </svg>
     )
@@ -55,13 +61,13 @@ const Widget = ({ widget, depth = 1 }: { widget: Widget; depth?: number }) => {
       />
 
       {widget.ChildWidgets?.map((child, i) => (
-        <Widget key={i} widget={child.Widget} depth={depth + 1} />
+        <WidgetSvg key={i} widget={child.Widget} depth={depth + 1} />
       ))}
     </svg>
   )
 }
 
-const Panel = ({ panel }: { panel: Panel }) => {
+const PanelSvg = ({ panel }: { panel: Panel }) => {
   const { x, y } = calculateViewport(panel.Collection.ViewPort)
 
   return (
@@ -72,7 +78,7 @@ const Panel = ({ panel }: { panel: Panel }) => {
       height={panel.Collection.ViewPort.height}
     >
       {panel.Collection.Widgets.map((widget, i) => (
-        <Widget key={i} widget={widget.Widget} />
+        <WidgetSvg key={i} widget={widget.Widget} />
       ))}
     </svg>
   )
@@ -82,7 +88,7 @@ export function Svg({ panels }: { panels: Panel[] }) {
   return (
     <svg viewBox="0 0 3840 2160">
       {panels.map((panel) => (
-        <Panel key={panel.Collection.Name} panel={panel} />
+        <PanelSvg key={panel.Collection.Name} panel={panel} />
       ))}
       {DEBUG &&
         panels.map((panel) => {

@@ -1,9 +1,9 @@
-import { Viewport } from 'widgetui'
 import { describe, expect, test } from 'bun:test'
+import { ViewPort } from 'widgetui'
 import { calculateViewport } from './viewport'
 
 describe('calculateViewport', () => {
-  const viewport: Omit<Viewport, 'alignment'> = {
+  const viewport: Omit<ViewPort, 'alignment'> = {
     xorigin: 250,
     yorigin: 300,
     width: 50,

@@ -1,4 +1,5 @@
+import * as S from '@effect/schema/Schema'
 import materialsJSON from './json/materials.json'
-import { Materials } from './types/misc'
+import { Materials } from './schema'
 
-export const materials = materialsJSON as Materials
+export const materials = S.decodeUnknownSync(Materials)(materialsJSON)

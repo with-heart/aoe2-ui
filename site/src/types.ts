@@ -10,4 +10,4 @@ export interface Color {
   color: string
 }
 
-export type AppMaterials = Record<string, Texture | Color>
+export type Materials = Record<string, Texture | Color>

@@ -1,3 +1,4 @@
+import * as S from '@effect/schema/Schema'
 import {
   AnchorWidget,
   BaseWidget,
@@ -16,85 +17,38 @@ import {
   SurroundWidget,
   TechTreeButtonWidget,
   TextBoxWidget,
-  Widget,
-} from './types/widget'
+} from './schema'
 
-export function isAnchorWidget(widget: Widget): widget is AnchorWidget {
-  return widget.Type === 'Anchor'
-}
+export const isAnchorWidget = S.is(AnchorWidget)
 
-export function isBaseWidget(widget: Widget): widget is BaseWidget {
-  return widget.Type === 'Base'
-}
+export const isBaseWidget = S.is(BaseWidget)
 
-export function isButtonWidget(widget: Widget): widget is ButtonWidget {
-  return widget.Type === 'Button'
-}
+export const isButtonWidget = S.is(ButtonWidget)
 
-export function isCheckBoxWidget(widget: Widget): widget is CheckBoxWidget {
-  return widget.Type === 'CheckBox'
-}
+export const isCheckBoxWidget = S.is(CheckBoxWidget)
 
-export function isClipAreaWidget(widget: Widget): widget is ClipAreaWidget {
-  return widget.Type === 'ClipArea'
-}
+export const isClipAreaWidget = S.is(ClipAreaWidget)
 
-export function isCommandButtonWidget(
-  widget: Widget,
-): widget is CommandButtonWidget {
-  return widget.Type === 'CommandButton'
-}
+export const isCommandButtonWidget = S.is(CommandButtonWidget)
 
-export function isDropDownWidget(widget: Widget): widget is DropDownWidget {
-  return widget.Type === 'DropDown'
-}
+export const isDropDownWidget = S.is(DropDownWidget)
 
-export function isLabelWidget(widget: Widget): widget is LabelWidget {
-  return widget.Type === 'Label'
-}
+export const isLabelWidget = S.is(LabelWidget)
 
-export function isListBoxWidget(widget: Widget): widget is ListBoxWidget {
-  return widget.Type === 'ListBox'
-}
+export const isListBoxWidget = S.is(ListBoxWidget)
 
-export function isMapViewWidget(widget: Widget): widget is MapViewWidget {
-  return widget.Type === 'MapView'
-}
+export const isMapViewWidget = S.is(MapViewWidget)
 
-export function isMarkUpTextBoxWidget(
-  widget: Widget,
-): widget is MarkUpTextBoxWidget {
-  return widget.Type === 'MarkUpTextBox'
-}
+export const isMarkUpTextBoxWidget = S.is(MarkUpTextBoxWidget)
 
-export function isMultiColorTextBoxWidget(
-  widget: Widget,
-): widget is MultiColorTextBoxWidget {
-  return widget.Type === 'MultiColorTextBox'
-}
+export const isMultiColorTextBoxWidget = S.is(MultiColorTextBoxWidget)
 
-export function isProgressBarWidget(
-  widget: Widget,
-): widget is ProgressBarWidget {
-  return widget.Type === 'ProgressBar'
-}
+export const isProgressBarWidget = S.is(ProgressBarWidget)
 
-export function isScrollBarVerticalWidget(
-  widget: Widget,
-): widget is ScrollBarVerticalWidget {
-  return widget.Type === 'ScrollBarVertical'
-}
+export const isScrollBarVerticalWidget = S.is(ScrollBarVerticalWidget)
 
-export function isSurroundWidget(widget: Widget): widget is SurroundWidget {
-  return widget.Type === 'Surround'
-}
+export const isSurroundWidget = S.is(SurroundWidget)
 
-export function isTechTreeButtonWidget(
-  widget: Widget,
-): widget is TechTreeButtonWidget {
-  return widget.Type === 'TechTreeButton'
-}
+export const isTechTreeButtonWidget = S.is(TechTreeButtonWidget)
 
-export function isTextBoxWidget(widget: Widget): widget is TextBoxWidget {
-  return widget.Type === 'TextBox'
-}
+export const isTextBoxWidget = S.is(TextBoxWidget)

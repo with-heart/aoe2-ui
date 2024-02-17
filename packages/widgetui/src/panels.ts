@@ -1,8 +1,9 @@
+import * as S from '@effect/schema/Schema'
+import gameMessagePanel from './json/GameMsgPanel.json'
+import gameNotificationPanel from './json/GameNotificationPanel.json'
 import blankBottomPanel from './json/blankbottompanel.json'
 import blankTopPanel from './json/blanktoppanel.json'
 import commandPanel from './json/commandpanel.json'
-import gameMessagePanel from './json/GameMsgPanel.json'
-import gameNotificationPanel from './json/GameNotificationPanel.json'
 import mapPanel from './json/mappanel.json'
 import menuPanel from './json/menupanel.json'
 import notificationPanel from './json/notificationpanel.json'
@@ -10,7 +11,7 @@ import resourcePanel from './json/resourcepanel.json'
 import scorePanel from './json/scorepanel.json'
 import technologyProgressPanel from './json/technologyprogresspanel.json'
 import worldTimerPanel from './json/worldtimerpanel.json'
-import type { Panel } from './types/panel'
+import { Panel } from './schema'
 
 export const panels = [
   blankBottomPanel,
@@ -25,4 +26,4 @@ export const panels = [
   scorePanel,
   technologyProgressPanel,
   worldTimerPanel,
-] as Panel[]
+].map((panel) => S.decodeUnknownSync(Panel)(panel))
