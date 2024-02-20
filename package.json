@@ -19,7 +19,8 @@
     "@preconstruct/cli": "^2.8.3",
     "@types/bun": "^1.0.5",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "prettier-plugin-organize-imports": "^3.2.4"
   },
   "workspaces": [
     "site",
