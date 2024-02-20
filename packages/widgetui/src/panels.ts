@@ -11,7 +11,7 @@ import resourcePanel from './json/resourcepanel.json'
 import scorePanel from './json/scorepanel.json'
 import technologyProgressPanel from './json/technologyprogresspanel.json'
 import worldTimerPanel from './json/worldtimerpanel.json'
-import { Panel } from './schema'
+import { Panel } from 'schema'
 
 export const panels = [
   blankBottomPanel,

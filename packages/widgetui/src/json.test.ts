@@ -13,7 +13,7 @@ import resourcepanel from './json/resourcepanel.json'
 import scorepanel from './json/scorepanel.json'
 import technologyprogresspanel from './json/technologyprogresspanel.json'
 import worldtimerpanel from './json/worldtimerpanel.json'
-import { Materials, Panel } from './schema'
+import { Materials, Panel } from '../../schema/src/schema'
 
 const decodePanel = S.decodeUnknownSync(Panel, { onExcessProperty: 'error' })
 

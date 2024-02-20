@@ -4,7 +4,8 @@ import type { Materials } from '@/types'
 import { readdir, rm } from 'fs/promises'
 import sizeOf from 'image-size'
 import path from 'path'
-import { Widget, materials, panels } from 'widgetui'
+import { materials, panels } from 'widgetui'
+import type { Widget } from 'schema'
 
 run()
 

@@ -1,11 +1,4 @@
 {
-  // "extends": [
-  //   "@tsconfig/node20/tsconfig.json",
-  //   "@tsconfig/strictest/tsconfig.json"
-  // ],
-  // "compilerOptions": {
-  //   "resolveJsonModule": true
-  // },
   "extends": ["../../tsconfig.json"],
-  "include": ["src", "json"]
+  "include": ["src", "json", "../schema/src/test-utils.ts"]
 }
