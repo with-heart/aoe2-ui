@@ -13,8 +13,7 @@
   },
   "files": [
     "package.json",
-    "dist",
-    "textures"
+    "dist"
   ],
   "dependencies": {
     "@effect/schema": "^0.62.7",
