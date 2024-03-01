@@ -1,7 +1,0 @@
-{
-  "name": "scripts",
-  "private": true,
-  "scripts": {
-    "dev": "bun run dev.ts"
-  }
-}

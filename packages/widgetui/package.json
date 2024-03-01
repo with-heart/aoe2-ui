@@ -2,11 +2,11 @@
   "name": "widgetui",
   "version": "0.0.0",
   "license": "MIT",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
   "files": [
     "package.json",
-    "dist"
+    "src"
   ],
   "dependencies": {
     "@effect/schema": "^0.62.7",

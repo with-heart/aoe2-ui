@@ -4,7 +4,6 @@
   "author": "with-heart <with.heart@pm.me>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "bun --cwd=scripts dev",
     "dev": "bun site dev",
     "build": "preconstruct build && bun site run build",
     "type-check": "manypkg exec tsc --noEmit",
