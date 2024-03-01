@@ -2,15 +2,6 @@
   "name": "import",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/import.cjs.js",
-  "module": "dist/import.esm.js",
-  "exports": {
-    ".": {
-      "module": "./dist/import.esm.js",
-      "default": "./dist/import.cjs.js"
-    },
-    "./package.json": "./package.json"
-  },
   "scripts": {
     "import": "tsx src/index.ts",
     "watch": "tsx --watch src/index.ts"

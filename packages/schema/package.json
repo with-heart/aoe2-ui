@@ -2,15 +2,8 @@
   "name": "schema",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "dist/schema.cjs.js",
-  "module": "dist/schema.esm.js",
-  "exports": {
-    ".": {
-      "module": "./dist/schema.esm.js",
-      "default": "./dist/schema.cjs.js"
-    },
-    "./package.json": "./package.json"
-  },
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "package.json",
     "dist"

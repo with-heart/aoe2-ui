@@ -2,15 +2,8 @@
   "name": "widgetui",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "dist/widgetui.cjs.js",
-  "module": "dist/widgetui.esm.js",
-  "exports": {
-    ".": {
-      "module": "./dist/widgetui.esm.js",
-      "default": "./dist/widgetui.cjs.js"
-    },
-    "./package.json": "./package.json"
-  },
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "package.json",
     "dist"
