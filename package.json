@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "bun site dev",
     "build": "preconstruct build && bun site run build",
+    "import": "bun --cwd=packages/import run import",
     "type-check": "manypkg exec tsc --noEmit",
     "site": "bun --cwd=site",
     "widgetui": "bun --cwd=packages/widget-ui"
