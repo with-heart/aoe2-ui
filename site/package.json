@@ -5,15 +5,10 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf .next",
-    "predev": "bun run pre",
     "dev": "next dev",
-    "prebuild": "bun run pre",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "pre": "bun run scripts:copy-textures",
-    "scripts:copy-textures": "bun --bun run scripts/copy-textures.ts",
-    "scripts:process-materials": "bun --bun run scripts/process-materials.ts"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.1.0",

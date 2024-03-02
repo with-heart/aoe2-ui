@@ -1,4 +1,4 @@
-import { ViewPort } from 'widgetui'
+import { ViewPort } from 'schema'
 
 /**
  * Calculates the top left `x` and `y` positions of a given `Viewport`. Useful

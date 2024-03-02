@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import { ViewPort } from 'widgetui'
+import { ViewPort } from 'schema'
 import { calculateViewport } from './viewport'
 
 describe('calculateViewport', () => {
