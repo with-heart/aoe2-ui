@@ -1,8 +1,4 @@
 {
-  "extends": [
-    "@tsconfig/node20/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json",
-    "@tsconfig/esm/tsconfig.json"
-  ],
+  "extends": ["../../tsconfig.json"],
   "include": ["src/**/*.ts"]
 }

@@ -3,19 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "import": "tsx src/index.ts",
-    "watch": "tsx --watch src/index.ts"
+    "import": "bun run src/index.ts",
+    "watch": "bun run --watch src/index.ts"
   },
   "dependencies": {
     "@effect/schema": "^0.62.7",
     "schema": "workspace:*"
   },
   "devDependencies": {
-    "@tsconfig/esm": "^1.0.5",
-    "@tsconfig/node20": "^20.1.2",
-    "@tsconfig/strictest": "^2.0.3",
-    "@types/node": "^20.11.20",
-    "tsx": "^4.7.1",
     "typescript": "^5"
   }
 }

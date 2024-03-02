@@ -10,7 +10,7 @@ import {
   WIDGETUI_JSON_URL,
 } from './constants'
 import { decodeFile } from './fs'
-import { pathname, relativeFrom, relativeFromRoot } from './path'
+import { relativeFromRoot } from './path'
 
 export async function copyFiles(dir: string): Promise<void> {
   console.info('Decoding files...')
@@ -46,58 +46,39 @@ export async function copyFiles(dir: string): Promise<void> {
 
 export async function copyTextures(dir: string): Promise<void> {
   const texturesDir = path.join(dir, 'textures')
-  const relativeFromTextures = relativeFrom(texturesDir)
 
   const filesAndDirectories = await fs.readdir(texturesDir, {
     recursive: true,
     withFileTypes: true,
   })
 
-  const files = filesAndDirectories.filter((f) => {
-    const relativePath = relativeFromTextures(pathname(f))
-    return (
+  const files = filesAndDirectories.filter(
+    (f) =>
       f.isFile() &&
       path.extname(f.name) === '.png' &&
-      !IGNORED_DIRECTORIES.some((d) => relativePath.startsWith(d))
-    )
-  })
-  const directories = filesAndDirectories.filter((d) => {
-    const relativePath = relativeFromTextures(pathname(d))
-    return (
-      d.isDirectory() &&
-      !IGNORED_DIRECTORIES.some((d) => relativePath.startsWith(d)) &&
-      files.some((f) => f.path.startsWith(pathname(d)))
-    )
-  })
-
-  console.info('Creating directories...')
-  await fs.rm(SITE_TEXTURES_URL, { recursive: true })
-  await Promise.all(
-    directories.map((d) =>
-      fs.mkdir(new URL(relativeFromTextures(pathname(d)), SITE_TEXTURES_URL), {
-        recursive: true,
-      }),
-    ),
+      !IGNORED_DIRECTORIES.some((d) => f.name.startsWith(d)),
   )
 
-  console.info('Copying files...')
   await Promise.all(
     files.map((f) => {
-      const source = pathname(f)
-      const relativePath = relativeFromTextures(source)
-      const destination = new URL(relativePath, SITE_TEXTURES_URL)
-      return fs.cp(source, destination.pathname)
+      const destination = new URL(f.name, SITE_TEXTURES_URL)
+      return Bun.write(
+        destination.pathname,
+        Bun.file(path.join(texturesDir, f.name)),
+      )
     }),
   )
 
   console.info(
-    `Copied ${files.length} files in ${directories.length} directories (${formatBytes(await toSize(files))})`,
+    `Copied ${files.length} files (${formatBytes(await toSize(texturesDir, files))})`,
   )
 }
 
-async function toSize(dirent: Dirent[]): Promise<number> {
+async function toSize(dir: string, dirent: Dirent[]): Promise<number> {
   const stats = await Promise.all(
-    dirent.filter((d) => d.isFile()).map(async (f) => fs.stat(pathname(f))),
+    dirent
+      .filter((d) => d.isFile())
+      .map(async (f) => fs.stat(path.join(dir, f.name))),
   )
   const sizes = stats.map((s) => s.size)
   const total = sizes.reduce((acc, size) => acc + size, 0)
