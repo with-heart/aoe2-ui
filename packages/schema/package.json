@@ -8,12 +8,12 @@
     "package.json",
     "src"
   ],
-  "dependencies": {
-    "@effect/schema": "^0.62.7"
-  },
   "devDependencies": {
     "fast-check": "^3.15.1",
     "typescript": "^5",
     "widgetui": "workspace:*"
+  },
+  "peerDependencies": {
+    "@effect/schema": "^0.63.2"
   }
 }
