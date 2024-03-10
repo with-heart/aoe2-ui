@@ -4,6 +4,7 @@
   "author": "with-heart <with.heart@pm.me>",
   "license": "MIT",
   "scripts": {
+    "postinstall": "preconstruct dev",
     "build": "preconstruct build && bun site run build",
     "dev": "bun site dev",
     "import": "bun --cwd=packages/import run import",
@@ -12,13 +13,22 @@
     "widgetui": "bun --cwd=packages/widget-ui"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
     "@changesets/cli": "^2.27.1",
     "@manypkg/cli": "^0.21.2",
+    "@preconstruct/cli": "^2.8.3",
     "@types/bun": "^1.0.8",
     "eslint": "^8",
     "eslint-config-next": "^14.1.0",
     "prettier-plugin-organize-imports": "^3.2.4",
     "syncpack": "^12.3.0"
+  },
+  "preconstruct": {
+    "exports": true,
+    "packages": [
+      "packages/*"
+    ]
   },
   "workspaces": [
     "packages/*",

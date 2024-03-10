@@ -2,6 +2,15 @@
   "name": "import",
   "private": true,
   "version": "0.0.0",
+  "main": "dist/import.cjs.js",
+  "module": "dist/import.esm.js",
+  "exports": {
+    ".": {
+      "module": "./dist/import.esm.js",
+      "default": "./dist/import.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "import": "bun run src/index.ts",
     "watch": "bun run --watch src/index.ts"
