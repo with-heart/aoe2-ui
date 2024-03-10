@@ -5,18 +5,13 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "preconstruct dev",
-    "build": "preconstruct build && bun site run build",
-    "dev": "bun site dev",
-    "import": "bun --cwd=packages/import run import",
-    "site": "bun --cwd=site",
-    "type-check": "manypkg exec tsc --noEmit",
-    "widgetui": "bun --cwd=packages/widget-ui"
+    "build": "preconstruct build && pnpm --filter=site run build",
+    "type-check": "pnpm -r exec tsc --noEmit"
   },
   "dependencies": {
     "@babel/preset-env": "^7.24.0",
     "@babel/preset-typescript": "^7.23.3",
     "@changesets/cli": "^2.27.1",
-    "@manypkg/cli": "^0.21.2",
     "@preconstruct/cli": "^2.8.3",
     "@types/bun": "^1.0.8",
     "eslint": "^8",
