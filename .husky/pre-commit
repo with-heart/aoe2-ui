@@ -1,0 +1,3 @@
+pnpm lint-staged
+pnpm exec syncpack fix-mismatches
+pnpm exec syncpack format
