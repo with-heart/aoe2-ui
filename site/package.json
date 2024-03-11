@@ -19,7 +19,6 @@
     "widgetui": "workspace:*"
   },
   "devDependencies": {
-    "@preconstruct/next": "^4.0.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5"

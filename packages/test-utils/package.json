@@ -1,15 +1,14 @@
 {
   "name": "test-utils",
   "private": true,
-  "main": "dist/test-utils.cjs.js",
-  "module": "dist/test-utils.esm.js",
   "exports": {
-    ".": {
-      "module": "./dist/test-utils.esm.js",
-      "default": "./dist/test-utils.cjs.js"
-    },
+    ".": "./src/index.ts",
     "./package.json": "./package.json"
   },
+  "files": [
+    "src",
+    "package.json"
+  ],
   "peerDependencies": {
     "@effect/schema": "^0.63.2",
     "fast-check": "^3.15.1"

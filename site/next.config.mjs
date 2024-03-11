@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
-import withPreconstruct from '@preconstruct/next'
 
-const nextConfig = withPreconstruct({})
+const nextConfig = {}
 
 export default nextConfig

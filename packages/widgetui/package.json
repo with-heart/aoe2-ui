@@ -5,16 +5,12 @@
   "main": "dist/widgetui.cjs.js",
   "module": "dist/widgetui.esm.js",
   "exports": {
-    ".": {
-      "module": "./dist/widgetui.esm.js",
-      "default": "./dist/widgetui.cjs.js"
-    },
+    ".": "./src/index.ts",
     "./package.json": "./package.json"
   },
   "files": [
     "package.json",
-    "src",
-    "dist"
+    "src"
   ],
   "dependencies": {
     "schema": "workspace:*"
