@@ -19,6 +19,7 @@
   "devDependencies": {
     "fast-check": "^3.15.1",
     "typescript": "^5",
+    "test-utils": "workspace:*",
     "widgetui": "workspace:*"
   },
   "peerDependencies": {

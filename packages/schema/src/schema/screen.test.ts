@@ -1,6 +1,6 @@
 import * as S from '@effect/schema/Schema'
 import { expect, test } from 'bun:test'
-import { one } from '../test-utils'
+import { one } from 'test-utils'
 import {
   Alignment,
   Anchor,

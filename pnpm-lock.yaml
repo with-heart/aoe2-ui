@@ -63,12 +63,24 @@ importers:
       fast-check:
         specifier: ^3.15.1
         version: 3.16.0
+      test-utils:
+        specifier: workspace:*
+        version: link:../test-utils
       typescript:
         specifier: ^5
         version: 5.4.2
       widgetui:
         specifier: workspace:*
         version: link:../widgetui
+
+  packages/test-utils:
+    dependencies:
+      '@effect/schema':
+        specifier: ^0.63.2
+        version: 0.63.2(effect@2.4.1)(fast-check@3.16.0)
+      fast-check:
+        specifier: ^3.15.1
+        version: 3.16.0
 
   packages/widgetui:
     dependencies:

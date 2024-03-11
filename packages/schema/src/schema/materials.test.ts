@@ -1,6 +1,6 @@
 import * as S from '@effect/schema/Schema'
 import { expect, test } from 'bun:test'
-import { many, one } from '../test-utils'
+import { many, one } from 'test-utils'
 import { Color } from './color'
 import {
   AtlasDef,
