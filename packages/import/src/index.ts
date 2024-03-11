@@ -3,7 +3,7 @@ import { copyFiles, copyTextures } from './copy'
 import { assertDirectoryStructure } from './fs'
 import { relativeFromRoot } from './path'
 
-run(process.argv[2])
+run(process.env['AOE2_DIR'] ?? process.argv[2])
 
 async function run(dir?: string) {
   if (!dir) {
