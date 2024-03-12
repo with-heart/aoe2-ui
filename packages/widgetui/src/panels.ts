@@ -1,5 +1,4 @@
 import * as S from '@effect/schema/Schema'
-import { Panel } from 'schema'
 import gameMessagePanel from '../json/GameMsgPanel.json'
 import gameNotificationPanel from '../json/GameNotificationPanel.json'
 import blankBottomPanel from '../json/blankbottompanel.json'
@@ -12,6 +11,7 @@ import resourcePanel from '../json/resourcepanel.json'
 import scorePanel from '../json/scorepanel.json'
 import technologyProgressPanel from '../json/technologyprogresspanel.json'
 import worldTimerPanel from '../json/worldtimerpanel.json'
+import { Panel } from './schema'
 
 export const panels = [
   blankBottomPanel,

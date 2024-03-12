@@ -1,7 +1,7 @@
 import type { Dirent } from 'fs'
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
-import { Materials, Panel } from 'schema'
+import { Materials, Panel } from 'widgetui/schema'
 import {
   IGNORED_DIRECTORIES,
   MATERIALS_FILE,

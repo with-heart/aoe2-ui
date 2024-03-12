@@ -7,7 +7,7 @@ import {
   isTechTreeButtonWidget,
   type Panel,
   type Widget,
-} from 'schema'
+} from 'widgetui/schema'
 import { calculateViewport } from '../viewport'
 
 const DEBUG = false

@@ -37,32 +37,13 @@ importers:
       '@effect/schema':
         specifier: ^0.63.2
         version: 0.63.2(effect@2.4.1)(fast-check@3.16.0)
-      schema:
-        specifier: workspace:*
-        version: link:../schema
-    devDependencies:
-      typescript:
-        specifier: ^5
-        version: 5.4.2
-
-  packages/schema:
-    dependencies:
-      '@effect/schema':
-        specifier: ^0.63.2
-        version: 0.63.2(effect@2.4.1)(fast-check@3.16.0)
-    devDependencies:
-      fast-check:
-        specifier: ^3.15.1
-        version: 3.16.0
-      test-utils:
-        specifier: workspace:*
-        version: link:../test-utils
-      typescript:
-        specifier: ^5
-        version: 5.4.2
       widgetui:
         specifier: workspace:*
         version: link:../widgetui
+    devDependencies:
+      typescript:
+        specifier: ^5
+        version: 5.4.2
 
   packages/test-utils:
     dependencies:
@@ -78,13 +59,13 @@ importers:
       '@effect/schema':
         specifier: ^0.63.2
         version: 0.63.2(effect@2.4.1)(fast-check@3.16.0)
-      schema:
-        specifier: workspace:*
-        version: link:../schema
     devDependencies:
       fast-check:
         specifier: ^3.15.1
         version: 3.16.0
+      test-utils:
+        specifier: workspace:*
+        version: link:../test-utils
       typescript:
         specifier: ^5
         version: 5.4.2
@@ -103,9 +84,6 @@ importers:
       react-dom:
         specifier: ~18.2.0
         version: 18.2.0(react@18.2.0)
-      schema:
-        specifier: workspace:*
-        version: link:../packages/schema
       widgetui:
         specifier: workspace:*
         version: link:../packages/widgetui

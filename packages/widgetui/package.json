@@ -6,17 +6,16 @@
   "module": "dist/widgetui.esm.js",
   "exports": {
     ".": "./src/index.ts",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./schema": "./src/schema/index.ts"
   },
   "files": [
     "package.json",
     "src"
   ],
-  "dependencies": {
-    "schema": "workspace:*"
-  },
   "devDependencies": {
     "fast-check": "^3.15.1",
+    "test-utils": "workspace:*",
     "typescript": "^5"
   },
   "peerDependencies": {

@@ -1,6 +1,5 @@
 import * as S from '@effect/schema/Schema'
 import { expect, test } from 'bun:test'
-import { Materials, Panel } from 'schema'
 import gamemsgpanel from '../json/GameMsgPanel.json'
 import gamenotificationpanel from '../json/GameNotificationPanel.json'
 import blankbottompanel from '../json/blankbottompanel.json'
@@ -14,6 +13,7 @@ import resourcepanel from '../json/resourcepanel.json'
 import scorepanel from '../json/scorepanel.json'
 import technologyprogresspanel from '../json/technologyprogresspanel.json'
 import worldtimerpanel from '../json/worldtimerpanel.json'
+import { Materials, Panel } from './schema'
 
 const decodePanel = S.decodeUnknownSync(Panel, { onExcessProperty: 'error' })
 

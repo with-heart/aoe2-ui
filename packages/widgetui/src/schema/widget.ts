@@ -93,6 +93,8 @@ export const AnchorWidget = WidgetBase.pipe(
 
 export type AnchorWidget = S.Schema.To<typeof AnchorWidget>
 
+export const isAnchorWidget = S.is(AnchorWidget)
+
 export const BaseWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -105,6 +107,8 @@ export const BaseWidget = ViewportWidget.pipe(
 )
 
 export type BaseWidget = S.Schema.To<typeof BaseWidget>
+
+export const isBaseWidget = S.is(BaseWidget)
 
 export const ButtonWidget = ViewportWidget.pipe(
   S.extend(
@@ -124,6 +128,8 @@ export const ButtonWidget = ViewportWidget.pipe(
 
 export type ButtonWidget = S.Schema.To<typeof ButtonWidget>
 
+export const isButtonWidget = S.is(ButtonWidget)
+
 export const CheckBoxWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -136,6 +142,8 @@ export const CheckBoxWidget = ViewportWidget.pipe(
 
 export type CheckBoxWidget = S.Schema.To<typeof CheckBoxWidget>
 
+export const isCheckBoxWidget = S.is(CheckBoxWidget)
+
 export const ClipAreaWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -147,6 +155,8 @@ export const ClipAreaWidget = ViewportWidget.pipe(
 
 export type ClipAreaWidget = S.Schema.To<typeof ClipAreaWidget>
 
+export const isClipAreaWidget = S.is(ClipAreaWidget)
+
 export const CommandButtonWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -157,6 +167,8 @@ export const CommandButtonWidget = ViewportWidget.pipe(
 )
 
 export type CommandButtonWidget = S.Schema.To<typeof CommandButtonWidget>
+
+export const isCommandButtonWidget = S.is(CommandButtonWidget)
 
 export const DropDownWidget = ViewportWidget.pipe(
   S.extend(
@@ -173,6 +185,8 @@ export const DropDownWidget = ViewportWidget.pipe(
 
 export type DropDownWidget = S.Schema.To<typeof DropDownWidget>
 
+export const isDropDownWidget = S.is(DropDownWidget)
+
 export const LabelWidget = TextWidget.pipe(
   S.extend(
     S.struct({
@@ -188,6 +202,8 @@ export const LabelWidget = TextWidget.pipe(
 
 export type LabelWidget = S.Schema.To<typeof LabelWidget>
 
+export const isLabelWidget = S.is(LabelWidget)
+
 export const ListBoxWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -201,6 +217,8 @@ export const ListBoxWidget = ViewportWidget.pipe(
 
 export type ListBoxWidget = S.Schema.To<typeof ListBoxWidget>
 
+export const isListBoxWidget = S.is(ListBoxWidget)
+
 export const MapViewWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -213,6 +231,8 @@ export const MapViewWidget = ViewportWidget.pipe(
 
 export type MapViewWidget = S.Schema.To<typeof MapViewWidget>
 
+export const isMapViewWidget = S.is(MapViewWidget)
+
 export const MarkUpTextBoxWidget = TextWidget.pipe(
   S.extend(
     S.struct({
@@ -223,6 +243,8 @@ export const MarkUpTextBoxWidget = TextWidget.pipe(
 )
 
 export type MarkUpTextBoxWidget = S.Schema.To<typeof MarkUpTextBoxWidget>
+
+export const isMarkUpTextBoxWidget = S.is(MarkUpTextBoxWidget)
 
 export const MultiColorTextBoxWidget = TextWidget.pipe(
   S.extend(
@@ -237,6 +259,8 @@ export type MultiColorTextBoxWidget = S.Schema.To<
   typeof MultiColorTextBoxWidget
 >
 
+export const isMultiColorTextBoxWidget = S.is(MultiColorTextBoxWidget)
+
 export const ProgressBarWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -247,6 +271,8 @@ export const ProgressBarWidget = ViewportWidget.pipe(
 )
 
 export type ProgressBarWidget = S.Schema.To<typeof ProgressBarWidget>
+
+export const isProgressBarWidget = S.is(ProgressBarWidget)
 
 export const ScrollBarVerticalWidget = ViewportWidget.pipe(
   S.extend(
@@ -265,6 +291,8 @@ export type ScrollBarVerticalWidget = S.Schema.To<
   typeof ScrollBarVerticalWidget
 >
 
+export const isScrollBarVerticalWidget = S.is(ScrollBarVerticalWidget)
+
 export const SurroundWidget = ViewportWidget.pipe(
   S.extend(
     S.struct({
@@ -275,6 +303,8 @@ export const SurroundWidget = ViewportWidget.pipe(
 )
 
 export type SurroundWidget = S.Schema.To<typeof SurroundWidget>
+
+export const isSurroundWidget = S.is(SurroundWidget)
 
 export const TechTreeButtonWidget = ViewportWidget.pipe(
   S.extend(
@@ -288,6 +318,8 @@ export const TechTreeButtonWidget = ViewportWidget.pipe(
 
 export type TechTreeButtonWidget = S.Schema.To<typeof TechTreeButtonWidget>
 
+export const isTechTreeButtonWidget = S.is(TechTreeButtonWidget)
+
 export const TextBoxWidget = TextWidget.pipe(
   S.extend(
     S.struct({
@@ -298,6 +330,8 @@ export const TextBoxWidget = TextWidget.pipe(
 )
 
 export type TextBoxWidget = S.Schema.To<typeof TextBoxWidget>
+
+export const isTextBoxWidget = S.is(TextBoxWidget)
 
 export const Widget = S.union(
   AnchorWidget,
@@ -320,3 +354,5 @@ export const Widget = S.union(
 )
 
 export type Widget = S.Schema.To<typeof Widget>
+
+export const isWidget = S.is(Widget)

@@ -1,6 +1,6 @@
+import * as S from '@effect/schema/Schema'
 import { expect, test } from 'bun:test'
 import { Color, ColorNumber } from './color'
-import * as S from '@effect/schema/Schema'
 
 test('ColorNumber', () => {
   const is = S.is(ColorNumber)
