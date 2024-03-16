@@ -59,8 +59,12 @@ test('WidgetType', () => {
   expect(is('SomeOtherWidget')).toBeFalse()
 })
 
+const widgetBase: WidgetBase = {
+  Name: 'someWidget',
+}
+
 test('WidgetBase', () => {
-  const valid: WidgetBase = {}
+  const valid: WidgetBase = widgetBase
   const is = S.is(WidgetBase, { onExcessProperty: 'error' })
 
   expect(is(valid)).toBeTrue()
@@ -73,6 +77,7 @@ test('WidgetBase', () => {
 
 test('ViewportWidget', () => {
   const valid: ViewportWidget = {
+    ...widgetBase,
     ViewPort: one(ViewPort),
   }
   const is = S.is(ViewportWidget, { onExcessProperty: 'error' })
@@ -83,6 +88,7 @@ test('ViewportWidget', () => {
 
 test('TextWidget', () => {
   const valid: TextWidget = {
+    ...widgetBase,
     ViewPort: one(ViewPort),
     TextAnchor: one(Alignment),
   }
@@ -94,6 +100,7 @@ test('TextWidget', () => {
 
 test('AnchorWidget', () => {
   const valid: AnchorWidget = {
+    ...widgetBase,
     Type: 'Anchor',
     Anchor: one(Anchor),
   }
@@ -105,6 +112,7 @@ test('AnchorWidget', () => {
 
 test('BaseWidget', () => {
   const valid: BaseWidget = {
+    ...widgetBase,
     Type: 'Base',
     ViewPort: one(ViewPort),
   }
@@ -119,6 +127,7 @@ test('BaseWidget', () => {
 
 test('ButtonWidget', () => {
   const valid: ButtonWidget = {
+    ...widgetBase,
     Type: 'Button',
     ViewPort: one(ViewPort),
   }
@@ -138,6 +147,7 @@ test('ButtonWidget', () => {
 
 test('CheckBoxWidget', () => {
   const valid: CheckBoxWidget = {
+    ...widgetBase,
     Type: 'CheckBox',
     ViewPort: one(ViewPort),
     Help: 1,
@@ -151,6 +161,7 @@ test('CheckBoxWidget', () => {
 
 test('ClipAreaWidget', () => {
   const valid: ClipAreaWidget = {
+    ...widgetBase,
     Type: 'ClipArea',
     ViewPort: one(ViewPort),
     Image: one(Image),
@@ -163,6 +174,7 @@ test('ClipAreaWidget', () => {
 
 test('CommandButtonWidget', () => {
   const valid: CommandButtonWidget = {
+    ...widgetBase,
     Type: 'CommandButton',
     ViewPort: one(ViewPort),
   }
@@ -174,6 +186,7 @@ test('CommandButtonWidget', () => {
 
 test('DropDownWidget', () => {
   const valid: DropDownWidget = {
+    ...widgetBase,
     Type: 'DropDown',
     ViewPort: one(ViewPort),
     AccessibilityName: 'name',
@@ -190,6 +203,7 @@ test('DropDownWidget', () => {
 
 test('LabelWidget', () => {
   const valid: LabelWidget = {
+    ...widgetBase,
     Type: 'Label',
     ViewPort: one(ViewPort),
     TextAnchor: one(Alignment),
@@ -206,6 +220,7 @@ test('LabelWidget', () => {
 
 test('ListBoxWidget', () => {
   const valid: ListBoxWidget = {
+    ...widgetBase,
     Type: 'ListBox',
     ViewPort: one(ViewPort),
     Help: 1,
@@ -220,6 +235,7 @@ test('ListBoxWidget', () => {
 
 test('MapViewWidget', () => {
   const valid: MapViewWidget = {
+    ...widgetBase,
     Type: 'MapView',
     ViewPort: one(ViewPort),
     Help: 1,
@@ -233,6 +249,7 @@ test('MapViewWidget', () => {
 
 test('MarkUpTextBoxWidget', () => {
   const valid: MarkUpTextBoxWidget = {
+    ...widgetBase,
     Type: 'MarkUpTextBox',
     TextAnchor: one(Alignment),
     TextBox: one(TextBox),
@@ -246,6 +263,7 @@ test('MarkUpTextBoxWidget', () => {
 
 test('ProgressBarWidget', () => {
   const valid: ProgressBarWidget = {
+    ...widgetBase,
     Type: 'ProgressBar',
     ViewPort: one(ViewPort),
   }
@@ -258,6 +276,7 @@ test('ProgressBarWidget', () => {
 
 test('ScrollBarVerticalWidget', () => {
   const valid: ScrollBarVerticalWidget = {
+    ...widgetBase,
     Type: 'ScrollBarVertical',
     Bar: one(Box),
     MaxButton: one(Box),
@@ -274,6 +293,7 @@ test('ScrollBarVerticalWidget', () => {
 
 test('TechTreeButtonWidget', () => {
   const valid: TechTreeButtonWidget = {
+    ...widgetBase,
     Type: 'TechTreeButton',
     ViewPort: one(ViewPort),
     IconValues: many(IconValue),
@@ -287,6 +307,7 @@ test('TechTreeButtonWidget', () => {
 
 test('TextBoxWidget', () => {
   const valid: TextBoxWidget = {
+    ...widgetBase,
     Type: 'TextBox',
     TextAnchor: one(Alignment),
     TextBox: one(TextBox),

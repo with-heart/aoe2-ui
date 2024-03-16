@@ -39,7 +39,7 @@ export const WidgetType = S.literal(
 export type WidgetType = S.Schema.To<typeof WidgetType>
 
 export const WidgetBase = S.struct({
-  Name: S.optional(S.string, { exact: true }),
+  Name: S.string,
   show: S.optional(S.boolean, { exact: true }),
   test: S.optional(S.number, { exact: true }),
   ZPlane: S.optional(S.number, { exact: true }),
@@ -69,6 +69,8 @@ export const ViewportWidget = WidgetBase.pipe(
 )
 
 export type ViewportWidget = S.Schema.To<typeof ViewportWidget>
+
+export const isViewportWidget = S.is(ViewportWidget)
 
 export const TextWidget = ViewportWidget.pipe(
   S.extend(
