@@ -12,6 +12,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
     "plugins": [
       {
         "name": "next"
