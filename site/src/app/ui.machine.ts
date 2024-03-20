@@ -1,14 +1,11 @@
 import {
-  Collection,
   Panel,
-  Widget,
   forEachChild,
   isCollection,
   isViewportWidget,
 } from 'widgetui/schema'
 import { ContextFrom, SnapshotFrom, setup } from 'xstate'
-
-export type Element = Collection | Widget
+import { type Element } from './ui.types'
 
 export type UiSnapshot = SnapshotFrom<typeof uiMachine>
 export type UiContext = ContextFrom<typeof uiMachine>
