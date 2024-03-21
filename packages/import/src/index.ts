@@ -2,6 +2,7 @@ import { SITE_TEXTURES_URL } from './constants'
 import { copyFiles, copyTextures } from './copy'
 import { assertDirectoryStructure } from './fs'
 import { relativeFromRoot } from './path'
+import { writeSiteTextures } from './textures'
 
 run(process.env['AOE2_DIR'] ?? process.argv[2])
 
@@ -24,5 +25,9 @@ async function run(dir?: string) {
 
   console.group(`Copying textures to ${relativeFromRoot(SITE_TEXTURES_URL)}...`)
   await copyTextures(dir)
+  console.groupEnd()
+
+  console.group(`Writing condensed site materials.json...`)
+  await writeSiteTextures()
   console.groupEnd()
 }
