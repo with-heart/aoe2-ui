@@ -1,11 +1,13 @@
+import textureByName from '@/textures.json'
+import { Texture, type Element } from '@/types'
 import {
   Panel,
   forEachChild,
   isCollection,
+  isUserStates,
   isViewportWidget,
 } from 'widgetui/schema'
 import { ContextFrom, SnapshotFrom, setup } from 'xstate'
-import { type Element } from './ui.types'
 
 export type UiSnapshot = SnapshotFrom<typeof uiMachine>
 export type UiContext = ContextFrom<typeof uiMachine>
@@ -16,6 +18,7 @@ export const uiMachine = setup({
       isDebug?: boolean
       ids: string[]
       elementById: Map<string, Element>
+      textureByElement: Map<Element, Texture>
       parentByElement: Map<Element, Element | undefined>
     },
     input: {} as {
@@ -23,23 +26,38 @@ export const uiMachine = setup({
     },
   },
 }).createMachine({
-  context: ({ input }) => initializeElementMap(input.panels),
+  context: ({ input }) => {
+    const { elementById, ids, parentByElement, textureByElement } =
+      initializeElementMap(input.panels)
+
+    return {
+      elementById,
+      ids,
+      parentByElement,
+      textureByElement,
+    }
+  },
 })
 
 function initializeElementMap(panels: Panel[]) {
-  const { ids, elementById, parentByElement } = initializeData()
+  const { ids, elementById, parentByElement, idByElement, textureByElement } =
+    initializeData()
   const zById = associateZPlanes()
 
   return {
     ids: ids.toSorted((a, b) => zById.get(a)! - zById.get(b)!),
     elementById,
     parentByElement,
+    idByElement,
+    textureByElement,
   }
 
   function initializeData() {
     const ids: string[] = []
     const parentByElement = new Map<Element, Element>()
     const elementById = new Map<string, Element>()
+    const idByElement = new Map<Element, string>()
+    const textureByElement = new Map<Element, Texture>()
 
     for (const panel of panels) {
       elementById.set(panel.Collection.Name, panel.Collection)
@@ -56,14 +74,25 @@ function initializeElementMap(panels: Panel[]) {
 
           ids.push(id)
           elementById.set(id, widget)
+          idByElement.set(widget, id)
           parentByElement.set(widget, parent)
+
+          if (widget.StateMaterials) {
+            const normalMaterial =
+              isUserStates(widget.StateMaterials) ?
+                widget.StateMaterials['UserState0']?.Material
+              : widget.StateMaterials['StateNormal']?.Material
+            const texture = textureByName[normalMaterial ?? 'invalid']
+
+            if (texture) textureByElement.set(widget, texture)
+          }
 
           forEachChild(widget, (child) => visitWidget(child, id, widget))
         },
       )
     }
 
-    return { ids, parentByElement, elementById }
+    return { ids, parentByElement, elementById, idByElement, textureByElement }
   }
 
   function associateZPlanes() {

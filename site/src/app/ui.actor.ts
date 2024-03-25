@@ -1,3 +1,4 @@
+import { Element } from '@/types'
 import { calculateViewport } from '@/viewport'
 import * as Equivalence from '@effect/schema/Equivalence'
 import * as S from '@effect/schema/Schema'
@@ -8,7 +9,6 @@ import { panels } from 'widgetui'
 import * as WidgetUI from 'widgetui/schema'
 import { createActor } from 'xstate'
 import { UiContext, uiMachine, type UiSnapshot } from './ui.machine'
-import { type Element } from './ui.types'
 
 export const ui = createActor(uiMachine, {
   input: { panels },
@@ -39,13 +39,13 @@ const compareParentByElement = (
   b: UiContext['parentByElement'],
 ) => Equal.equals(Data.struct(a), Data.struct(b))
 
-export const useParentByElement = (element: Element) =>
+export const useParentByElement = () =>
   useSelector(ui, selectParentByElement, compareParentByElement)
 
 export const useViewport = (
   element: Element,
 ): { x: number; y: number; width: number; height: number } | undefined => {
-  const parentByElement = useParentByElement(element)
+  const parentByElement = useParentByElement()
 
   if (WidgetUI.isCollection(element)) {
     return calculateViewport(element.ViewPort)
@@ -80,4 +80,20 @@ export const useViewport = (
   }
 
   return undefined
+}
+
+const selectTextureByElement = (state: UiSnapshot) =>
+  state.context.textureByElement
+const compareTextureByElement = (
+  a: UiContext['textureByElement'],
+  b: UiContext['textureByElement'],
+) => Equal.equals(Data.struct(a), Data.struct(b))
+
+export const useTextureByElement = () =>
+  useSelector(ui, selectTextureByElement, compareTextureByElement)
+
+export const useTexture = (element: Element) => {
+  const textureByElement = useTextureByElement()
+  const texture = textureByElement.get(element)
+  return texture
 }

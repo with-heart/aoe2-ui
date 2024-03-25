@@ -1,16 +1,12 @@
 import { ViewPort } from 'widgetui/schema'
+import { Viewport } from './types'
 
 /**
  * Calculates the top left `x` and `y` positions of a given `Viewport`. Useful
  * for positioning a `Viewport` at the correct location on the screen (since
  * `svg`/`canvas` don't understand alignment).
  */
-export function calculateViewport(viewport: ViewPort): {
-  x: number
-  y: number
-  width: number
-  height: number
-} {
+export function calculateViewport(viewport: ViewPort): Viewport {
   const { x, y } = positionFromAlignment()
 
   return {
