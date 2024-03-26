@@ -1,6 +1,5 @@
-import { panels } from 'widgetui'
-import { Svg } from './svg'
+import { UI } from './ui'
 
 export default async function Home() {
-  return <Svg panels={panels} />
+  return <UI />
 }

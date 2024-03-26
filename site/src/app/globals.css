@@ -1,12 +1,40 @@
 @import url('./reset.css');
 
 svg {
-  width: 100%;
-  aspect-ratio: 1.77777777777;
-  border: 1px solid #555;
+  &#ui {
+    width: 100%;
+    aspect-ratio: var(--ui-width) / var(--ui-height);
+    max-width: calc(var(--ui-width) * 1px);
+    max-height: calc(var(--ui-height) * 1px);
+    border: 1px solid #555;
+  }
 
   * {
     transform-box: fill-box;
     transform-origin: center;
+  }
+
+  .container {
+    fill: none;
+    stroke: white;
+    stroke-width: 0px;
+  }
+
+  .fill {
+    width: 100%;
+    height: 100%;
+  }
+
+  &.debug {
+    .panel {
+      .container {
+        stroke-width: 6px;
+      }
+    }
+    .widget {
+      .container {
+        stroke-width: 3px;
+      }
+    }
   }
 }

@@ -4,6 +4,7 @@
   "author": "with-heart <with.heart@pm.me>",
   "license": "MIT",
   "scripts": {
+    "dev": "pnpm --filter=site run dev",
     "build": "pnpm --filter=site run build",
     "type-check": "pnpm -r exec tsc --noEmit",
     "prepare": "husky"

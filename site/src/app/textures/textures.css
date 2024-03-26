@@ -1,0 +1,15 @@
+img {
+  height: auto;
+}
+
+tbody tr {
+  padding-inline: 0.25rem;
+  padding-block: 0.5rem;
+}
+
+td {
+  &:has(> img) {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,13 +1,15 @@
+import { Collection, Widget } from 'widgetui/schema'
+
+export type Element = Collection | Widget
+
 export interface Texture {
-  type: 'texture'
-  filename: string
-  width: number
-  height: number
+  readonly href: string
+  readonly width: number
+  readonly height: number
 }
-
-export interface Color {
-  type: 'color'
-  color: string
+export interface Viewport {
+  readonly x: number
+  readonly y: number
+  readonly width: number
+  readonly height: number
 }
-
-export type Materials = Record<string, Texture | Color>

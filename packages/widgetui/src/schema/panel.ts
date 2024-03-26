@@ -34,8 +34,12 @@ export const Collection = S.union(CollectionBase, ActionButtonCollection)
 
 export type Collection = S.Schema.To<typeof Collection>
 
+export const isCollection = S.is(Collection)
+
 export const Panel = S.struct({
   Collection,
 })
 
 export type Panel = S.Schema.To<typeof Panel>
+
+export const isPanel = S.is(Panel)

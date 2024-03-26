@@ -70,6 +70,8 @@ export const AtlasMaterialDef = MaterialDefBase.pipe(
 
 export type AtlasMaterialDef = S.Schema.To<typeof AtlasMaterialDef>
 
+export const isAtlasMaterialDef = S.is(AtlasMaterialDef)
+
 export const ColorMaterialDef = MaterialDefBase.pipe(
   S.extend(
     S.struct({
@@ -91,6 +93,8 @@ export const TextureMaterialDef = MaterialDefBase.pipe(
 )
 
 export type TextureMaterialDef = S.Schema.To<typeof TextureMaterialDef>
+
+export const isTextureMaterialDef = S.is(TextureMaterialDef)
 
 export const MaterialDef = S.struct({
   MaterialDef: S.union(AtlasMaterialDef, ColorMaterialDef, TextureMaterialDef),

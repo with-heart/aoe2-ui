@@ -34,12 +34,16 @@ export const UserStates = S.record(S.literal('UserStates'), S.number).pipe(
 
 export type UserStates = S.Schema.To<typeof UserStates>
 
+export const isUserStates = S.is(UserStates)
+
 export const StatusStates = S.record(
   S.templateLiteral(S.literal('State'), S.string),
   Material,
 )
 
 export type StatusStates = S.Schema.To<typeof StatusStates>
+
+export const isStatusStates = S.is(StatusStates)
 
 export const StateMaterials = S.union(UserStates, StatusStates)
 
