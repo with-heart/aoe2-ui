@@ -1,1 +1,47 @@
-{"Collection":{"Name":"BlankBottomPanel","ViewPort":{"width":3840,"height":73,"xorigin":1920,"yorigin":2160,"alignment":"BottomCentre"},"Widgets":[{"Widget":{"Type":"Base","Name":"BlankBottom","ZPlane":0,"ChildWidgets":[],"StateMaterials":{"UserStates":1,"UserState0":{"Material":"CivAsiaBottombar"}},"ViewPort":{"width":3840,"height":73,"xorigin":0,"yorigin":73,"alignment":"BottomLeft"},"Image":{"noclip":true,"width":3840,"height":73,"xorigin":1920,"yorigin":0,"alignment":"TopCentre"},"Wrap":{"width":360,"height":0}}}]}}
+{
+  "Collection": {
+    "Name": "BlankBottomPanel",
+    "ViewPort": {
+      "width": 3840,
+      "height": 73,
+      "xorigin": 1920,
+      "yorigin": 2160,
+      "alignment": "BottomCentre"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "BlankBottom",
+          "ZPlane": 0,
+          "ChildWidgets": [],
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Material": "CivAsiaBottombar"
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 73,
+            "xorigin": 0,
+            "yorigin": 73,
+            "alignment": "BottomLeft"
+          },
+          "Image": {
+            "noclip": true,
+            "width": 3840,
+            "height": 73,
+            "xorigin": 1920,
+            "yorigin": 0,
+            "alignment": "TopCentre"
+          },
+          "Wrap": {
+            "width": 360,
+            "height": 0
+          }
+        }
+      }
+    ]
+  }
+}
