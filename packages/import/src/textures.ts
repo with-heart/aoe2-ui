@@ -43,11 +43,11 @@ export async function writeSiteTextures() {
   }
 
   console.log(
-    `Writing ${Object.keys(record).length} materials to materials.json`,
+    `Writing ${Object.keys(record).length} materials to textures.json`,
   )
   await Bun.write(
     SITE_MATERIALS_JSON_URL.pathname,
-    JSON.stringify(sortKeysAlphabetically(record)),
+    JSON.stringify(sortKeysAlphabetically(record), null, 2),
   )
 }
 
