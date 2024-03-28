@@ -7,7 +7,8 @@
     "dev": "pnpm --filter=site run dev",
     "build": "pnpm --filter=site run build",
     "type-check": "pnpm -r exec tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky",
+    "import": "pnpm --filter=import run import"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1",
