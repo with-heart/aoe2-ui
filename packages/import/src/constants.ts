@@ -23,9 +23,21 @@ export const PANEL_FILES = [
   'worldtimerpanel.json',
 ]
 
+const COLOR_BLINDNESS_DIRECTORIES = [
+  'ingame/icons',
+  'ingame/panels',
+  'menu/icons',
+  'menu/timeline',
+].flatMap(appendColorBlindnessTypes)
+
 export const IGNORED_DIRECTORIES = [
   'backgrounds',
   'campaign',
   'gamemode',
   'menu/usericons',
+  ...COLOR_BLINDNESS_DIRECTORIES,
 ]
+
+function appendColorBlindnessTypes(base: string) {
+  return [`${base}/deuteranopia`, `${base}/protanopia`, `${base}/tritanopia`]
+}
