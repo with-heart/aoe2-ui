@@ -1,1 +1,29 @@
-{"Collection":{"Name":"TechnologyProgressPanel","ViewPort":{"width":3050,"height":500,"xorigin":0,"yorigin":0,"alignment":"TopLeft"},"Widgets":[{"Widget":{"Type":"Base","Name":"Background","ZPlane":1,"ChildWidgets":[],"ViewPort":{"width":3050,"height":150,"xorigin":0,"yorigin":115,"alignment":"TopLeft"}}}]}}
+{
+  "Collection": {
+    "Name": "TechnologyProgressPanel",
+    "ViewPort": {
+      "width": 3050,
+      "height": 500,
+      "xorigin": 0,
+      "yorigin": 0,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ZPlane": 1,
+          "ChildWidgets": [],
+          "ViewPort": {
+            "width": 3050,
+            "height": 150,
+            "xorigin": 0,
+            "yorigin": 115,
+            "alignment": "TopLeft"
+          }
+        }
+      }
+    ]
+  }
+}

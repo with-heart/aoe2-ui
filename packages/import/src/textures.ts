@@ -43,9 +43,12 @@ export async function writeSiteTextures() {
   }
 
   console.log(
-    `Writing ${Object.keys(record).length} materials to materials.json`,
+    `Writing ${Object.keys(record).length} materials to textures.json`,
   )
-  await Bun.write(SITE_MATERIALS_JSON_URL.pathname, JSON.stringify(record))
+  await Bun.write(
+    SITE_MATERIALS_JSON_URL.pathname,
+    JSON.stringify(sortKeysAlphabetically(record), null, 2),
+  )
 }
 
 function mapMaterialNameByTexturePath(): Record<string, string> {
@@ -104,4 +107,10 @@ function mapMaterialNameByTexturePath(): Record<string, string> {
   }
 
   return nameByPath
+}
+
+function sortKeysAlphabetically(obj: Record<string, unknown>) {
+  return Object.fromEntries(
+    Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)),
+  )
 }

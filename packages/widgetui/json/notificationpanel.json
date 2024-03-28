@@ -1,1 +1,272 @@
-{"Collection":{"Name":"NotificationPanel","ViewPort":{"width":640,"height":1000,"xorigin":40,"yorigin":305,"alignment":"TopLeft"},"Widgets":[{"Widget":{"Type":"Surround","Name":"EventBackground","ZPlane":1,"ChildWidgets":[{"Widget":{"Type":"MultiColorTextBox","Name":"TextBox","ChildWidgets":[],"StateMaterials":{"StateTextNormal":{"Font":{"FontIndex":3,"PointSize":40,"TextOutlineWidth":0.05,"Style":"Normal","TextColor":{"r":57,"g":28,"b":27,"a":255},"TextOutlineColor":{"r":0,"g":0,"b":0,"a":1}}}},"ViewPort":{"width":580,"height":230,"xorigin":10,"yorigin":10,"alignment":"TopLeft"},"TextAnchor":"CentreLeft","TextBox":{"drawbox":false,"autoscroll":true,"width":580,"height":230,"xorigin":0,"yorigin":0,"linespacer":1,"linesize":40,"edgespacer":0}}}],"StateMaterials":{"StateTLDisabled":{"Material":"BlackPanel_TL"},"StateTCDisabled":{"Material":"BlackPanel_TC"},"StateTRDisabled":{"Material":"BlackPanel_TR"},"StateCLDisabled":{"Material":"BlackPanel_CL"},"StateCCDisabled":{"Material":"BlackPanel_CC"},"StateCRDisabled":{"Material":"BlackPanel_CR"},"StateBLDisabled":{"Material":"BlackPanel_BL"},"StateBCDisabled":{"Material":"BlackPanel_BC"},"StateBRDisabled":{"Material":"BlackPanel_BR"},"StateTLNormal":{"Material":"BlackPanel_TL"},"StateTCNormal":{"Material":"BlackPanel_TC"},"StateTRNormal":{"Material":"BlackPanel_TR"},"StateCLNormal":{"Material":"BlackPanel_CL"},"StateCCNormal":{"Material":"BlackPanel_CC"},"StateCRNormal":{"Material":"BlackPanel_CR"},"StateBLNormal":{"Material":"BlackPanel_BL"},"StateBCNormal":{"Material":"BlackPanel_BC"},"StateBRNormal":{"Material":"BlackPanel_BR"}},"ViewPort":{"width":600,"height":250,"xorigin":0,"yorigin":0,"alignment":"TopLeft"},"Box":{"drawbox":true,"width":600,"height":250,"xorigin":0,"yorigin":0,"gridstep":32,"alignment":"TopLeft"}}},{"Widget":{"Type":"Surround","Name":"ChatBackground","ZPlane":1,"ChildWidgets":[{"Widget":{"Type":"MultiColorTextBox","Name":"TextBox","ChildWidgets":[],"StateMaterials":{"StateTextNormal":{"Font":{"FontIndex":3,"PointSize":40,"TextOutlineWidth":0.05,"Style":"Normal","TextColor":{"r":57,"g":28,"b":27,"a":255},"TextOutlineColor":{"r":0,"g":0,"b":0,"a":1}}}},"ViewPort":{"width":580,"height":480,"xorigin":10,"yorigin":10,"alignment":"TopLeft"},"TextAnchor":"CentreLeft","TextBox":{"drawbox":false,"autoscroll":true,"width":580,"height":480,"xorigin":0,"yorigin":0,"linespacer":1,"linesize":40,"edgespacer":0}}}],"StateMaterials":{"StateTLDisabled":{"Material":"BlackPanel_TL"},"StateTCDisabled":{"Material":"BlackPanel_TC"},"StateTRDisabled":{"Material":"BlackPanel_TR"},"StateCLDisabled":{"Material":"BlackPanel_CL"},"StateCCDisabled":{"Material":"BlackPanel_CC"},"StateCRDisabled":{"Material":"BlackPanel_CR"},"StateBLDisabled":{"Material":"BlackPanel_BL"},"StateBCDisabled":{"Material":"BlackPanel_BC"},"StateBRDisabled":{"Material":"BlackPanel_BR"},"StateTLNormal":{"Material":"BlackPanel_TL"},"StateTCNormal":{"Material":"BlackPanel_TC"},"StateTRNormal":{"Material":"BlackPanel_TR"},"StateCLNormal":{"Material":"BlackPanel_CL"},"StateCCNormal":{"Material":"BlackPanel_CC"},"StateCRNormal":{"Material":"BlackPanel_CR"},"StateBLNormal":{"Material":"BlackPanel_BL"},"StateBCNormal":{"Material":"BlackPanel_BC"},"StateBRNormal":{"Material":"BlackPanel_BR"}},"ViewPort":{"width":600,"height":500,"xorigin":0,"yorigin":300,"alignment":"TopLeft"},"Box":{"drawbox":true,"width":600,"height":500,"xorigin":0,"yorigin":0,"gridstep":32,"alignment":"TopLeft"}}}]}}
+{
+  "Collection": {
+    "Name": "NotificationPanel",
+    "ViewPort": {
+      "width": 640,
+      "height": 1000,
+      "xorigin": 40,
+      "yorigin": 305,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "EventBackground",
+          "ZPlane": 1,
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "MultiColorTextBox",
+                "Name": "TextBox",
+                "ChildWidgets": [],
+                "StateMaterials": {
+                  "StateTextNormal": {
+                    "Font": {
+                      "FontIndex": 3,
+                      "PointSize": 40,
+                      "TextOutlineWidth": 0.05,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      },
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "ViewPort": {
+                  "width": 580,
+                  "height": 230,
+                  "xorigin": 10,
+                  "yorigin": 10,
+                  "alignment": "TopLeft"
+                },
+                "TextAnchor": "CentreLeft",
+                "TextBox": {
+                  "drawbox": false,
+                  "autoscroll": true,
+                  "width": 580,
+                  "height": 230,
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "linespacer": 1,
+                  "linesize": 40,
+                  "edgespacer": 0
+                }
+              }
+            }
+          ],
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ViewPort": {
+            "width": 600,
+            "height": 250,
+            "xorigin": 0,
+            "yorigin": 0,
+            "alignment": "TopLeft"
+          },
+          "Box": {
+            "drawbox": true,
+            "width": 600,
+            "height": 250,
+            "xorigin": 0,
+            "yorigin": 0,
+            "gridstep": 32,
+            "alignment": "TopLeft"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Surround",
+          "Name": "ChatBackground",
+          "ZPlane": 1,
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "MultiColorTextBox",
+                "Name": "TextBox",
+                "ChildWidgets": [],
+                "StateMaterials": {
+                  "StateTextNormal": {
+                    "Font": {
+                      "FontIndex": 3,
+                      "PointSize": 40,
+                      "TextOutlineWidth": 0.05,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 57,
+                        "g": 28,
+                        "b": 27,
+                        "a": 255
+                      },
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "ViewPort": {
+                  "width": 580,
+                  "height": 480,
+                  "xorigin": 10,
+                  "yorigin": 10,
+                  "alignment": "TopLeft"
+                },
+                "TextAnchor": "CentreLeft",
+                "TextBox": {
+                  "drawbox": false,
+                  "autoscroll": true,
+                  "width": 580,
+                  "height": 480,
+                  "xorigin": 0,
+                  "yorigin": 0,
+                  "linespacer": 1,
+                  "linesize": 40,
+                  "edgespacer": 0
+                }
+              }
+            }
+          ],
+          "StateMaterials": {
+            "StateTLDisabled": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCDisabled": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRDisabled": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLDisabled": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCDisabled": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRDisabled": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLDisabled": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCDisabled": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRDisabled": {
+              "Material": "BlackPanel_BR"
+            },
+            "StateTLNormal": {
+              "Material": "BlackPanel_TL"
+            },
+            "StateTCNormal": {
+              "Material": "BlackPanel_TC"
+            },
+            "StateTRNormal": {
+              "Material": "BlackPanel_TR"
+            },
+            "StateCLNormal": {
+              "Material": "BlackPanel_CL"
+            },
+            "StateCCNormal": {
+              "Material": "BlackPanel_CC"
+            },
+            "StateCRNormal": {
+              "Material": "BlackPanel_CR"
+            },
+            "StateBLNormal": {
+              "Material": "BlackPanel_BL"
+            },
+            "StateBCNormal": {
+              "Material": "BlackPanel_BC"
+            },
+            "StateBRNormal": {
+              "Material": "BlackPanel_BR"
+            }
+          },
+          "ViewPort": {
+            "width": 600,
+            "height": 500,
+            "xorigin": 0,
+            "yorigin": 300,
+            "alignment": "TopLeft"
+          },
+          "Box": {
+            "drawbox": true,
+            "width": 600,
+            "height": 500,
+            "xorigin": 0,
+            "yorigin": 0,
+            "gridstep": 32,
+            "alignment": "TopLeft"
+          }
+        }
+      }
+    ]
+  }
+}

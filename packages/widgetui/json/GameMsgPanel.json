@@ -1,1 +1,239 @@
-{"Collection":{"Name":"GameMsgPanel","ViewPort":{"width":3840,"height":2160,"xorigin":0,"yorigin":0,"alignment":"TopLeft"},"Widgets":[{"Widget":{"Type":"Base","Name":"Background_TopLeft","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":0,"yorigin":0,"alignment":"TopLeft"}}},{"Widget":{"Type":"Base","Name":"Background_TopCentre","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":1920,"yorigin":0,"alignment":"TopCentre"}}},{"Widget":{"Type":"Base","Name":"Background_TopRight","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":3840,"yorigin":0,"alignment":"TopRight"}}},{"Widget":{"Type":"Base","Name":"Background_CentreLeft","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":0,"yorigin":1080,"alignment":"CentreLeft"}}},{"Widget":{"Type":"Base","Name":"Background_CentreCentre","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":1920,"yorigin":1080,"alignment":"CentreCentre"}}},{"Widget":{"Type":"Base","Name":"Background_CentreRight","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":3840,"yorigin":1080,"alignment":"CentreRight"}}},{"Widget":{"Type":"Base","Name":"Background_BottomLeft","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":0,"yorigin":2160,"alignment":"BottomLeft"}}},{"Widget":{"Type":"Base","Name":"Background_BottomCentre","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":1920,"yorigin":2160,"alignment":"BottomCentre"}}},{"Widget":{"Type":"Base","Name":"Background_BottomRight","ZPlane":1,"StateMaterials":{"StateNormal":{"Material":"Null","Color":{"r":0,"g":0,"b":0,"a":0}}},"ViewPort":{"width":3840,"height":2160,"xorigin":3840,"yorigin":2160,"alignment":"BottomRight"}}}]}}
+{
+  "Collection": {
+    "Name": "GameMsgPanel",
+    "ViewPort": {
+      "width": 3840,
+      "height": 2160,
+      "xorigin": 0,
+      "yorigin": 0,
+      "alignment": "TopLeft"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_TopLeft",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 0,
+            "yorigin": 0,
+            "alignment": "TopLeft"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_TopCentre",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 1920,
+            "yorigin": 0,
+            "alignment": "TopCentre"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_TopRight",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 3840,
+            "yorigin": 0,
+            "alignment": "TopRight"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_CentreLeft",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 0,
+            "yorigin": 1080,
+            "alignment": "CentreLeft"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_CentreCentre",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 1920,
+            "yorigin": 1080,
+            "alignment": "CentreCentre"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_CentreRight",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 3840,
+            "yorigin": 1080,
+            "alignment": "CentreRight"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_BottomLeft",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 0,
+            "yorigin": 2160,
+            "alignment": "BottomLeft"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_BottomCentre",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 1920,
+            "yorigin": 2160,
+            "alignment": "BottomCentre"
+          }
+        }
+      },
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background_BottomRight",
+          "ZPlane": 1,
+          "StateMaterials": {
+            "StateNormal": {
+              "Material": "Null",
+              "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          },
+          "ViewPort": {
+            "width": 3840,
+            "height": 2160,
+            "xorigin": 3840,
+            "yorigin": 2160,
+            "alignment": "BottomRight"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -37,7 +37,7 @@ export async function copyFiles(dir: string): Promise<void> {
   ]) {
     await fs.writeFile(
       new URL(file, WIDGETUI_JSON_URL),
-      JSON.stringify(panel),
+      JSON.stringify(panel, null, 2),
       'utf-8',
     )
   }

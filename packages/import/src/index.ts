@@ -27,7 +27,7 @@ async function run(dir?: string) {
   await copyTextures(dir)
   console.groupEnd()
 
-  console.group(`Writing condensed site materials.json...`)
+  console.group(`Writing textures.json...`)
   await writeSiteTextures()
   console.groupEnd()
 }

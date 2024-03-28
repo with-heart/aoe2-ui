@@ -1,1 +1,212 @@
-{"Collection":{"Name":"MenuPanel","ViewPort":{"width":756,"height":276,"xorigin":3840,"yorigin":0,"alignment":"TopRight"},"Widgets":[{"Widget":{"Type":"Base","Name":"Background","ZPlane":11,"ChildWidgets":[{"Widget":{"Type":"Button","Name":"Menu","ZPlaneLocalOffset":1,"ClickSound":"?button_ui","Radius":25,"StateMaterials":{"StateNormal":{"Material":"MenuMenuNormal"},"StateHover":{"Material":"MenuMenuHover"},"StatePressed":{"Material":"MenuMenuActive"},"StateDisabled":{"Material":"MenuMenuDisabled"}},"ViewPort":{"width":64,"height":64,"xorigin":673,"yorigin":56,"alignment":"CentreCentre"}}},{"Widget":{"Type":"Button","Name":"Diplomacy","ZPlaneLocalOffset":1,"ClickSound":"?button_ui","Radius":25,"StateMaterials":{"StateNormal":{"Material":"MenuDiplomacyNormal"},"StateHover":{"Material":"MenuDiplomacyHover"},"StatePressed":{"Material":"MenuDiplomacyActive"},"StateDisabled":{"Material":"MenuDiplomacyDisabled"}},"ViewPort":{"width":64,"height":64,"xorigin":500,"yorigin":56,"alignment":"CentreCentre"}}},{"Widget":{"Type":"Button","Name":"Chat","ZPlaneLocalOffset":1,"ClickSound":"?button_ui","Radius":25,"StateMaterials":{"StateNormal":{"Material":"MenuChatNormal"},"StateHover":{"Material":"MenuChatHover"},"StatePressed":{"Material":"MenuChatActive"},"StateDisabled":{"Material":"MenuChatDisabled"}},"ViewPort":{"width":64,"height":64,"xorigin":413,"yorigin":56,"alignment":"CentreCentre"}}},{"Widget":{"Type":"Button","Name":"Objectives","ZPlaneLocalOffset":1,"ClickSound":"?button_ui","Radius":25,"StateMaterials":{"StateNormal":{"Material":"MenuObjectivesNormal"},"StateHover":{"Material":"MenuObjectivesHover"},"StatePressed":{"Material":"MenuObjectivesActive"},"StateDisabled":{"Material":"MenuObjectivesDisabled"}},"ViewPort":{"width":64,"height":64,"xorigin":325,"yorigin":56,"alignment":"CentreCentre"}}},{"Widget":{"Type":"Button","Name":"Settings","ZPlaneLocalOffset":1,"ClickSound":"?button_ui","Radius":25,"StateMaterials":{"StateNormal":{"Material":"MenuSettingsNormal"},"StateHover":{"Material":"MenuSettingsHover"},"StatePressed":{"Material":"MenuSettingsActive"},"StateDisabled":{"Material":"MenuSettingsDisabled"}},"ViewPort":{"width":64,"height":64,"xorigin":586,"yorigin":56,"alignment":"CentreCentre"}}},{"Widget":{"Type":"Button","Name":"Techtree","ClickSound":"?button_ui","Radius":25,"StateMaterials":{"StateNormal":{"Material":"IconsMenuTechtreeAztecs"},"StateHover":{"Material":"IconsMenuTechtreeAztecsHover"},"StatePressed":{"Material":"IconsMenuTechtreeAztecsPressed"}},"ViewPort":{"width":104,"height":104,"xorigin":166,"yorigin":56,"alignment":"CentreCentre"}}}],"StateMaterials":{"UserStates":1,"UserState0":{"Material":"CivAsiaMenuPanel"}},"ViewPort":{"width":756,"height":276,"xorigin":0,"yorigin":0,"alignment":"TopLeft"}}}]}}
+{
+  "Collection": {
+    "Name": "MenuPanel",
+    "ViewPort": {
+      "width": 756,
+      "height": 276,
+      "xorigin": 3840,
+      "yorigin": 0,
+      "alignment": "TopRight"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ZPlane": 11,
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Menu",
+                "ZPlaneLocalOffset": 1,
+                "ClickSound": "?button_ui",
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MenuMenuNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuMenuHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuMenuActive"
+                  },
+                  "StateDisabled": {
+                    "Material": "MenuMenuDisabled"
+                  }
+                },
+                "ViewPort": {
+                  "width": 64,
+                  "height": 64,
+                  "xorigin": 673,
+                  "yorigin": 56,
+                  "alignment": "CentreCentre"
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Diplomacy",
+                "ZPlaneLocalOffset": 1,
+                "ClickSound": "?button_ui",
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MenuDiplomacyNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuDiplomacyHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuDiplomacyActive"
+                  },
+                  "StateDisabled": {
+                    "Material": "MenuDiplomacyDisabled"
+                  }
+                },
+                "ViewPort": {
+                  "width": 64,
+                  "height": 64,
+                  "xorigin": 500,
+                  "yorigin": 56,
+                  "alignment": "CentreCentre"
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Chat",
+                "ZPlaneLocalOffset": 1,
+                "ClickSound": "?button_ui",
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MenuChatNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuChatHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuChatActive"
+                  },
+                  "StateDisabled": {
+                    "Material": "MenuChatDisabled"
+                  }
+                },
+                "ViewPort": {
+                  "width": 64,
+                  "height": 64,
+                  "xorigin": 413,
+                  "yorigin": 56,
+                  "alignment": "CentreCentre"
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Objectives",
+                "ZPlaneLocalOffset": 1,
+                "ClickSound": "?button_ui",
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MenuObjectivesNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuObjectivesHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuObjectivesActive"
+                  },
+                  "StateDisabled": {
+                    "Material": "MenuObjectivesDisabled"
+                  }
+                },
+                "ViewPort": {
+                  "width": 64,
+                  "height": 64,
+                  "xorigin": 325,
+                  "yorigin": 56,
+                  "alignment": "CentreCentre"
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Settings",
+                "ZPlaneLocalOffset": 1,
+                "ClickSound": "?button_ui",
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MenuSettingsNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MenuSettingsHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MenuSettingsActive"
+                  },
+                  "StateDisabled": {
+                    "Material": "MenuSettingsDisabled"
+                  }
+                },
+                "ViewPort": {
+                  "width": 64,
+                  "height": 64,
+                  "xorigin": 586,
+                  "yorigin": 56,
+                  "alignment": "CentreCentre"
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Techtree",
+                "ClickSound": "?button_ui",
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "IconsMenuTechtreeAztecs"
+                  },
+                  "StateHover": {
+                    "Material": "IconsMenuTechtreeAztecsHover"
+                  },
+                  "StatePressed": {
+                    "Material": "IconsMenuTechtreeAztecsPressed"
+                  }
+                },
+                "ViewPort": {
+                  "width": 104,
+                  "height": 104,
+                  "xorigin": 166,
+                  "yorigin": 56,
+                  "alignment": "CentreCentre"
+                }
+              }
+            }
+          ],
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Material": "CivAsiaMenuPanel"
+            }
+          },
+          "ViewPort": {
+            "width": 756,
+            "height": 276,
+            "xorigin": 0,
+            "yorigin": 0,
+            "alignment": "TopLeft"
+          }
+        }
+      }
+    ]
+  }
+}
