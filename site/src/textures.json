@@ -524,6 +524,26 @@
     "width": 308,
     "height": 204
   },
+  "BannerOrange": {
+    "href": "/textures/menu/timeline/poststatistics_player_banner_orange.png",
+    "width": 457,
+    "height": 102
+  },
+  "BannerOrangeLeft": {
+    "href": "/textures/menu/timeline/poststatistics_player_banner_orange_left.png",
+    "width": 200,
+    "height": 204
+  },
+  "BannerOrangeMiddle": {
+    "href": "/textures/menu/timeline/poststatistics_player_banner_orange_middle.png",
+    "width": 102,
+    "height": 204
+  },
+  "BannerOrangeRight": {
+    "href": "/textures/menu/timeline/poststatistics_player_banner_orange_right.png",
+    "width": 308,
+    "height": 204
+  },
   "BannerPink": {
     "href": "/textures/menu/timeline/poststatistics_player_banner_pink.png",
     "width": 457,
@@ -3019,7 +3039,7 @@
     "width": 53,
     "height": 53
   },
-  "CtrlGroupBorderActive": {
+  "CtrlGroupBorder": {
     "href": "/textures/ingame/panels/ctrlgrp_border.png",
     "width": 53,
     "height": 53
@@ -3054,22 +3074,67 @@
     "width": 112,
     "height": 112
   },
+  "DifficultyEasy": {
+    "href": "/textures/menu/icons/difficulty_easy.png",
+    "width": 122,
+    "height": 136
+  },
+  "DifficultyHard": {
+    "href": "/textures/menu/icons/difficulty_hard.png",
+    "width": 122,
+    "height": 136
+  },
+  "DifficultyMedium": {
+    "href": "/textures/menu/icons/difficulty_medium.png",
+    "width": 122,
+    "height": 136
+  },
   "DravidiansIcon": {
     "href": "/textures/menu/civs/dravidians.png",
     "width": 104,
     "height": 104
   },
-  "DropDownLeftValueHover": {
+  "DropDownButtonClosedDisabled": {
+    "href": "/textures/menu/buttons/down_arrow_normal.png",
+    "width": 35,
+    "height": 28
+  },
+  "DropDownButtonClosedHover": {
+    "href": "/textures/menu/buttons/down_arrow_hover.png",
+    "width": 35,
+    "height": 28
+  },
+  "DropDownButtonClosedPressed": {
+    "href": "/textures/menu/buttons/down_arrow_active.png",
+    "width": 35,
+    "height": 28
+  },
+  "DropDownButtonOpenHover": {
+    "href": "/textures/menu/buttons/up_arrow_hover.png",
+    "width": 35,
+    "height": 28
+  },
+  "DropDownButtonOpenNormal": {
+    "href": "/textures/menu/buttons/up_arrow_normal.png",
+    "width": 35,
+    "height": 28
+  },
+  "DropDownButtonOpenPressed": {
+    "href": "/textures/menu/buttons/up_arrow_active.png",
+    "width": 35,
+    "height": 28
+  },
+  "DropDownLeftValueDisabled": {
     "href": "/textures/menu/dropdowns/dropdown_left_4k_normal.png",
     "width": 22,
     "height": 45
   },
-  "DropDownMidValueHover": {
+  "DropDownMidValueDisabled": {
     "href": "/textures/menu/dropdowns/dropdown_center_4k_normal.png",
     "width": 22,
     "height": 45
   },
-  "DropDownRightValueHover": {
+  "DropDownRightValueDisabled": {
     "href": "/textures/menu/dropdowns/dropdown_right_4k_normal.png",
     "width": 22,
     "height": 45
@@ -4939,10 +5004,30 @@
     "width": 661,
     "height": 316
   },
+  "MatchmakingIcon": {
+    "href": "/textures/menu/icons/MatchmakingIcon.png",
+    "width": 122,
+    "height": 136
+  },
   "MayansIcon": {
     "href": "/textures/menu/civs/mayans.png",
     "width": 104,
     "height": 104
+  },
+  "MedalRankBronze": {
+    "href": "/textures/menu/icons/medal_rank_bronze.png",
+    "width": 96,
+    "height": 112
+  },
+  "MedalRankGold": {
+    "href": "/textures/menu/icons/medal_rank_gold.png",
+    "width": 96,
+    "height": 112
+  },
+  "MedalRankSilver": {
+    "href": "/textures/menu/icons/medal_rank_silver.png",
+    "width": 96,
+    "height": 112
   },
   "MenuChatActive": {
     "href": "/textures/ingame/icons/menu_chat_active.png",
@@ -5644,6 +5729,11 @@
     "width": 49,
     "height": 49
   },
+  "PlayerCyanGameIcon": {
+    "href": "/textures/ingame/icons/player_cyan.png",
+    "width": 42,
+    "height": 42
+  },
   "PlayerCyanHoverIcon": {
     "href": "/textures/menu/icons/player_cyan_hover.png",
     "width": 49,
@@ -6259,21 +6349,6 @@
     "width": 5,
     "height": 15
   },
-  "ScrollBarDownArrowHover": {
-    "href": "/textures/menu/buttons/down_arrow_hover.png",
-    "width": 35,
-    "height": 28
-  },
-  "ScrollBarDownArrowNormal": {
-    "href": "/textures/menu/buttons/down_arrow_normal.png",
-    "width": 35,
-    "height": 28
-  },
-  "ScrollBarDownArrowPressed": {
-    "href": "/textures/menu/buttons/down_arrow_active.png",
-    "width": 35,
-    "height": 28
-  },
   "ScrollBarHandleActive": {
     "href": "/textures/menu/scrollbars/scrollbar_active.png",
     "width": 43,
@@ -6314,6 +6389,11 @@
     "width": 40,
     "height": 40
   },
+  "ScrollBarLeftArrowNormal": {
+    "href": "/textures/menu/buttons/button_left_normal.png",
+    "width": 40,
+    "height": 40
+  },
   "ScrollBarLeftArrowPressed": {
     "href": "/textures/menu/buttons/button_left_active.png",
     "width": 40,
@@ -6333,21 +6413,6 @@
     "href": "/textures/menu/buttons/button_right_active.png",
     "width": 40,
     "height": 40
-  },
-  "ScrollBarUpArrowHover": {
-    "href": "/textures/menu/buttons/up_arrow_hover.png",
-    "width": 35,
-    "height": 28
-  },
-  "ScrollBarUpArrowNormal": {
-    "href": "/textures/menu/buttons/up_arrow_normal.png",
-    "width": 35,
-    "height": 28
-  },
-  "ScrollBarUpArrowPressed": {
-    "href": "/textures/menu/buttons/up_arrow_active.png",
-    "width": 35,
-    "height": 28
   },
   "SearchBarCentre": {
     "href": "/textures/menu/decoration/input_center_4k_normal.png",
@@ -6882,6 +6947,11 @@
   "StatIconsRange-Armor": {
     "href": "/textures/ingame/staticons/range-armor.png",
     "width": 69,
+    "height": 66
+  },
+  "StatIconsReloadTime": {
+    "href": "/textures/ingame/staticons/reloadTime.png",
+    "width": 66,
     "height": 66
   },
   "StatIconsStone": {

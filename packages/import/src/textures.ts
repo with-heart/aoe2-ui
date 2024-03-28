@@ -1,7 +1,7 @@
 import sizeOf from 'image-size'
 import * as path from 'node:path'
 import { materials } from 'widgetui'
-import { isAtlasMaterialDef, isTextureMaterialDef } from 'widgetui/schema'
+import { isColorMaterialDef } from 'widgetui/schema'
 import { SITE_MATERIALS_JSON_URL, SITE_TEXTURES_URL } from './constants'
 
 const filesGlob = new Bun.Glob('**/*.png')
@@ -12,9 +12,17 @@ interface Texture {
   height: number
 }
 
+type TextureRef = string
+type Name = string
+type FileName = string
+
+type MaterialNameByFileName = Record<FileName, Name>
+type FileNameByTextureRef = Record<TextureRef, FileName>
+type TextureByName = Record<Name, Texture>
+
 export async function writeSiteTextures() {
-  const nameByPath = mapMaterialNameByTexturePath()
-  const record: Record<string, Texture> = {}
+  const materialNameByFileName = createMaterialNameByFileName()
+  const textures: TextureByName = {}
 
   for await (const file of filesGlob.scan(SITE_TEXTURES_URL.pathname)) {
     const url = new URL(file, SITE_TEXTURES_URL)
@@ -25,14 +33,14 @@ export async function writeSiteTextures() {
       continue
     }
 
-    const name = nameByPath[`textures/${file}`]
+    const name = materialNameByFileName[`textures/${file.toLowerCase()}`]
 
     if (name === undefined) {
       console.error(`No material found for ${file}`)
       continue
     }
 
-    record[name] = {
+    textures[name] = {
       href: path.join(
         '/textures',
         path.relative(SITE_TEXTURES_URL.pathname, url.pathname),
@@ -43,70 +51,61 @@ export async function writeSiteTextures() {
   }
 
   console.log(
-    `Writing ${Object.keys(record).length} materials to textures.json`,
+    `Writing ${Object.keys(textures).length} materials to textures.json`,
   )
   await Bun.write(
     SITE_MATERIALS_JSON_URL.pathname,
-    JSON.stringify(sortKeysAlphabetically(record), null, 2),
+    JSON.stringify(sortKeysAlphabetically(textures), null, 2),
   )
 }
 
-function mapMaterialNameByTexturePath(): Record<string, string> {
-  const nameByPath: Record<string, string> = {}
+function createMaterialNameByFileName(): MaterialNameByFileName {
+  const fileNameByTextureRef = createFileNameByTextureRef()
+  const materialNameByFileName: MaterialNameByFileName = {}
 
-  for (const material of materials.Materials) {
-    if (isTextureMaterialDef(material.MaterialDef)) {
-      const { Name, TextureRef } = material.MaterialDef
-      const texture = materials.GlobalTextures.find(
-        (texture) => texture.TextureDef.Name === TextureRef,
-      )
+  for (const [textureRef, fileName] of Object.entries(fileNameByTextureRef)) {
+    const material = materials.Materials.find(
+      (material) =>
+        !isColorMaterialDef(material.MaterialDef) &&
+        material.MaterialDef.TextureRef === textureRef,
+    )
 
-      if (!texture) {
-        console.error(
-          `Referenced global texture not found: ${TextureRef} (${Name})`,
-        )
-        continue
-      }
-      if (!texture.TextureDef.FileName.endsWith('.png')) continue
+    if (!material || isColorMaterialDef(material.MaterialDef)) continue
 
-      nameByPath[texture.TextureDef.FileName] = Name
-    }
-
-    if (isAtlasMaterialDef(material.MaterialDef)) {
-      const { Name, TextureRef, AtlasRef } = material.MaterialDef
-
-      if (!AtlasRef) {
-        console.error(`Atlas material with no atlas ref: ${Name}`)
-        continue
-      }
-
-      const atlas = materials.AtlasTextures.find(
-        (atlas) => atlas.AtlasDef.Name === AtlasRef,
-      )
-
-      if (!atlas) {
-        console.error(`Atlas ${AtlasRef} not found (${Name})`)
-        continue
-      }
-
-      const texture = atlas.AtlasDef.Textures.find(
-        (texture) => texture.RefName === TextureRef,
-      )
-
-      if (!texture) {
-        console.error(
-          `Texture ${TextureRef} not found in atlas ${AtlasRef} (${Name})`,
-        )
-        continue
-      }
-
-      if (!texture.FileName.endsWith('.png')) continue
-
-      nameByPath[texture.FileName] = Name
-    }
+    materialNameByFileName[fileName.toLowerCase()] = material.MaterialDef.Name
   }
 
-  return nameByPath
+  return materialNameByFileName
+}
+
+function createFileNameByTextureRef(): FileNameByTextureRef {
+  return {
+    ...mapAtlasTextures(),
+    ...mapGlobalTextures(),
+  }
+
+  function mapAtlasTextures(): FileNameByTextureRef {
+    const textures: FileNameByTextureRef = {}
+
+    for (const { AtlasDef: atlas } of materials.AtlasTextures) {
+      for (const texture of atlas.Textures) {
+        if (!texture.FileName.endsWith('.png')) continue
+        textures[texture.RefName] = texture.FileName
+      }
+    }
+
+    return textures
+  }
+
+  function mapGlobalTextures(): FileNameByTextureRef {
+    const textures: FileNameByTextureRef = {}
+
+    for (const { TextureDef: texture } of materials.GlobalTextures) {
+      textures[texture.Name] = texture.FileName
+    }
+
+    return textures
+  }
 }
 
 function sortKeysAlphabetically(obj: Record<string, unknown>) {

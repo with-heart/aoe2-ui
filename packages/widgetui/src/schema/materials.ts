@@ -83,6 +83,8 @@ export const ColorMaterialDef = MaterialDefBase.pipe(
 
 export type ColorMaterialDef = S.Schema.To<typeof ColorMaterialDef>
 
+export const isColorMaterialDef = S.is(ColorMaterialDef)
+
 export const TextureMaterialDef = MaterialDefBase.pipe(
   S.extend(
     S.struct({
