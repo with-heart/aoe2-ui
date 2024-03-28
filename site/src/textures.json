@@ -1249,6 +1249,26 @@
     "width": 40,
     "height": 40
   },
+  "ButtonVictorsAndVanquishedDisabled": {
+    "href": "/textures/menu/icons/shield_multiplayer_disabled.png",
+    "width": 364,
+    "height": 490
+  },
+  "ButtonVictorsAndVanquishedHover": {
+    "href": "/textures/menu/icons/shield_multiplayer_hover.png",
+    "width": 364,
+    "height": 490
+  },
+  "ButtonVictorsAndVanquishedNormal": {
+    "href": "/textures/menu/icons/shield_multiplayer_normal.png",
+    "width": 364,
+    "height": 490
+  },
+  "ButtonVictorsAndVanquishedPressed": {
+    "href": "/textures/menu/icons/shield_multiplayer_active.png",
+    "width": 364,
+    "height": 490
+  },
   "ButtonWideActive": {
     "href": "/textures/menu/buttons/button_wide_active.png",
     "width": 580,
@@ -3899,6 +3919,21 @@
     "width": 80,
     "height": 80
   },
+  "IconAction078": {
+    "href": "/textures/ingame/actions/078_.png",
+    "width": 80,
+    "height": 80
+  },
+  "IconAction079": {
+    "href": "/textures/ingame/actions/079_.png",
+    "width": 80,
+    "height": 80
+  },
+  "IconAction080": {
+    "href": "/textures/ingame/actions/080_.png",
+    "width": 80,
+    "height": 80
+  },
   "IconsMenuTechtreeArmenians": {
     "href": "/textures/ingame/icons/civ_techtree_buttons/menu_techtree_armenians.png",
     "width": 104,
@@ -5396,13 +5431,13 @@
   },
   "ObjectivesMainChecked": {
     "href": "/textures/ingame/objectives/objectives_main_checked.png",
-    "width": 60,
-    "height": 60
+    "width": 64,
+    "height": 64
   },
   "ObjectivesMainUnchecked": {
     "href": "/textures/ingame/objectives/objectives_main_unchecked.png",
-    "width": 60,
-    "height": 60
+    "width": 64,
+    "height": 64
   },
   "ObjectivesScrollbarParchmentActive": {
     "href": "/textures/ingame/objectives/scrollbar_parchment_active.png",
@@ -5421,13 +5456,13 @@
   },
   "ObjectivesSecondaryChecked": {
     "href": "/textures/ingame/objectives/objectives_secondary_checked.png",
-    "width": 60,
-    "height": 60
+    "width": 64,
+    "height": 64
   },
   "ObjectivesSecondaryUnchecked": {
     "href": "/textures/ingame/objectives/objectives_secondary_unchecked.png",
-    "width": 60,
-    "height": 60
+    "width": 64,
+    "height": 64
   },
   "ObjectivesTab1Hover": {
     "href": "/textures/ingame/objectives/objectives_tab1_hover.png",
