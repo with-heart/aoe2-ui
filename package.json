@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1",
-    "@types/bun": "^1.0.8",
+    "@types/bun": "^1.0.11",
     "eslint": "^8",
     "eslint-config-next": "^14.1.0",
     "husky": "^9.0.11",
