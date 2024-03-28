@@ -59,6 +59,7 @@ export async function copyTextures(dir: string): Promise<void> {
       !IGNORED_DIRECTORIES.some((d) => f.name.startsWith(d)),
   )
 
+  await fs.rm(SITE_TEXTURES_URL, { recursive: true })
   await Promise.all(
     files.map((f) => {
       const destination = new URL(f.name, SITE_TEXTURES_URL)
